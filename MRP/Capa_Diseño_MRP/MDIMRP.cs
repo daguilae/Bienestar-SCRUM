@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using Capa_Diseño_MRP.Mantenimientos;
 using Capa_Diseño_MRP.Procesos;
 using Capa_Diseño_MRP.Reportes;
+using ERP;
 
 namespace Capa_Diseño_MRP
 {
@@ -117,7 +118,11 @@ namespace Capa_Diseño_MRP
 
         private void CerrarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            if (MessageBox.Show("¿Seguro desea cerrar sesion?", "Warning",
+                  MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+                this.Close();
+            MenuPincipal mainMenu = new MenuPincipal();
+            mainMenu.Show();
         }
 
         bool ventanalistaproductos = false;

@@ -2,6 +2,7 @@
 using Capa_Diseño_SCM.Procesos;
 using Capa_Diseño_SCM.Reportes;
 using CapaDiseño.Mantenimientos;
+using ERP;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -140,7 +141,11 @@ namespace Capa_Diseño_SCM
 
         private void CerrarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            if (MessageBox.Show("¿Seguro desea cerrar sesion?", "Warning",
+                  MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+                this.Close();
+            MenuPincipal mainMenu = new MenuPincipal();
+            mainMenu.Show();
         }
 
         bool ventanaFactura = false;

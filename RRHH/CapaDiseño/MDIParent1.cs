@@ -11,8 +11,9 @@ using System.Windows.Forms;
 using CapaDiseño.Mantenimientos;
 using CapaDiseño.Procesos;
 using CapaLogica;
-
+using CapaDiseño;
 using Recursos_Humanos;
+using ERP;
 
 namespace CapaDiseño
 {
@@ -747,6 +748,15 @@ namespace CapaDiseño
         private void ToolsMenu_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void CerrarSesionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("¿Seguro desea cerrar sesion?", "Warning",
+                 MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
+                this.Close();
+            MenuPincipal mainMenu = new MenuPincipal();
+            mainMenu.Show();
         }
     }
 }

@@ -81,7 +81,7 @@
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip.Size = new System.Drawing.Size(1513, 28);
+            this.menuStrip.Size = new System.Drawing.Size(1557, 28);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "MenuStrip";
             // 
@@ -274,7 +274,7 @@
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Location = new System.Drawing.Point(0, 28);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1513, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(1557, 25);
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -284,7 +284,7 @@
             this.lbl_user.BackColor = System.Drawing.Color.White;
             this.lbl_user.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_user.ForeColor = System.Drawing.Color.Black;
-            this.lbl_user.Location = new System.Drawing.Point(134, 27);
+            this.lbl_user.Location = new System.Drawing.Point(134, 29);
             this.lbl_user.Name = "lbl_user";
             this.lbl_user.Size = new System.Drawing.Size(122, 24);
             this.lbl_user.TabIndex = 4;
@@ -294,7 +294,7 @@
             // 
             this.btn_cerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btn_cerrar.Image = ((System.Drawing.Image)(resources.GetObject("btn_cerrar.Image")));
-            this.btn_cerrar.Location = new System.Drawing.Point(1468, 3);
+            this.btn_cerrar.Location = new System.Drawing.Point(1524, 1);
             this.btn_cerrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_cerrar.Name = "btn_cerrar";
             this.btn_cerrar.Size = new System.Drawing.Size(33, 25);
@@ -307,7 +307,7 @@
             // 
             this.btn_minimzar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btn_minimzar.Image = ((System.Drawing.Image)(resources.GetObject("btn_minimzar.Image")));
-            this.btn_minimzar.Location = new System.Drawing.Point(1432, 3);
+            this.btn_minimzar.Location = new System.Drawing.Point(1485, 1);
             this.btn_minimzar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_minimzar.Name = "btn_minimzar";
             this.btn_minimzar.Size = new System.Drawing.Size(33, 25);
@@ -321,7 +321,7 @@
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.White;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(13, 26);
+            this.label4.Location = new System.Drawing.Point(13, 28);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(115, 24);
             this.label4.TabIndex = 13;
@@ -334,7 +334,7 @@
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1513, 1102);
+            this.ClientSize = new System.Drawing.Size(1557, 780);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btn_cerrar);
             this.Controls.Add(this.btn_minimzar);

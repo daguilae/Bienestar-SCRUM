@@ -73,6 +73,7 @@
             this.lbl_user = new System.Windows.Forms.Label();
             this.btn_cerrar = new System.Windows.Forms.PictureBox();
             this.btn_minimzar = new System.Windows.Forms.PictureBox();
+            this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btn_cerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_minimzar)).BeginInit();
@@ -115,7 +116,8 @@
             this.procesosToolStripMenuItem,
             this.cerrarToolStripMenuItem,
             this.herramientasToolStripMenuItem,
-            this.ayudaToolStripMenuItem});
+            this.ayudaToolStripMenuItem,
+            this.cerrarSesionToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
@@ -419,7 +421,7 @@
             // 
             this.btn_cerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.btn_cerrar.Image = ((System.Drawing.Image)(resources.GetObject("btn_cerrar.Image")));
-            this.btn_cerrar.Location = new System.Drawing.Point(1909, 0);
+            this.btn_cerrar.Location = new System.Drawing.Point(1835, 3);
             this.btn_cerrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_cerrar.Name = "btn_cerrar";
             this.btn_cerrar.Size = new System.Drawing.Size(33, 25);
@@ -432,7 +434,7 @@
             // 
             this.btn_minimzar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.btn_minimzar.Image = ((System.Drawing.Image)(resources.GetObject("btn_minimzar.Image")));
-            this.btn_minimzar.Location = new System.Drawing.Point(1876, 0);
+            this.btn_minimzar.Location = new System.Drawing.Point(1796, 3);
             this.btn_minimzar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_minimzar.Name = "btn_minimzar";
             this.btn_minimzar.Size = new System.Drawing.Size(33, 25);
@@ -440,6 +442,13 @@
             this.btn_minimzar.TabIndex = 9;
             this.btn_minimzar.TabStop = false;
             this.btn_minimzar.Click += new System.EventHandler(this.Btn_minimzar_Click);
+            // 
+            // cerrarSesionToolStripMenuItem
+            // 
+            this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
+            this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(110, 24);
+            this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
+            this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.CerrarSesionToolStripMenuItem_Click);
             // 
             // MDIParent1
             // 
@@ -517,6 +526,7 @@
         private System.Windows.Forms.ToolStripMenuItem metasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem asignacionMetaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem despidoEmpleadoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cerrarSesionToolStripMenuItem;
     }
 }
 

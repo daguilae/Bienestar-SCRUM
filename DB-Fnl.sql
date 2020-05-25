@@ -34,7 +34,7 @@ CREATE TABLE `acreedor` (
   `calidadservicio` varchar(45) DEFAULT NULL,
   `estado` tinyint(4) DEFAULT NULL,
   PRIMARY KEY (`pkidacreedor`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -43,6 +43,7 @@ CREATE TABLE `acreedor` (
 
 LOCK TABLES `acreedor` WRITE;
 /*!40000 ALTER TABLE `acreedor` DISABLE KEYS */;
+INSERT INTO `acreedor` VALUES (1,'Juanito2',54454444,'454545454','juanito@gmail.com','zona10','Muy Insatisfecho',1),(2,'Juanito3',54454444,'454545454','juanito@gmail.com','zona10','Muy Insatisfecho',1),(3,'Juanito',54454444,'454545454','','zona10','Muy Insatisfecho',1);
 /*!40000 ALTER TABLE `acreedor` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -63,7 +64,7 @@ CREATE TABLE `asistencia` (
   PRIMARY KEY (`pkcodigoasistencia`),
   KEY `fk_asistencia_empleado1_idx` (`fkcodigoempleado`),
   CONSTRAINT `fk_asistencia_empleado1` FOREIGN KEY (`fkcodigoempleado`) REFERENCES `empleado` (`pkcodigoempleado`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -72,8 +73,31 @@ CREATE TABLE `asistencia` (
 
 LOCK TABLES `asistencia` WRITE;
 /*!40000 ALTER TABLE `asistencia` DISABLE KEYS */;
-INSERT INTO `asistencia` VALUES (1,1,'2020-03-25','2020-03-25','19:34:03','22:34:03');
 /*!40000 ALTER TABLE `asistencia` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `ayuda`
+--
+
+DROP TABLE IF EXISTS `ayuda`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `ayuda` (
+  `Id_ayuda` int(11) NOT NULL,
+  `Ruta` text COLLATE utf8_unicode_ci NOT NULL,
+  `indice` text COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `ayuda`
+--
+
+LOCK TABLES `ayuda` WRITE;
+/*!40000 ALTER TABLE `ayuda` DISABLE KEYS */;
+INSERT INTO `ayuda` VALUES (1,'Página web ayuda/ayuda.chm','menu.html'),(2,'Página web ayuda/ayuda.chm','Menúboletos.html'),(1,'Página web ayuda/ayuda.chm','menu.html'),(2,'Página web ayuda/ayuda.chm','Menúboletos.html');
+/*!40000 ALTER TABLE `ayuda` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -98,7 +122,7 @@ CREATE TABLE `ayudas` (
 
 LOCK TABLES `ayudas` WRITE;
 /*!40000 ALTER TABLE `ayudas` DISABLE KEYS */;
-INSERT INTO `ayudas` VALUES (1,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Conceptos.html',1),(2,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Curriculum.html',1),(3,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Despido.html',1),(4,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','MantenimientoDepartamentos.html',1),(5,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','ReuniónEliminar.html',1),(6,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','SanciónEliminar.html',1),(7,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Empleados.html',1),(8,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','ControlAsistencia.html',1),(9,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Reunión.html',1),(10,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Sanción.html',1),(11,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Jornada.html',1),(12,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Medio Comunicacion.html',1),(13,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','ReuniónModificar.html',1),(14,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','MantenimientoPerfiles.html',1),(15,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Tipo Contratacion.html',1),(16,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','asignacionempleado.html',1),(17,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','ProcesoBusquedaInterna.html',1),(18,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Convocatoria.html',1),(19,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Desempenio.html',1),(20,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','ProcesoBusquedaInterna',1),(21,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','PreSeleccion.html',1),(22,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Metas.html',1),(23,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Nomina.html',1),(24,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','PreSeleccion',1),(25,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','ProcesoSolicitudEmpleado',1);
+INSERT INTO `ayudas` VALUES (1,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Conceptos.html',1),(2,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Curriculum.html',1),(3,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Despido.html',1),(4,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','MantenimientoDepartamentos.html',1),(5,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','ReuniónEliminar.html',1),(6,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','SanciónEliminar.html',1),(7,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Empleados.html',1),(8,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','ControlAsistencia.html',1),(9,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Reunión.html',1),(10,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Sanción.html',1),(11,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Jornada.html',1),(12,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Medio Comunicacion.html',1),(13,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','ReuniónModificar.html',1),(14,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','MantenimientoPerfiles.html',1),(15,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Tipo Contratacion.html',1),(16,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','asignacionempleado.html',1),(17,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','ProcesoBusquedaInterna.html',1),(18,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Convocatoria.html',1),(19,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Desempenio.html',1),(20,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','ProcesoBusquedaInterna',1),(21,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','PreSeleccion.html',1),(22,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Metas.html',1),(23,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Nomina.html',1),(24,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','PreSeleccion',1),(25,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','ProcesoSolicitudEmpleado',1),(55,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Acreedor.html',1),(56,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Ruta.html',1),(57,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Transporte.html',1),(58,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Tipo_Transporte.html',1),(59,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','DisponibilidadBodega.html',1),(60,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','MantenimientoImpuesto.html',1),(61,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','ProcesoFacturaProveedor.html',1),(62,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','devoluciones.html',1),(63,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','oredencompra.html',1),(64,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','ListaMovInv.html',1),(65,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','MovInv.html',1),(66,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','MantBodega.html',1),(67,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','MantProducto.html',1),(68,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','MantProveedores.html',1),(70,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','CuentasContables.html',1),(71,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','HorasExtras.html',1),(72,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Poliza.html',1),(73,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Estacion.html',1),(74,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','AsignacionEstacionPedido.html',1),(75,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','EstandarCalidad.html',1),(76,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','ControlCalidadProducto.html',1),(77,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Gastos.html',1),(78,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','CostosProduccion.html',1),(79,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','BodegaInterna.html',1),(80,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','DescripcionProducto.html',1),(81,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Formula.html',1),(82,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','Merma.html',1),(83,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','SeleccionPedido.html',1),(84,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','ProductoFormula.html',1),(85,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','SolicitudCompra.html',1),(86,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','TipoMerma.html',1),(87,'C:/Empresa_Bienestar/Ayudas/ayudasrrhh.chm','OrdenProduccion.html',1);
 /*!40000 ALTER TABLE `ayudas` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -119,7 +143,7 @@ CREATE TABLE `bitacora` (
   `accion` varchar(45) DEFAULT NULL,
   `formulario` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`cod_bitacora`)
-) ENGINE=InnoDB AUTO_INCREMENT=29 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=136 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -128,7 +152,7 @@ CREATE TABLE `bitacora` (
 
 LOCK TABLES `bitacora` WRITE;
 /*!40000 ALTER TABLE `bitacora` DISABLE KEYS */;
-INSERT INTO `bitacora` VALUES (7,'192.168.0.17','0A0027000002','usuario','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantPercepciones'),(8,'192.168.0.17','0A0027000002','usuario','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantPercepciones'),(9,'192.168.0.17','0A0027000002','usuario','RRHH','0000-00-00 00:00:00','Eliminar','Frm_MantPercepciones'),(10,'192.168.0.17','0A0027000002','usuario','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantPercepciones'),(11,'192.168.0.17','0A0027000002','usuario','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantPerfiles'),(12,'192.168.0.17','0A0027000002','usuario','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantIngresoControlAsistencia'),(13,'192.168.0.17','0A0027000002','usuario','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantIngresoSansion'),(14,'192.168.0.17','0A0027000002','usuario','RRHH','0000-00-00 00:00:00','Guardar','Frm_MediodeComunicacion'),(15,'192.168.0.17','0A0027000002','usuario','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantTipoContratacion'),(16,'192.168.0.17','0A0027000002','usuario','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantCurriculum'),(17,'192.168.0.17','0A0027000002','usuario','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantJornada'),(18,'192.168.0.17','0A0027000002','usuario','RRHH','0000-00-00 00:00:00','Modificar','Frm_MantJornada'),(19,'192.168.0.17','0A0027000002','usuario','RRHH','0000-00-00 00:00:00','Guardar','Frm_ManteDepartamento'),(20,'192.168.0.17','0A0027000002','usuario','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantPercepciones'),(21,'192.168.0.17','0A0027000002','Usuario','RRHH','0000-00-00 00:00:00','Guardar','Frm_Asignaciondeconcepto'),(22,'192.168.0.17','0A0027000002','usuario','RRHH','0000-00-00 00:00:00','Guardar','Frm_Nomina'),(23,'192.168.0.17','0A0027000002','usuario','RRHH','0000-00-00 00:00:00','Modificar','Frm_MantJornada'),(24,'192.168.0.17','0A0027000002','usuario','RRHH','0000-00-00 00:00:00','Modificar','Frm_MantPercepciones'),(25,'192.168.0.17','0A0027000002','usuario','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantEmpleado'),(26,'192.168.0.17','0A0027000002','usuario','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantEmpleado'),(27,'192.168.0.17','0A0027000002','usuario','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantEmpleado'),(28,'192.168.0.17','0A0027000002','usuario','RRHH','0000-00-00 00:00:00','Guardar','Frm_Nomina');
+INSERT INTO `bitacora` VALUES (49,'192.168.43.238','0A0027000002','1','SCM','0000-00-00 00:00:00','Guardar','Frm_MantRuta'),(50,'192.168.43.238','0A0027000002','1','SCM','0000-00-00 00:00:00','Guardar','Frm_MantTipoTransporte'),(51,'192.168.43.238','0A0027000002','1','SCM','0000-00-00 00:00:00','Guardar','Frm_MantTransporte'),(52,'','','','SCM','0000-00-00 00:00:00','Guardar','Frm_MantBodega'),(53,'192.168.43.238','0A0027000002','1','SCM','0000-00-00 00:00:00','Guardar','Frm_MantAcreedor'),(54,'192.168.43.238','0A0027000002','1','SCM','0000-00-00 00:00:00','Guardar','Frm_MantImpuestos'),(55,'','','','SCM','0000-00-00 00:00:00','Guardar','Frm_MantBodega'),(56,'','','','SCM','0000-00-00 00:00:00','Guardar','Frm_MantProducto'),(57,'','','','SCM','0000-00-00 00:00:00','Guardar','Frm_MantProducto'),(58,'192.168.43.238','0A0027000002','1','SCM','0000-00-00 00:00:00','Guardar','Frm_MantImpuestos'),(59,'192.168.43.238','0A0027000002','1','SCM','0000-00-00 00:00:00','Modificar','Frm_MantImpuestos'),(60,'','','1','SCM','0000-00-00 00:00:00','Guardar','Frm_MantProveedores'),(61,'','','1','SCM','0000-00-00 00:00:00','Modificar','Frm_MantProveedores'),(62,'192.168.43.238','0A0027000002','JOSE','RRHH','0000-00-00 00:00:00','Modificar','Frm_MantEmpleado'),(63,'192.168.43.238','0A0027000002','Usuario','RRHH','0000-00-00 00:00:00','Guardar','Frm_Asignaciondeconcepto'),(64,'192.168.43.238','0A0027000002','Lucas','RRHH','0000-00-00 00:00:00','Guardar','Frm_MediodeComunicacion'),(65,'192.168.43.238','0A0027000002','Lucas','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantTipoContratacion'),(66,'192.168.43.238','0A0027000002','Lucas','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantTipoContratacion'),(67,'192.168.43.238','0A0027000002','Lucas','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantCurriculum'),(68,'192.168.43.238','0A0027000002','Lucas','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantJornada'),(69,'192.168.43.238','0A0027000002','Lucas','RRHH','0000-00-00 00:00:00','Modificar','Frm_MantJornada'),(70,'192.168.43.238','0A0027000002','Lucas','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantJornada'),(71,'192.168.43.238','0A0027000002','Lucas','RRHH','0000-00-00 00:00:00','Guardar','Frm_ManteDepartamento'),(72,'192.168.43.238','0A0027000002','Lucas','RRHH','0000-00-00 00:00:00','Modificar','Frm_ManteDepartamento'),(73,'','','Lucas','HRM','0000-00-00 00:00:00','Modificar','Frm_MantMeta'),(74,'','','Lucas','HRM','0000-00-00 00:00:00','Modificar','Frm_MantMeta'),(75,'','','Lucas','HRM','0000-00-00 00:00:00','Modificar','Frm_MantMeta'),(76,'','','Lucas','HRM','0000-00-00 00:00:00','Eliminar','Frm_MantMeta'),(77,'','','','HRM','0000-00-00 00:00:00','Guardar','Frm_EvaluacionMeta'),(78,'','','','HRM','0000-00-00 00:00:00','Guardar','Frm_DesempeñodeEmpleado'),(79,'192.168.43.238','0A0027000002','LPERICO','RRHH','0000-00-00 00:00:00','Guardar','Frm_Despido'),(80,'192.168.43.238','0A0027000002','LPERICO','RRHH','0000-00-00 00:00:00','Guardar','Frm_MediodeComunicacion'),(81,'192.168.43.238','0A0027000002','LPERICO','RRHH','0000-00-00 00:00:00','Guardar','Frm_MediodeComunicacion'),(82,'192.168.43.238','0A0027000002','LPERICO','RRHH','0000-00-00 00:00:00','Guardar','Frm_MediodeComunicacion'),(83,'192.168.43.238','0A0027000002','LPERICO','RRHH','0000-00-00 00:00:00','Guardar','Frm_MediodeComunicacion'),(84,'192.168.43.238','0A0027000002','LPERICO','RRHH','0000-00-00 00:00:00','Modificar','Frm_MediodeComunicacion'),(85,'192.168.43.238','0A0027000002','LPERICO','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantTipoContratacion'),(86,'192.168.43.238','0A0027000002','LPERICO','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantTipoContratacion'),(87,'192.168.43.238','0A0027000002','LPERICO','RRHH','0000-00-00 00:00:00','Modificar','Frm_MediodeComunicacion'),(88,'192.168.43.238','0A0027000002','LPERICO','RRHH','0000-00-00 00:00:00','Modificar','Frm_MediodeComunicacion'),(89,'192.168.43.238','0A0027000002','LPERICO','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantTipoContratacion'),(90,'192.168.43.238','0A0027000002','LPERICO','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantTipoContratacion'),(91,'192.168.43.238','0A0027000002','LPERICO','RRHH','0000-00-00 00:00:00','Modificar','Frm_MantTipoContratacion'),(92,'192.168.43.238','0A0027000002','LPERICO','RRHH','0000-00-00 00:00:00','Modificar','Frm_ManteDepartamento'),(93,'192.168.43.238','0A0027000002','LPERICO','RRHH','0000-00-00 00:00:00','Guardar','Frm_ManteDepartamento'),(94,'','','LPERICO','HRM','0000-00-00 00:00:00','Modificar','Frm_MantMeta'),(95,'','','LPERICO','HRM','0000-00-00 00:00:00','Modificar','Frm_MantMeta'),(96,'','','LPERICO','HRM','0000-00-00 00:00:00','Modificar','Frm_MantMeta'),(97,'','','LPERICO','HRM','0000-00-00 00:00:00','Modificar','Frm_MantMeta'),(98,'','','','HRM','0000-00-00 00:00:00','Guardar','Frm_EvaluacionMeta'),(99,'','','','HRM','0000-00-00 00:00:00','Guardar','Frm_EvaluacionMeta'),(100,'','','','HRM','0000-00-00 00:00:00','Guardar','Frm_EvaluacionMeta'),(101,'','','','HRM','0000-00-00 00:00:00','Guardar','Frm_EvaluacionMeta'),(102,'','','','HRM','0000-00-00 00:00:00','Guardar','Frm_DesempeñodeEmpleado'),(103,'','','','HRM','0000-00-00 00:00:00','Guardar','Frm_DesempeñodeEmpleado'),(104,'192.168.43.238','0A0027000002','LPERICO','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantTipoContratacion'),(105,'192.168.43.238','0A0027000002','LPERICO','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantJornada'),(106,'192.168.43.238','0A0027000002','LPERICO','RRHH','0000-00-00 00:00:00','Modificar','Frm_MantJornada'),(107,'192.168.43.238','0A0027000002','LPERICO','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantCurriculum'),(108,'192.168.43.238','0A0027000002','LPERICO','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantCurriculum'),(109,'192.168.43.238','0A0027000002','LPERICO','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantPercepciones'),(110,'192.168.43.238','0A0027000002','LPERICO','RRHH','0000-00-00 00:00:00','Modificar','Frm_MantPercepciones'),(111,'192.168.1.25','0A0027000002','JOSE','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantPercepciones'),(112,'192.168.1.25','0A0027000002','JOSE','RRHH','0000-00-00 00:00:00','Modificar','Frm_MantPercepciones'),(113,'192.168.1.25','0A0027000002','','MRP','0000-00-00 00:00:00','Guardar','Frm_MantProductoFormula'),(114,'192.168.1.25','0A0027000002','','MRP','0000-00-00 00:00:00','Guardar','Frm_MantProductoFormula'),(115,'192.168.1.25','0A0027000002','JOSE','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantEmpleado'),(116,'192.168.1.25','0A0027000002','JOSE','RRHH','0000-00-00 00:00:00','Guardar','Frm_MediodeComunicacion'),(117,'192.168.1.25','0A0027000002','JOSE','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantTipoContratacion'),(118,'192.168.1.25','0A0027000002','JOSE','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantTipoContratacion'),(119,'192.168.1.25','0A0027000002','JOSE','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantTipoContratacion'),(120,'192.168.1.25','0A0027000002','JOSE','RRHH','0000-00-00 00:00:00','Eliminar','Frm_MantTipoContratacion'),(121,'192.168.1.25','0A0027000002','JOSE','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantCurriculum'),(122,'192.168.1.25','0A0027000002','JOSE','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantCurriculum'),(123,'192.168.1.25','0A0027000002','JOSE','RRHH','0000-00-00 00:00:00','Guardar','Frm_MantJornada'),(124,'192.168.1.25','0A0027000002','JOSE','RRHH','0000-00-00 00:00:00','Modificar','Frm_MantJornada'),(125,'192.168.1.25','0A0027000002','JOSE','RRHH','0000-00-00 00:00:00','Modificar','Frm_MantJornada'),(126,'192.168.1.25','0A0027000002','JOSE','RRHH','0000-00-00 00:00:00','Modificar','Frm_MantJornada'),(127,'192.168.1.25','0A0027000002','JOSE','RRHH','0000-00-00 00:00:00','Guardar','Frm_ManteDepartamento'),(128,'192.168.1.25','0A0027000002','JOSE','RRHH','0000-00-00 00:00:00','Guardar','Frm_ManteDepartamento'),(129,'192.168.1.25','0A0027000002','JOSE','RRHH','0000-00-00 00:00:00','Modificar','Frm_ManteDepartamento'),(130,'','','JOSE','HRM','0000-00-00 00:00:00','Modificar','Frm_MantMeta'),(131,'','','JOSE','HRM','0000-00-00 00:00:00','Modificar','Frm_MantMeta'),(132,'','','JOSE','HRM','0000-00-00 00:00:00','Modificar','Frm_MantMeta'),(133,'','','JOSE','HRM','0000-00-00 00:00:00','Modificar','Frm_MantMeta'),(134,'','','','HRM','0000-00-00 00:00:00','Guardar','Frm_EvaluacionMeta'),(135,'','','','HRM','0000-00-00 00:00:00','Guardar','Frm_DesempeñodeEmpleado');
 /*!40000 ALTER TABLE `bitacora` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -158,6 +182,7 @@ CREATE TABLE `bodega` (
 
 LOCK TABLES `bodega` WRITE;
 /*!40000 ALTER TABLE `bodega` DISABLE KEYS */;
+INSERT INTO `bodega` VALUES (1,'Bodegag','Zona2',215151515,'Bodegag@gmail.com',50,5,'1');
 /*!40000 ALTER TABLE `bodega` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -178,7 +203,7 @@ CREATE TABLE `candidatos_internos` (
   KEY `fk_candidatos_internos_perfil_encabezado1_idx` (`pkcodperfil`),
   CONSTRAINT `fk_candidatos_internos_perfil_encabezado1` FOREIGN KEY (`pkcodperfil`) REFERENCES `perfil_encabezado` (`pkcodperfil`),
   CONSTRAINT `fk_candidatos_internos_tbl_solicitud_empleado_encabezado1` FOREIGN KEY (`pksolicitudempleado`) REFERENCES `tbl_solicitud_empleado_encabezado` (`pksolicitudempleado`)
-) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -187,7 +212,6 @@ CREATE TABLE `candidatos_internos` (
 
 LOCK TABLES `candidatos_internos` WRITE;
 /*!40000 ALTER TABLE `candidatos_internos` DISABLE KEYS */;
-INSERT INTO `candidatos_internos` VALUES (1,1,1,1),(2,1,1,1),(3,1,1,1);
 /*!40000 ALTER TABLE `candidatos_internos` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -238,7 +262,7 @@ CREATE TABLE `concepto` (
 
 LOCK TABLES `concepto` WRITE;
 /*!40000 ALTER TABLE `concepto` DISABLE KEYS */;
-INSERT INTO `concepto` VALUES (1,'Bono Incentivo',1,250,0,0),(2,'Bono250',1,250,0,1);
+INSERT INTO `concepto` VALUES (1,'MANTECA',1,1,1,1),(2,'CASA',1,1,1,1),(3,'bono25',1,250,1,1),(4,'bono15',0,250,0,1);
 /*!40000 ALTER TABLE `concepto` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -254,7 +278,7 @@ CREATE TABLE `conceptos_empleado` (
   `pknombreconcepto` varchar(25) DEFAULT NULL,
   `Total_monto` int(11) DEFAULT NULL,
   PRIMARY KEY (`pkconceptoempleado`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -263,8 +287,32 @@ CREATE TABLE `conceptos_empleado` (
 
 LOCK TABLES `conceptos_empleado` WRITE;
 /*!40000 ALTER TABLE `conceptos_empleado` DISABLE KEYS */;
-INSERT INTO `conceptos_empleado` VALUES (1,'Bono250',251),(2,'',0);
 /*!40000 ALTER TABLE `conceptos_empleado` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `costodefabricacion`
+--
+
+DROP TABLE IF EXISTS `costodefabricacion`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `costodefabricacion` (
+  `pkidcostodefabricacion` int(11) NOT NULL,
+  `pkidprocesoproduccion` int(11) DEFAULT NULL,
+  `pkidmerma` int(11) DEFAULT NULL,
+  `costototal` double DEFAULT NULL,
+  PRIMARY KEY (`pkidcostodefabricacion`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `costodefabricacion`
+--
+
+LOCK TABLES `costodefabricacion` WRITE;
+/*!40000 ALTER TABLE `costodefabricacion` DISABLE KEYS */;
+/*!40000 ALTER TABLE `costodefabricacion` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -289,6 +337,7 @@ CREATE TABLE `cuentas_contable` (
 
 LOCK TABLES `cuentas_contable` WRITE;
 /*!40000 ALTER TABLE `cuentas_contable` DISABLE KEYS */;
+INSERT INTO `cuentas_contable` VALUES (121,'ALQUILERES',0,1),(141,'SUMINISTROS',0,1),(191,'MATERIALES INDIRECTOS',0,1);
 /*!40000 ALTER TABLE `cuentas_contable` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -314,7 +363,7 @@ CREATE TABLE `departamentos` (
 
 LOCK TABLES `departamentos` WRITE;
 /*!40000 ALTER TABLE `departamentos` DISABLE KEYS */;
-INSERT INTO `departamentos` VALUES (1,'ADIO','CHULA',0),(2,'PRUEBA','INSERTAR',0),(3,'NUEVO','NUEVO2',1);
+INSERT INTO `departamentos` VALUES (1,'Peten','',1),(2,'Zaca','ddssd',1),(3,'papap','dfdf',1),(4,'Produccion','sdsdsdds',1),(5,'mrp','sdsd',1);
 /*!40000 ALTER TABLE `departamentos` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -331,10 +380,11 @@ CREATE TABLE `despidoempleado` (
   `razondespido` varchar(45) DEFAULT NULL,
   `descripciondespido` varchar(45) DEFAULT NULL,
   `fechadespido` date DEFAULT NULL,
+  `indemnizacion` double DEFAULT NULL,
   PRIMARY KEY (`pkcodigodespidoempleado`),
   KEY `fk_despidoempleado_empleado1_idx` (`fkcodigoempleado`),
   CONSTRAINT `fk_despidoempleado_empleado1` FOREIGN KEY (`fkcodigoempleado`) REFERENCES `empleado` (`pkcodigoempleado`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -343,7 +393,67 @@ CREATE TABLE `despidoempleado` (
 
 LOCK TABLES `despidoempleado` WRITE;
 /*!40000 ALTER TABLE `despidoempleado` DISABLE KEYS */;
+INSERT INTO `despidoempleado` VALUES (1,1,'Guapisimo','guapo','2055-04-09',102027.4);
 /*!40000 ALTER TABLE `despidoempleado` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `detalle_produccion`
+--
+
+DROP TABLE IF EXISTS `detalle_produccion`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `detalle_produccion` (
+  `pkidencabezadop` int(11) NOT NULL,
+  `pkidformula` int(11) DEFAULT NULL,
+  `estado` tinyint(2) DEFAULT NULL,
+  PRIMARY KEY (`pkidencabezadop`),
+  CONSTRAINT `fk_detalle_produccion_encabezado_produccion1` FOREIGN KEY (`pkidencabezadop`) REFERENCES `encabezado_produccion` (`pkidencabezadop`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `detalle_produccion`
+--
+
+LOCK TABLES `detalle_produccion` WRITE;
+/*!40000 ALTER TABLE `detalle_produccion` DISABLE KEYS */;
+INSERT INTO `detalle_produccion` VALUES (1,1,1);
+/*!40000 ALTER TABLE `detalle_produccion` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `devoluciones`
+--
+
+DROP TABLE IF EXISTS `devoluciones`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `devoluciones` (
+  `pkcodigodev` int(11) NOT NULL,
+  `pkidEncabezadoFacturaP` int(11) NOT NULL,
+  `pkcodigoempleado` int(11) DEFAULT NULL,
+  `fkIdOrdenCompra` int(11) DEFAULT NULL,
+  `numerofactura` varchar(45) DEFAULT NULL,
+  `total` varchar(45) DEFAULT NULL,
+  `motivo` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`pkcodigodev`),
+  KEY `fk_devoluciones1_idx` (`pkcodigoempleado`),
+  KEY `fk_devoluciones_ordenComrpaEncabezado1_idx` (`fkIdOrdenCompra`),
+  CONSTRAINT `fk_devoluciones_empleado1` FOREIGN KEY (`pkcodigoempleado`) REFERENCES `empleado` (`pkcodigoempleado`),
+  CONSTRAINT `fk_devoluciones_ordenComrpaEncabezado1` FOREIGN KEY (`fkIdOrdenCompra`) REFERENCES `ordencomrpaencabezado` (`pkIdOrdenCompraEncabezado`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `devoluciones`
+--
+
+LOCK TABLES `devoluciones` WRITE;
+/*!40000 ALTER TABLE `devoluciones` DISABLE KEYS */;
+INSERT INTO `devoluciones` VALUES (1,5,1,1,'Factura  ff 12','4',''),(2,5,1,1,'Factura  ff 12','4',''),(3,6,1,1,'Factura  gf 122','10','No funciono');
+/*!40000 ALTER TABLE `devoluciones` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -360,7 +470,7 @@ CREATE TABLE `empleado` (
   `segundonombre` varchar(45) DEFAULT NULL,
   `primerapellido` varchar(45) DEFAULT NULL,
   `segundoapellido` varchar(45) DEFAULT NULL,
-  `telefono` int(11) DEFAULT NULL,
+  `fechadecontratacion` date DEFAULT NULL,
   `celular` int(11) DEFAULT NULL,
   `email` varchar(45) DEFAULT NULL,
   `direccion` varchar(45) DEFAULT NULL,
@@ -380,7 +490,7 @@ CREATE TABLE `empleado` (
 
 LOCK TABLES `empleado` WRITE;
 /*!40000 ALTER TABLE `empleado` DISABLE KEYS */;
-INSERT INTO `empleado` VALUES (1,1,'asd','asd','asd','asd',123,123,'asd','asd','1998-04-01',1,1,123);
+INSERT INTO `empleado` VALUES (1,1,'Lucas','1','1','1','0000-00-00',1,'1','1','0000-00-00',1,1,1),(2,1,'Palito','Ortega','1','1','0000-00-00',1,'1','1','0000-00-00',1,1,1);
 /*!40000 ALTER TABLE `empleado` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -400,7 +510,7 @@ CREATE TABLE `empleadocontable` (
   KEY `fk_empleadocontable_concepto1_idx` (`fkcodigoconcepto`),
   CONSTRAINT `fk_empleadocontable_concepto1` FOREIGN KEY (`fkcodigoconcepto`) REFERENCES `concepto` (`pkcodigoconcepto`),
   CONSTRAINT `fk_empleadocontable_empleado1` FOREIGN KEY (`fkcodigoempleado`) REFERENCES `empleado` (`pkcodigoempleado`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -409,8 +519,123 @@ CREATE TABLE `empleadocontable` (
 
 LOCK TABLES `empleadocontable` WRITE;
 /*!40000 ALTER TABLE `empleadocontable` DISABLE KEYS */;
-INSERT INTO `empleadocontable` VALUES (1,1,2);
+INSERT INTO `empleadocontable` VALUES (1,1,1),(2,1,2),(3,2,1);
 /*!40000 ALTER TABLE `empleadocontable` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `encabezado_produccion`
+--
+
+DROP TABLE IF EXISTS `encabezado_produccion`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `encabezado_produccion` (
+  `pkidencabezadop` int(11) NOT NULL,
+  `pkidpedido` int(11) DEFAULT NULL,
+  `descripcion` varchar(45) DEFAULT NULL,
+  `total` double DEFAULT NULL,
+  `estado` tinyint(2) DEFAULT NULL,
+  PRIMARY KEY (`pkidencabezadop`),
+  KEY `fk_encabezado_produccion_pedido1_idx` (`pkidpedido`),
+  CONSTRAINT `fk_encabezado_produccion_pedido1` FOREIGN KEY (`pkidpedido`) REFERENCES `pedido` (`pkidpedido`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `encabezado_produccion`
+--
+
+LOCK TABLES `encabezado_produccion` WRITE;
+/*!40000 ALTER TABLE `encabezado_produccion` DISABLE KEYS */;
+INSERT INTO `encabezado_produccion` VALUES (1,7,'123',4,1);
+/*!40000 ALTER TABLE `encabezado_produccion` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `entradas_salidas`
+--
+
+DROP TABLE IF EXISTS `entradas_salidas`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `entradas_salidas` (
+  `pkidentradaysalida` int(11) NOT NULL,
+  `pkidmaestroactivos` int(11) DEFAULT NULL,
+  `movimiento` tinyint(2) DEFAULT NULL,
+  `pkcodigoempleado` int(11) DEFAULT NULL,
+  `cantidad` double DEFAULT NULL,
+  `pkidencabezadop` int(11) DEFAULT NULL,
+  `descripcion` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`pkidentradaysalida`),
+  KEY `fk_entradas_salidas_maestroactivos1_idx` (`pkidmaestroactivos`),
+  KEY `fk_entradas_salidas_empleado1_idx` (`pkcodigoempleado`),
+  KEY `fk_entradas_salidas_encabezado_produccion1_idx` (`pkidencabezadop`),
+  CONSTRAINT `fk_entradas_salidas_empleado1` FOREIGN KEY (`pkcodigoempleado`) REFERENCES `empleado` (`pkcodigoempleado`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_entradas_salidas_encabezado_produccion1` FOREIGN KEY (`pkidencabezadop`) REFERENCES `encabezado_produccion` (`pkidencabezadop`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_entradas_salidas_maestroactivos1` FOREIGN KEY (`pkidmaestroactivos`) REFERENCES `maestroactivos` (`pkidmaestroactivos`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `entradas_salidas`
+--
+
+LOCK TABLES `entradas_salidas` WRITE;
+/*!40000 ALTER TABLE `entradas_salidas` DISABLE KEYS */;
+/*!40000 ALTER TABLE `entradas_salidas` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `estacion`
+--
+
+DROP TABLE IF EXISTS `estacion`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `estacion` (
+  `pkidestacion` int(11) NOT NULL,
+  `nombre` varchar(45) DEFAULT NULL,
+  `pkcodigoempleado` int(11) DEFAULT NULL,
+  `estado` tinyint(2) DEFAULT NULL,
+  PRIMARY KEY (`pkidestacion`),
+  KEY `fk_estacion_empleado1_idx` (`pkcodigoempleado`),
+  CONSTRAINT `fk_estacion_empleado1` FOREIGN KEY (`pkcodigoempleado`) REFERENCES `empleado` (`pkcodigoempleado`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `estacion`
+--
+
+LOCK TABLES `estacion` WRITE;
+/*!40000 ALTER TABLE `estacion` DISABLE KEYS */;
+/*!40000 ALTER TABLE `estacion` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `estandardecalidad`
+--
+
+DROP TABLE IF EXISTS `estandardecalidad`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `estandardecalidad` (
+  `pkidestandardecalidad` int(11) NOT NULL,
+  `categoria` varchar(45) DEFAULT NULL,
+  `descripcion` varchar(90) DEFAULT NULL,
+  `estado` tinyint(1) DEFAULT NULL,
+  PRIMARY KEY (`pkidestandardecalidad`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `estandardecalidad`
+--
+
+LOCK TABLES `estandardecalidad` WRITE;
+/*!40000 ALTER TABLE `estandardecalidad` DISABLE KEYS */;
+/*!40000 ALTER TABLE `estandardecalidad` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -433,7 +658,7 @@ CREATE TABLE `facturaproveedordetalle` (
   KEY `fk_facturaProveedorDetalle_producto1_idx` (`fkidProducto`),
   CONSTRAINT `fk_facturaProveedorDetalle_facturaProveedorEncabezado1` FOREIGN KEY (`fkidEncabezadoFactura`) REFERENCES `facturaproveedorencabezado` (`pkidEncabezadoFacturaP`),
   CONSTRAINT `fk_facturaProveedorDetalle_producto1` FOREIGN KEY (`fkidProducto`) REFERENCES `producto` (`pkidProducto`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -442,6 +667,7 @@ CREATE TABLE `facturaproveedordetalle` (
 
 LOCK TABLES `facturaproveedordetalle` WRITE;
 /*!40000 ALTER TABLE `facturaproveedordetalle` DISABLE KEYS */;
+INSERT INTO `facturaproveedordetalle` VALUES (13,5,1,1,1,1,1),(14,5,2,1,2,1,1),(15,6,1,1,1,1,1),(16,6,2,1,2,2,1);
 /*!40000 ALTER TABLE `facturaproveedordetalle` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -481,7 +707,7 @@ CREATE TABLE `facturaproveedorencabezado` (
 
 LOCK TABLES `facturaproveedorencabezado` WRITE;
 /*!40000 ALTER TABLE `facturaproveedorencabezado` DISABLE KEYS */;
-INSERT INTO `facturaproveedorencabezado` VALUES (1,1,1,'1','1','1','0000-00-00',1,1,1,1,1);
+INSERT INTO `facturaproveedorencabezado` VALUES (1,1,1,'Factura  ss 22','ss','22','2020-04-15',1,2,4,0,1),(2,1,1,'Factura  df 12','df','12','2020-04-15',1,2,4,0,1),(3,1,1,'Factura  bb 12','bb','12','2020-04-15',1,2,4,0,1),(4,1,1,'Factura  ff 12','ff','12','2020-04-15',1,2,4,0,1),(5,1,1,'Factura  ff 12','ff','12','2020-04-15',1,2,4,0,1),(6,1,1,'Factura  gf 122','gf','122','2020-04-15',1,5,10,0,1),(7,2,1,'Factura  A5 123','A5','123','2020-04-22',1,7,-70,12,1);
 /*!40000 ALTER TABLE `facturaproveedorencabezado` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!50003 SET @saved_cs_client      = @@character_set_client */ ;
@@ -491,11 +717,12 @@ UNLOCK TABLES;
 /*!50003 SET character_set_results = utf8 */ ;
 /*!50003 SET collation_connection  = utf8_general_ci */ ;
 /*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
-/*!50003 SET sql_mode              = 'NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ALLOW_INVALID_DATES,ERROR_FOR_DIVISION_BY_ZERO,TRADITIONAL,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
 DELIMITER ;;
-/*!50003 CREATE*/ /*!50017 DEFINER=`root`@`localhost`*/ /*!50003 trigger tgr_desactivar_ordenc after insert on facturaproveedorencabezado
-   for each row
-    begin
+/*!50003 CREATE*/ /*!50017 DEFINER=`root`@`localhost`*/ /*!50003 TRIGGER `mydb`.`tgr_desactivar_ordenc`
+AFTER INSERT ON `mydb`.`facturaproveedorencabezado`
+FOR EACH ROW
+begin
 UPDATE ordencomrpaencabezado
 SET estado='0' WHERE pkIdOrdenCompraEncabezado=New.fkIdOrdenCompra; 
 end */;;
@@ -527,8 +754,88 @@ CREATE TABLE `formaspago` (
 
 LOCK TABLES `formaspago` WRITE;
 /*!40000 ALTER TABLE `formaspago` DISABLE KEYS */;
-INSERT INTO `formaspago` VALUES (1,'Efectivo','Pagar al contado',1);
 /*!40000 ALTER TABLE `formaspago` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `formula_detalle`
+--
+
+DROP TABLE IF EXISTS `formula_detalle`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `formula_detalle` (
+  `pkidformulaencabezado` int(11) NOT NULL,
+  `linea` int(11) NOT NULL,
+  `pkidProducto` int(11) DEFAULT NULL,
+  `cantidad` double DEFAULT NULL,
+  `medida` varchar(45) DEFAULT NULL,
+  `estado` tinyint(2) DEFAULT NULL,
+  PRIMARY KEY (`linea`,`pkidformulaencabezado`),
+  KEY `fk_formula_detalle_formula_encabezado1_idx` (`pkidformulaencabezado`),
+  CONSTRAINT `fk_formula_detalle_formula_encabezado1` FOREIGN KEY (`pkidformulaencabezado`) REFERENCES `formula_encabezado` (`pkidformulaencabezado`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `formula_detalle`
+--
+
+LOCK TABLES `formula_detalle` WRITE;
+/*!40000 ALTER TABLE `formula_detalle` DISABLE KEYS */;
+INSERT INTO `formula_detalle` VALUES (1,1,5,15,'c',1),(1,2,6,5,'g',1);
+/*!40000 ALTER TABLE `formula_detalle` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `formula_encabezado`
+--
+
+DROP TABLE IF EXISTS `formula_encabezado`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `formula_encabezado` (
+  `pkidformulaencabezado` int(11) NOT NULL,
+  `pkidProducto` int(11) DEFAULT NULL,
+  `descripcion` varchar(45) DEFAULT NULL,
+  `estado` tinyint(2) DEFAULT NULL,
+  PRIMARY KEY (`pkidformulaencabezado`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `formula_encabezado`
+--
+
+LOCK TABLES `formula_encabezado` WRITE;
+/*!40000 ALTER TABLE `formula_encabezado` DISABLE KEYS */;
+INSERT INTO `formula_encabezado` VALUES (1,2,'1',1);
+/*!40000 ALTER TABLE `formula_encabezado` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `gastos_indirectos`
+--
+
+DROP TABLE IF EXISTS `gastos_indirectos`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `gastos_indirectos` (
+  `pkidgastos_indirectos` int(11) NOT NULL,
+  `nombre` varchar(45) DEFAULT NULL,
+  `valor` double DEFAULT NULL,
+  `estado` tinyint(1) DEFAULT NULL,
+  PRIMARY KEY (`pkidgastos_indirectos`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `gastos_indirectos`
+--
+
+LOCK TABLES `gastos_indirectos` WRITE;
+/*!40000 ALTER TABLE `gastos_indirectos` DISABLE KEYS */;
+/*!40000 ALTER TABLE `gastos_indirectos` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -542,11 +849,12 @@ CREATE TABLE `horasextras` (
   `pkcodigohorasextras` int(11) NOT NULL AUTO_INCREMENT,
   `fkcodigoempleado` int(11) NOT NULL,
   `cantidad` varchar(45) DEFAULT NULL,
+  `fecha` date DEFAULT NULL,
   `estado` tinyint(4) DEFAULT NULL,
   PRIMARY KEY (`pkcodigohorasextras`),
   KEY `fk_horasextras_empleado1_idx` (`fkcodigoempleado`),
   CONSTRAINT `fk_horasextras_empleado1` FOREIGN KEY (`fkcodigoempleado`) REFERENCES `empleado` (`pkcodigoempleado`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -555,7 +863,6 @@ CREATE TABLE `horasextras` (
 
 LOCK TABLES `horasextras` WRITE;
 /*!40000 ALTER TABLE `horasextras` DISABLE KEYS */;
-INSERT INTO `horasextras` VALUES (1,1,'3',1);
 /*!40000 ALTER TABLE `horasextras` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -573,7 +880,7 @@ CREATE TABLE `impuestos` (
   `valor` double DEFAULT NULL,
   `estado` tinyint(1) DEFAULT NULL,
   PRIMARY KEY (`pkidImpuesto`)
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -582,7 +889,6 @@ CREATE TABLE `impuestos` (
 
 LOCK TABLES `impuestos` WRITE;
 /*!40000 ALTER TABLE `impuestos` DISABLE KEYS */;
-INSERT INTO `impuestos` VALUES (1,'IVA','iva por pagar',0.12,1);
 /*!40000 ALTER TABLE `impuestos` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -608,7 +914,7 @@ CREATE TABLE `jornada` (
 
 LOCK TABLES `jornada` WRITE;
 /*!40000 ALTER TABLE `jornada` DISABLE KEYS */;
-INSERT INTO `jornada` VALUES (1,'Matutina',15,1);
+INSERT INTO `jornada` VALUES (1,'Matutina',8,1);
 /*!40000 ALTER TABLE `jornada` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -620,18 +926,19 @@ DROP TABLE IF EXISTS `kpi`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `kpi` (
-  `pkcodigokpi` int(11) NOT NULL,
-  `fecha` date DEFAULT NULL,
+  `pkcodigokpi` int(11) NOT NULL AUTO_INCREMENT,
+  `fechadeasignacion` date DEFAULT NULL,
   `puntuacion` int(11) DEFAULT NULL,
-  `desempeño` varchar(45) DEFAULT NULL,
-  `fkcodcategoria` int(11) DEFAULT NULL,
   `fkcodempleado` int(11) DEFAULT NULL,
+  `fkcodigo_meta` int(11) DEFAULT NULL,
+  `estado_completado` varchar(45) DEFAULT NULL,
+  `fecha_realizacion` date DEFAULT NULL,
   PRIMARY KEY (`pkcodigokpi`),
-  KEY `fk_kpi_categoria1_idx` (`fkcodcategoria`),
-  KEY `fk_kpi_empleado1` (`fkcodempleado`),
-  CONSTRAINT `fk_kpi_categoria1` FOREIGN KEY (`fkcodcategoria`) REFERENCES `categoria` (`pkcodcategoria`),
-  CONSTRAINT `fk_kpi_empleado1` FOREIGN KEY (`fkcodempleado`) REFERENCES `empleado` (`pkcodigoempleado`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  KEY `fk_kpi_meta1_idx` (`fkcodigo_meta`),
+  KEY `fk_kpi_empleado1_idx` (`fkcodempleado`),
+  CONSTRAINT `fk_kpi_empleado1` FOREIGN KEY (`fkcodempleado`) REFERENCES `empleado` (`pkcodigoempleado`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_kpi_meta1` FOREIGN KEY (`fkcodigo_meta`) REFERENCES `meta` (`pkcodigo_meta`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -640,7 +947,64 @@ CREATE TABLE `kpi` (
 
 LOCK TABLES `kpi` WRITE;
 /*!40000 ALTER TABLE `kpi` DISABLE KEYS */;
+INSERT INTO `kpi` VALUES (1,'2020-05-18',55,2,1,'1','2020-05-18');
 /*!40000 ALTER TABLE `kpi` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `libro_diario`
+--
+
+DROP TABLE IF EXISTS `libro_diario`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `libro_diario` (
+  `pkidlibrodiario` int(11) NOT NULL,
+  `nombredelmovimiento` varchar(90) DEFAULT NULL,
+  `fechadelmovimiento` date DEFAULT NULL,
+  `debehaber` tinyint(2) DEFAULT NULL,
+  `valor` double DEFAULT NULL,
+  `estado` tinyint(2) DEFAULT NULL,
+  PRIMARY KEY (`pkidlibrodiario`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `libro_diario`
+--
+
+LOCK TABLES `libro_diario` WRITE;
+/*!40000 ALTER TABLE `libro_diario` DISABLE KEYS */;
+/*!40000 ALTER TABLE `libro_diario` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `maestroactivos`
+--
+
+DROP TABLE IF EXISTS `maestroactivos`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `maestroactivos` (
+  `pkidmaestroactivos` int(11) NOT NULL,
+  `pkidProducto` int(11) DEFAULT NULL,
+  `existencia_actual` double DEFAULT NULL,
+  `stock_minimo` double DEFAULT NULL,
+  `stock_maximo` double DEFAULT NULL,
+  `estado` tinyint(2) DEFAULT NULL,
+  PRIMARY KEY (`pkidmaestroactivos`),
+  KEY `fk_maestroactivos_producto1_idx` (`pkidProducto`),
+  CONSTRAINT `fk_maestroactivos_producto1` FOREIGN KEY (`pkidProducto`) REFERENCES `producto` (`pkidProducto`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `maestroactivos`
+--
+
+LOCK TABLES `maestroactivos` WRITE;
+/*!40000 ALTER TABLE `maestroactivos` DISABLE KEYS */;
+/*!40000 ALTER TABLE `maestroactivos` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -666,8 +1030,39 @@ CREATE TABLE `mediodecomunicacion` (
 
 LOCK TABLES `mediodecomunicacion` WRITE;
 /*!40000 ALTER TABLE `mediodecomunicacion` DISABLE KEYS */;
-INSERT INTO `mediodecomunicacion` VALUES (1,'1','1','1',1);
+INSERT INTO `mediodecomunicacion` VALUES (1,'tv','zona2','121212',1);
 /*!40000 ALTER TABLE `mediodecomunicacion` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `merma`
+--
+
+DROP TABLE IF EXISTS `merma`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `merma` (
+  `pkidmerma` int(11) NOT NULL,
+  `pkidtipomerma` int(11) DEFAULT NULL,
+  `pkidProducto` int(11) DEFAULT NULL,
+  `cantidad` double DEFAULT NULL,
+  `valor` double DEFAULT NULL,
+  `estado` tinyint(2) DEFAULT NULL,
+  PRIMARY KEY (`pkidmerma`),
+  KEY `fk_merma_tipomerma1_idx` (`pkidtipomerma`),
+  KEY `fk_merma_producto1_idx` (`pkidProducto`),
+  CONSTRAINT `fk_merma_producto1` FOREIGN KEY (`pkidProducto`) REFERENCES `producto` (`pkidProducto`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_merma_tipomerma1` FOREIGN KEY (`pkidtipomerma`) REFERENCES `tipomerma` (`pkidtipomerma`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `merma`
+--
+
+LOCK TABLES `merma` WRITE;
+/*!40000 ALTER TABLE `merma` DISABLE KEYS */;
+/*!40000 ALTER TABLE `merma` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -678,18 +1073,14 @@ DROP TABLE IF EXISTS `meta`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `meta` (
-  `codigo_meta` int(11) NOT NULL AUTO_INCREMENT,
+  `pkcodigo_meta` int(11) NOT NULL AUTO_INCREMENT,
   `nombre_meta` varchar(45) DEFAULT NULL,
   `descripcion` varchar(45) DEFAULT NULL,
-  `plazo_meta` tinyint(1) DEFAULT NULL,
+  `plazo_meta` varchar(45) DEFAULT NULL,
   `puntaje` varchar(45) DEFAULT NULL,
-  `fecha_realizacion` datetime DEFAULT NULL,
-  `completado` tinyint(1) DEFAULT NULL,
-  `fkcodigoempleado` int(11) DEFAULT NULL,
-  PRIMARY KEY (`codigo_meta`),
-  KEY `fk_meta_empleado1_idx` (`fkcodigoempleado`),
-  CONSTRAINT `fk_meta_empleado1` FOREIGN KEY (`fkcodigoempleado`) REFERENCES `empleado` (`pkcodigoempleado`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  `estado` tinyint(2) DEFAULT NULL,
+  PRIMARY KEY (`pkcodigo_meta`)
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -698,6 +1089,7 @@ CREATE TABLE `meta` (
 
 LOCK TABLES `meta` WRITE;
 /*!40000 ALTER TABLE `meta` DISABLE KEYS */;
+INSERT INTO `meta` VALUES (1,'Meta12','454545','2','50',0);
 /*!40000 ALTER TABLE `meta` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -728,6 +1120,32 @@ LOCK TABLES `movimiento_detalle` WRITE;
 /*!40000 ALTER TABLE `movimiento_detalle` DISABLE KEYS */;
 /*!40000 ALTER TABLE `movimiento_detalle` ENABLE KEYS */;
 UNLOCK TABLES;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8 */ ;
+/*!50003 SET character_set_results = utf8 */ ;
+/*!50003 SET collation_connection  = utf8_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ALLOW_INVALID_DATES,ERROR_FOR_DIVISION_BY_ZERO,TRADITIONAL,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+/*!50003 CREATE*/ /*!50017 DEFINER=`root`@`localhost`*/ /*!50003 TRIGGER `mydb`.`actualizarExistencias`
+AFTER INSERT ON `mydb`.`movimiento_detalle`
+FOR EACH ROW
+BEGIN
+
+DECLARE x INT;
+DECLARE x2 INT;
+  SET x = (SELECT MAX(pkidProducto) FROM movimiento_general WHERE concepto = 'Factura Compra');
+  SET x2 = (SELECT MAX(cantidad) FROM movimiento_general WHERE concepto = 'Factura Compra');
+      Update productoenbodega set productoenbodega.Existencias = productoenbodega.Existencias + x2
+      where productoenbodega.pkidProducto = x;
+END */;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
 
 --
 -- Table structure for table `movimiento_encabezado`
@@ -764,7 +1182,7 @@ DROP TABLE IF EXISTS `movimiento_general`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `movimiento_general` (
-  `pkidmovimiento_general` int(11) NOT NULL,
+  `pkidmovimiento_general` int(11) NOT NULL AUTO_INCREMENT,
   `pkidProducto` int(11) DEFAULT NULL,
   `concepto` varchar(45) DEFAULT NULL,
   `documento` varchar(45) DEFAULT NULL,
@@ -812,7 +1230,6 @@ CREATE TABLE `nomina_encabezado` (
 
 LOCK TABLES `nomina_encabezado` WRITE;
 /*!40000 ALTER TABLE `nomina_encabezado` DISABLE KEYS */;
-INSERT INTO `nomina_encabezado` VALUES (1,0,'2020-03-24','2020-03-25',1,'Nomina realizada a fin de mes',-2501);
 /*!40000 ALTER TABLE `nomina_encabezado` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -841,6 +1258,33 @@ CREATE TABLE `nominadetalle` (
 LOCK TABLES `nominadetalle` WRITE;
 /*!40000 ALTER TABLE `nominadetalle` DISABLE KEYS */;
 /*!40000 ALTER TABLE `nominadetalle` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `orden_produccion`
+--
+
+DROP TABLE IF EXISTS `orden_produccion`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `orden_produccion` (
+  `pkidordenproduccion` int(11) NOT NULL,
+  `fecha_realizacion` date DEFAULT NULL,
+  `fecha_entrega` date DEFAULT NULL,
+  `detalle` varchar(45) DEFAULT NULL,
+  `estado` tinyint(2) DEFAULT NULL,
+  PRIMARY KEY (`pkidordenproduccion`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `orden_produccion`
+--
+
+LOCK TABLES `orden_produccion` WRITE;
+/*!40000 ALTER TABLE `orden_produccion` DISABLE KEYS */;
+INSERT INTO `orden_produccion` VALUES (1,'2020-05-10','2020-05-10','dsdssd',1),(2,'2020-05-10','2020-05-10','fdfdfd',1),(3,'2020-05-10','2020-05-10','reer',1),(4,'2020-05-10','2020-05-10','rt',1),(5,'2020-05-10','2020-05-10','212',1),(6,'2020-05-15','2020-05-15','50 camionetas rojas',1);
+/*!40000 ALTER TABLE `orden_produccion` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -910,8 +1354,41 @@ CREATE TABLE `ordencomrpaencabezado` (
 
 LOCK TABLES `ordencomrpaencabezado` WRITE;
 /*!40000 ALTER TABLE `ordencomrpaencabezado` DISABLE KEYS */;
-INSERT INTO `ordencomrpaencabezado` VALUES (1,1,1,'0000-00-00','0000-00-00',1,'1',NULL,11,1,0);
 /*!40000 ALTER TABLE `ordencomrpaencabezado` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `pedido`
+--
+
+DROP TABLE IF EXISTS `pedido`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `pedido` (
+  `pkidpedido` int(11) NOT NULL,
+  `pkidProducto` int(11) DEFAULT NULL,
+  `estado` tinyint(2) DEFAULT NULL,
+  `pkcodigoempleado` int(11) DEFAULT NULL,
+  `cantidad` int(11) DEFAULT NULL,
+  `pkidordenproduccion` int(11) DEFAULT NULL,
+  PRIMARY KEY (`pkidpedido`),
+  KEY `fk_pedido_producto1_idx` (`pkidProducto`),
+  KEY `fk_pedido_empleado1_idx` (`pkcodigoempleado`),
+  KEY `fk_pedido_orden_produccion1_idx` (`pkidordenproduccion`),
+  CONSTRAINT `fk_pedido_empleado1` FOREIGN KEY (`pkcodigoempleado`) REFERENCES `empleado` (`pkcodigoempleado`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_pedido_orden_produccion1` FOREIGN KEY (`pkidordenproduccion`) REFERENCES `orden_produccion` (`pkidordenproduccion`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_pedido_producto1` FOREIGN KEY (`pkidProducto`) REFERENCES `producto` (`pkidProducto`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `pedido`
+--
+
+LOCK TABLES `pedido` WRITE;
+/*!40000 ALTER TABLE `pedido` DISABLE KEYS */;
+INSERT INTO `pedido` VALUES (1,1,1,1,5,1),(2,2,1,1,5,1),(3,1,1,1,5,1),(4,1,1,1,2,2),(5,2,1,1,3,2),(6,1,1,1,5,6),(7,2,0,1,4,6);
+/*!40000 ALTER TABLE `pedido` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -942,7 +1419,6 @@ CREATE TABLE `perfil_detalle` (
 
 LOCK TABLES `perfil_detalle` WRITE;
 /*!40000 ALTER TABLE `perfil_detalle` DISABLE KEYS */;
-INSERT INTO `perfil_detalle` VALUES (1,1,0,0,0,0,1,'xD',1),(2,1,1,1,1,1,1,'dX',1),(3,1,0,0,1,1,0,'Curso MYSQL',1);
 /*!40000 ALTER TABLE `perfil_detalle` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -969,7 +1445,6 @@ CREATE TABLE `perfil_encabezado` (
 
 LOCK TABLES `perfil_encabezado` WRITE;
 /*!40000 ALTER TABLE `perfil_encabezado` DISABLE KEYS */;
-INSERT INTO `perfil_encabezado` VALUES (1,1,1),(2,1,1),(3,1,1);
 /*!40000 ALTER TABLE `perfil_encabezado` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -989,7 +1464,7 @@ CREATE TABLE `poliza_detalle` (
   PRIMARY KEY (`cod_linea`,`pkcodigopoliza`),
   KEY `fk_poliza_detalle_poliza_encabezado1` (`pkcodigopoliza`),
   CONSTRAINT `fk_poliza_detalle_poliza_encabezado1` FOREIGN KEY (`pkcodigopoliza`) REFERENCES `poliza_encabezado` (`pkcodigopoliza`) ON DELETE NO ACTION ON UPDATE NO ACTION
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -998,7 +1473,6 @@ CREATE TABLE `poliza_detalle` (
 
 LOCK TABLES `poliza_detalle` WRITE;
 /*!40000 ALTER TABLE `poliza_detalle` DISABLE KEYS */;
-INSERT INTO `poliza_detalle` VALUES (1,1,'',0,0),(2,1,'Bono250',251,0),(3,1,'BANCOS',0,-2501),(4,1,'SUELDOS',-2752,0);
 /*!40000 ALTER TABLE `poliza_detalle` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1026,8 +1500,92 @@ CREATE TABLE `poliza_encabezado` (
 
 LOCK TABLES `poliza_encabezado` WRITE;
 /*!40000 ALTER TABLE `poliza_encabezado` DISABLE KEYS */;
-INSERT INTO `poliza_encabezado` VALUES (1,1,2020,2020);
 /*!40000 ALTER TABLE `poliza_encabezado` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `polizadetalle_mrp`
+--
+
+DROP TABLE IF EXISTS `polizadetalle_mrp`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `polizadetalle_mrp` (
+  `cod_linea` int(11) NOT NULL AUTO_INCREMENT,
+  `pkidpolizaencabezado_MRP` int(11) NOT NULL,
+  `pkcodigocuenta` int(11) DEFAULT NULL,
+  `debe` double DEFAULT NULL,
+  `haber` double DEFAULT NULL,
+  `estado` tinyint(2) DEFAULT NULL,
+  PRIMARY KEY (`cod_linea`,`pkidpolizaencabezado_MRP`),
+  KEY `fk_polizadetalle_mrp_polizaencabezado_mrp1_idx` (`pkidpolizaencabezado_MRP`),
+  CONSTRAINT `fk_polizadetalle_mrp_polizaencabezado_mrp1` FOREIGN KEY (`pkidpolizaencabezado_MRP`) REFERENCES `polizaencabezado_mrp` (`pkidpolizaencabezado_MRP`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `polizadetalle_mrp`
+--
+
+LOCK TABLES `polizadetalle_mrp` WRITE;
+/*!40000 ALTER TABLE `polizadetalle_mrp` DISABLE KEYS */;
+/*!40000 ALTER TABLE `polizadetalle_mrp` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `polizaencabezado_mrp`
+--
+
+DROP TABLE IF EXISTS `polizaencabezado_mrp`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `polizaencabezado_mrp` (
+  `pkidpolizaencabezado_MRP` int(11) NOT NULL,
+  `fecha_inicio` date DEFAULT NULL,
+  `fecha_fin` date DEFAULT NULL,
+  `descripcion` varchar(45) DEFAULT NULL,
+  `tipo` varchar(45) DEFAULT NULL,
+  `estado` tinyint(2) DEFAULT NULL,
+  PRIMARY KEY (`pkidpolizaencabezado_MRP`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `polizaencabezado_mrp`
+--
+
+LOCK TABLES `polizaencabezado_mrp` WRITE;
+/*!40000 ALTER TABLE `polizaencabezado_mrp` DISABLE KEYS */;
+/*!40000 ALTER TABLE `polizaencabezado_mrp` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `procesoproduccion`
+--
+
+DROP TABLE IF EXISTS `procesoproduccion`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `procesoproduccion` (
+  `linea` int(11) NOT NULL AUTO_INCREMENT,
+  `pkidprocesoproduccion` int(11) NOT NULL,
+  `pkidencabezadop` int(11) DEFAULT NULL,
+  `pkidestacion` int(11) DEFAULT NULL,
+  PRIMARY KEY (`linea`,`pkidprocesoproduccion`),
+  KEY `fk_procesoproduccion_encabezado_produccion1_idx` (`pkidencabezadop`),
+  KEY `fk_procesoproduccion_estacion1_idx` (`pkidestacion`),
+  CONSTRAINT `fk_procesoproduccion_encabezado_produccion1` FOREIGN KEY (`pkidencabezadop`) REFERENCES `encabezado_produccion` (`pkidencabezadop`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  CONSTRAINT `fk_procesoproduccion_estacion1` FOREIGN KEY (`pkidestacion`) REFERENCES `estacion` (`pkidestacion`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `procesoproduccion`
+--
+
+LOCK TABLES `procesoproduccion` WRITE;
+/*!40000 ALTER TABLE `procesoproduccion` DISABLE KEYS */;
+/*!40000 ALTER TABLE `procesoproduccion` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -1051,7 +1609,7 @@ CREATE TABLE `producto` (
   KEY `fk_Producto_Tipo Producto1_idx` (`pktipo_producto`),
   KEY `fk_Producto_Proveedor1_idx` (`pkidProveedor`),
   CONSTRAINT `fk_Producto_Proveedor1` FOREIGN KEY (`pkidProveedor`) REFERENCES `proveedor` (`pkidProveedor`),
-  CONSTRAINT `fk_Producto_Tipo Producto1` FOREIGN KEY (`pktipo_producto`) REFERENCES `tipo producto` (`pktipo_producto`)
+  CONSTRAINT `fk_Producto_Tipo Producto1` FOREIGN KEY (`pktipo_producto`) REFERENCES `tipo_producto` (`pktipo_producto`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -1061,7 +1619,34 @@ CREATE TABLE `producto` (
 
 LOCK TABLES `producto` WRITE;
 /*!40000 ALTER TABLE `producto` DISABLE KEYS */;
+INSERT INTO `producto` VALUES (1,1,'1',1,'1','1',1,1,1),(1,2,'1',11,'1','1',1,1,1),(1,3,'Arroz',24,'Costal de papa','Costal',12,1,1),(1,4,'Papas',22,'hggh','lb',21,1,1),(1,5,'llantas',45,'jfjfj','kg',0,1,2),(1,6,'leche',5,'dfdf','g',2,1,2);
 /*!40000 ALTER TABLE `producto` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `producto_control_calidad`
+--
+
+DROP TABLE IF EXISTS `producto_control_calidad`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `producto_control_calidad` (
+  `pkidproducto_control_calidad` int(11) NOT NULL,
+  `pkidprocesoproduccion` int(11) DEFAULT NULL,
+  `pkidestandardecalidad` int(11) DEFAULT NULL,
+  `descripcion` varchar(45) DEFAULT NULL,
+  `estado_aprobacion` tinyint(2) DEFAULT NULL,
+  PRIMARY KEY (`pkidproducto_control_calidad`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `producto_control_calidad`
+--
+
+LOCK TABLES `producto_control_calidad` WRITE;
+/*!40000 ALTER TABLE `producto_control_calidad` DISABLE KEYS */;
+/*!40000 ALTER TABLE `producto_control_calidad` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -1118,7 +1703,7 @@ CREATE TABLE `proveedor` (
 
 LOCK TABLES `proveedor` WRITE;
 /*!40000 ALTER TABLE `proveedor` DISABLE KEYS */;
-INSERT INTO `proveedor` VALUES (1,'Cosculluela',1545454,'45454',5454,'54545',1);
+INSERT INTO `proveedor` VALUES (1,'Jose',4545,'5454',5454,'5454',1);
 /*!40000 ALTER TABLE `proveedor` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1150,8 +1735,32 @@ CREATE TABLE `puesto` (
 
 LOCK TABLES `puesto` WRITE;
 /*!40000 ALTER TABLE `puesto` DISABLE KEYS */;
-INSERT INTO `puesto` VALUES (1,1,1,'1',1,'1');
 /*!40000 ALTER TABLE `puesto` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `reportes`
+--
+
+DROP TABLE IF EXISTS `reportes`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `reportes` (
+  `pkidreporte` int(11) NOT NULL,
+  `ubicacion` varchar(90) DEFAULT NULL,
+  `estado` tinyint(2) DEFAULT NULL,
+  PRIMARY KEY (`pkidreporte`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `reportes`
+--
+
+LOCK TABLES `reportes` WRITE;
+/*!40000 ALTER TABLE `reportes` DISABLE KEYS */;
+INSERT INTO `reportes` VALUES (101,'C:/Empresa_Bienestar/Reportes/Factura.rpt',1),(102,'C:/Empresa_Bienestar/Reportes/ordencomprarpt.rpt',1),(103,'C:/Empresa_Bienestar/Reportes/Devolucion.rpt',1),(104,'C:/Empresa_Bienestar/Reportes/impuestos.rpt',1),(105,'C:/Empresa_Bienestar/Reportes/productos.rpt',1),(106,'C:/Empresa_Bienestar/Reportes/proveedor.rpt',1),(201,'C:/Empresa_Bienestar/Reportes/cosoproduccion.rpt',1),(202,'C:/Empresa_Bienestar/Reportes/listaPedidos.rpt',1),(203,'C:/Empresa_Bienestar/Reportes/ordenProduccion.rpt',1);
+/*!40000 ALTER TABLE `reportes` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -1230,7 +1839,7 @@ CREATE TABLE `sancionempleado` (
   PRIMARY KEY (`pkcodigosansionempleado`),
   KEY `fk_sancionempleado_empleado1_idx` (`fkcodigoempleado`),
   CONSTRAINT `fk_sancionempleado_empleado1` FOREIGN KEY (`fkcodigoempleado`) REFERENCES `empleado` (`pkcodigoempleado`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -1239,8 +1848,36 @@ CREATE TABLE `sancionempleado` (
 
 LOCK TABLES `sancionempleado` WRITE;
 /*!40000 ALTER TABLE `sancionempleado` DISABLE KEYS */;
-INSERT INTO `sancionempleado` VALUES (1,1,'No sabia de BD','no recibio el curso','2020-03-25','2020-03-27',1);
 /*!40000 ALTER TABLE `sancionempleado` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `solicitudactivos`
+--
+
+DROP TABLE IF EXISTS `solicitudactivos`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `solicitudactivos` (
+  `pkidsolicitudactivos` int(11) NOT NULL,
+  `cantidad` double DEFAULT NULL,
+  `descripcion` varchar(45) DEFAULT NULL,
+  `pkidProducto` int(11) DEFAULT NULL,
+  `fechadesolicitud` date DEFAULT NULL,
+  `estado` tinyint(2) DEFAULT NULL,
+  PRIMARY KEY (`pkidsolicitudactivos`),
+  KEY `fk_solicitudactivos_producto1_idx` (`pkidProducto`),
+  CONSTRAINT `fk_solicitudactivos_producto1` FOREIGN KEY (`pkidProducto`) REFERENCES `producto` (`pkidProducto`) ON DELETE NO ACTION ON UPDATE NO ACTION
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `solicitudactivos`
+--
+
+LOCK TABLES `solicitudactivos` WRITE;
+/*!40000 ALTER TABLE `solicitudactivos` DISABLE KEYS */;
+/*!40000 ALTER TABLE `solicitudactivos` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -1282,7 +1919,7 @@ CREATE TABLE `tbl_bancotalento` (
   PRIMARY KEY (`pkBancoTalento`,`fkCurriculum`),
   KEY `FK_Curriculum_BancoT` (`fkCurriculum`),
   CONSTRAINT `FK_Curriculum_BancoT` FOREIGN KEY (`fkCurriculum`) REFERENCES `tbl_curriculums` (`pkidCurriculum`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -1291,7 +1928,6 @@ CREATE TABLE `tbl_bancotalento` (
 
 LOCK TABLES `tbl_bancotalento` WRITE;
 /*!40000 ALTER TABLE `tbl_bancotalento` DISABLE KEYS */;
-INSERT INTO `tbl_bancotalento` VALUES (4,1,1);
 /*!40000 ALTER TABLE `tbl_bancotalento` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1332,7 +1968,6 @@ CREATE TABLE `tbl_curriculums` (
 
 LOCK TABLES `tbl_curriculums` WRITE;
 /*!40000 ALTER TABLE `tbl_curriculums` DISABLE KEYS */;
-INSERT INTO `tbl_curriculums` VALUES (1,'Jose','Gonzaleez','','wwewe','jdsjosj@gmail.com',1,0,1,0,0,0,'SQL','sin exp',2500,1,1);
 /*!40000 ALTER TABLE `tbl_curriculums` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1364,7 +1999,7 @@ CREATE TABLE `tbl_solicitud_empleado_detalle` (
 
 LOCK TABLES `tbl_solicitud_empleado_detalle` WRITE;
 /*!40000 ALTER TABLE `tbl_solicitud_empleado_detalle` DISABLE KEYS */;
-INSERT INTO `tbl_solicitud_empleado_detalle` VALUES (1,1,0,0,0,0,1,'xD',1),(3,1,0,0,0,0,1,'xD',1);
+INSERT INTO `tbl_solicitud_empleado_detalle` VALUES (1,1,0,1,0,0,0,'',1);
 /*!40000 ALTER TABLE `tbl_solicitud_empleado_detalle` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1395,18 +2030,18 @@ CREATE TABLE `tbl_solicitud_empleado_encabezado` (
 
 LOCK TABLES `tbl_solicitud_empleado_encabezado` WRITE;
 /*!40000 ALTER TABLE `tbl_solicitud_empleado_encabezado` DISABLE KEYS */;
-INSERT INTO `tbl_solicitud_empleado_encabezado` VALUES (1,1,1,'1998-02-03',1),(2,1,1,'1998-02-05',1),(3,1,1,'2020-03-19',1);
+INSERT INTO `tbl_solicitud_empleado_encabezado` VALUES (1,1,1,'2020-05-18',1);
 /*!40000 ALTER TABLE `tbl_solicitud_empleado_encabezado` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
--- Table structure for table `tipo producto`
+-- Table structure for table `tipo_producto`
 --
 
-DROP TABLE IF EXISTS `tipo producto`;
+DROP TABLE IF EXISTS `tipo_producto`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `tipo producto` (
+CREATE TABLE `tipo_producto` (
   `pktipo_producto` int(11) NOT NULL,
   `Nombre` varchar(45) DEFAULT NULL,
   `Descripcion` varchar(45) DEFAULT NULL,
@@ -1416,12 +2051,13 @@ CREATE TABLE `tipo producto` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `tipo producto`
+-- Dumping data for table `tipo_producto`
 --
 
-LOCK TABLES `tipo producto` WRITE;
-/*!40000 ALTER TABLE `tipo producto` DISABLE KEYS */;
-/*!40000 ALTER TABLE `tipo producto` ENABLE KEYS */;
+LOCK TABLES `tipo_producto` WRITE;
+/*!40000 ALTER TABLE `tipo_producto` DISABLE KEYS */;
+INSERT INTO `tipo_producto` VALUES (1,'venta','dsds',1),(2,'fabricacion','sdsd',1);
+/*!40000 ALTER TABLE `tipo_producto` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -1436,6 +2072,10 @@ CREATE TABLE `tipo_usuario` (
   `nombre` varchar(45) DEFAULT NULL,
   `descripcion` varchar(45) DEFAULT NULL,
   `estado` tinyint(2) DEFAULT NULL,
+  `guardar` tinyint(2) DEFAULT NULL,
+  `modificar` tinyint(2) DEFAULT NULL,
+  `eliminar` tinyint(2) DEFAULT NULL,
+  `consultar` tinyint(2) DEFAULT NULL,
   PRIMARY KEY (`pktipousuario`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -1446,7 +2086,7 @@ CREATE TABLE `tipo_usuario` (
 
 LOCK TABLES `tipo_usuario` WRITE;
 /*!40000 ALTER TABLE `tipo_usuario` DISABLE KEYS */;
-INSERT INTO `tipo_usuario` VALUES (1,'Administrador','TODOS LOS PERMISOS',1),(2,'Humanoide','HRM',1),(3,'Suministrero','SCM',1),(4,'Manufacturero','MRP',1);
+INSERT INTO `tipo_usuario` VALUES (1,'ADM','1',1,1,1,1,1);
 /*!40000 ALTER TABLE `tipo_usuario` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1499,8 +2139,33 @@ CREATE TABLE `tipocontratacion` (
 
 LOCK TABLES `tipocontratacion` WRITE;
 /*!40000 ALTER TABLE `tipocontratacion` DISABLE KEYS */;
-INSERT INTO `tipocontratacion` VALUES (1,'1','1','1',1);
+INSERT INTO `tipocontratacion` VALUES (1,'1','0','0',1),(2,'0','0','0',0),(3,'0','1','0',1);
 /*!40000 ALTER TABLE `tipocontratacion` ENABLE KEYS */;
+UNLOCK TABLES;
+
+--
+-- Table structure for table `tipomerma`
+--
+
+DROP TABLE IF EXISTS `tipomerma`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `tipomerma` (
+  `pkidtipomerma` int(11) NOT NULL,
+  `nombre` varchar(45) DEFAULT NULL,
+  `descripcion` varchar(45) DEFAULT NULL,
+  `estado` tinyint(2) DEFAULT NULL,
+  PRIMARY KEY (`pkidtipomerma`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tipomerma`
+--
+
+LOCK TABLES `tipomerma` WRITE;
+/*!40000 ALTER TABLE `tipomerma` DISABLE KEYS */;
+/*!40000 ALTER TABLE `tipomerma` ENABLE KEYS */;
 UNLOCK TABLES;
 
 --
@@ -1598,6 +2263,30 @@ UNLOCK TABLES;
 --
 -- Dumping routines for database 'mydb'
 --
+/*!50003 DROP PROCEDURE IF EXISTS `cuentasenpolizadetalle` */;
+/*!50003 SET @saved_cs_client      = @@character_set_client */ ;
+/*!50003 SET @saved_cs_results     = @@character_set_results */ ;
+/*!50003 SET @saved_col_connection = @@collation_connection */ ;
+/*!50003 SET character_set_client  = utf8 */ ;
+/*!50003 SET character_set_results = utf8 */ ;
+/*!50003 SET collation_connection  = utf8_general_ci */ ;
+/*!50003 SET @saved_sql_mode       = @@sql_mode */ ;
+/*!50003 SET sql_mode              = 'STRICT_TRANS_TABLES,STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ALLOW_INVALID_DATES,ERROR_FOR_DIVISION_BY_ZERO,TRADITIONAL,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION' */ ;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `cuentasenpolizadetalle`(
+IN  nombrecuenta VARCHAR(45))
+BEGIN
+DECLARE x INT;
+DECLARE x2 INT;
+  SET x = (SELECT MAX(pkcodigoconcepto) FROM concepto WHERE nombreconcepto=nombrecuenta);
+   SET x2 = (SELECT MAX(nombreconcepto) FROM concepto WHERE nombreconcepto=nombrecuenta);
+ Update poliza_detalle set cuentas =x WHERE cuentas =nombrecuenta;
+END ;;
+DELIMITER ;
+/*!50003 SET sql_mode              = @saved_sql_mode */ ;
+/*!50003 SET character_set_client  = @saved_cs_client */ ;
+/*!50003 SET character_set_results = @saved_cs_results */ ;
+/*!50003 SET collation_connection  = @saved_col_connection */ ;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -1608,4 +2297,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2020-04-15  1:53:45
+-- Dump completed on 2020-05-24 18:01:30
