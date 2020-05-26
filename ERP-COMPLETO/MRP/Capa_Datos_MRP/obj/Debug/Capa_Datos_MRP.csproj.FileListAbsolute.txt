@@ -1,0 +1,52 @@
+C:\Users\prueb\Desktop\Modulo_MRP\MRP\Capa_Datos_MRP\bin\Debug\Capa_Datos_MRP.dll
+C:\Users\prueb\Desktop\Modulo_MRP\MRP\Capa_Datos_MRP\bin\Debug\Capa_Datos_MRP.pdb
+C:\Users\prueb\Desktop\Modulo_MRP\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\Modulo_MRP\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\Modulo_MRP\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.dll
+C:\Users\prueb\Desktop\Modulo_MRP\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.pdb
+C:\Users\ISIS\Downloads\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Datos_MRP\bin\Debug\Capa_Datos_MRP.dll
+C:\Users\ISIS\Downloads\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Datos_MRP\bin\Debug\Capa_Datos_MRP.pdb
+C:\Users\ISIS\Downloads\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.csprojAssemblyReference.cache
+C:\Users\ISIS\Downloads\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.csproj.CoreCompileInputs.cache
+C:\Users\ISIS\Downloads\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.dll
+C:\Users\ISIS\Downloads\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.pdb
+C:\Users\ISIS\Desktop\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Datos_MRP\bin\Debug\Capa_Datos_MRP.dll
+C:\Users\ISIS\Desktop\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Datos_MRP\bin\Debug\Capa_Datos_MRP.pdb
+C:\Users\ISIS\Desktop\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.csprojAssemblyReference.cache
+C:\Users\ISIS\Desktop\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.csproj.CoreCompileInputs.cache
+C:\Users\ISIS\Desktop\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.dll
+C:\Users\ISIS\Desktop\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.pdb
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Datos_MRP\bin\Debug\Capa_Datos_MRP.dll
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Datos_MRP\bin\Debug\Capa_Datos_MRP.pdb
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.csprojAssemblyReference.cache
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.dll
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.pdb
+C:\Users\prueb\Desktop\MRP\Capa_Datos_MRP\bin\Debug\Capa_Datos_MRP.dll
+C:\Users\prueb\Desktop\MRP\Capa_Datos_MRP\bin\Debug\Capa_Datos_MRP.pdb
+C:\Users\prueb\Desktop\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.dll
+C:\Users\prueb\Desktop\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.pdb
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Datos_MRP\bin\Debug\Capa_Datos_MRP.dll
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Datos_MRP\bin\Debug\Capa_Datos_MRP.pdb
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.csproj.CoreCompileInputs.cache
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.dll
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.pdb
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.csprojAssemblyReference.cache
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Datos_MRP\bin\Debug\Capa_Datos_MRP.dll
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Datos_MRP\bin\Debug\Capa_Datos_MRP.pdb
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.csprojAssemblyReference.cache
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.dll
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.pdb
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Datos_MRP\bin\Debug\Capa_Datos_MRP.dll
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Datos_MRP\bin\Debug\Capa_Datos_MRP.pdb
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.dll
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.pdb
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Datos_MRP\bin\Debug\Capa_Datos_MRP.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Datos_MRP\bin\Debug\Capa_Datos_MRP.pdb
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Datos_MRP\obj\Debug\Capa_Datos_MRP.pdb
