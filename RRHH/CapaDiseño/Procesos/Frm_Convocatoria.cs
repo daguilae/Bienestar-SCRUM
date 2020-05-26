@@ -15,7 +15,6 @@ using iTextSharp.text;
 using iTextSharp.text.pdf;
 using System.IO;
 using CapaLogica;
-using CapaDiseño.Consulta;
 
 namespace CapaDiseño.Procesos
 {
@@ -23,67 +22,21 @@ namespace CapaDiseño.Procesos
     public partial class Frm_Convocatoria : Form
     {
         Logica logic = new Logica();
-        string[] valores = new string[7];
         public Frm_Convocatoria()
         {
             InitializeComponent();
-            txt_mediocomunicacion.Enabled = false;
-            Txt_tipocontratacion.Enabled = false;
-            Txt_Id.Enabled = false;
-            MostrarConsulta();
-
+           
         }
 
         public void MostrarConsulta()
         {
-            DGV_PERFIL.Rows.Clear();
-            try
-            {
-                Conexion conexion = new Conexion();
-                string consultaMostrar = "SELECT * FROM perfil_encabezado WHERE estado='1';";
-                OdbcCommand comm = new OdbcCommand(consultaMostrar, conexion.conexionbd());
-                OdbcDataReader mostrarDatos = comm.ExecuteReader();
-
-                string consultaMostrar2 = "SELECT * FROM perfil_detalle WHERE estado='1';";
-                OdbcCommand comm2 = new OdbcCommand(consultaMostrar2, conexion.conexionbd());
-                OdbcDataReader mostrarDatos2 = comm2.ExecuteReader();
-                int contador = 0;
-                while (mostrarDatos.Read() && mostrarDatos2.Read())
-                {
-                    contador = 0;
-                    DGV_PERFIL.Refresh();
-                    for (int n = 1; n < 7; n++)
-                    {
-                        if (mostrarDatos2.GetString(n) == "1")
-                            valores[contador] = "Si";
-                        else
-                            valores[contador] = "No";
-
-                        contador++;
-                    }
-                    DGV_PERFIL.Rows.Add(mostrarDatos.GetString(0), valores[0], valores[1], valores[2], valores[3], valores[4], valores[5], mostrarDatos2.GetString(7), mostrarDatos2.GetString(8));
-
-                }
-                comm.Connection.Close();
-                mostrarDatos.Close();
-                comm2.Connection.Close();
-                mostrarDatos2.Close();
-            }
-            catch (Exception err)
-            {
-                Console.Write(err.Message);
-            }
-        }
-        /*
-        public void MostrarConsulta()
-        {
-            DGV_PERFIL.Rows.Clear();
             try
             {
                 Conexion conexion = new Conexion();
                 string consultaMostrar = "SELECT * FROM perfil_detalle WHERE estado='1';";
                 OdbcCommand comm = new OdbcCommand(consultaMostrar, conexion.conexionbd());
                 OdbcDataReader mostrarDatos = comm.ExecuteReader();
+
                 while (mostrarDatos.Read())
                 {
                     DGV_PERFIL.Refresh();
@@ -97,115 +50,71 @@ namespace CapaDiseño.Procesos
                 Console.Write(err.Message);
             }
         }
-        */
+
         private void Frm_Convocatoria_Load(object sender, EventArgs e)
         {
-            DGV_PERFIL.Rows.Clear();
-            MostrarConsulta();
+
         }
 
         private void Cbo_TipoC_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+            try
+            {
+                Cbo_TipoC.Text = "Contratacion";
+                Cbo_TipoC.Items.Clear();
+
+                Conexion conexion = new Conexion();
+                string consultaMostrar = "SELECT * FROM tipocontratacion WHERE estado='1' ;";
+                OdbcCommand comm = new OdbcCommand(consultaMostrar, conexion.conexionbd());
+                OdbcDataReader mostrarDatos = comm.ExecuteReader();
+
+                while (mostrarDatos.Read())
+                {
+                    Cbo_TipoC.Refresh();
+                    Cbo_TipoC.Items.Add(mostrarDatos.GetValue(1).ToString());
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
             
         }
 
         private void Cbo_MC_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+            try
+            {
+                Cbo_MC.Text = "Contratacion";
+                Cbo_MC.Items.Clear();
+
+                Conexion conexion = new Conexion();
+                string consultaMostrar = "SELECT * FROM mediodecomunicacion WHERE estado='1' ;";
+                OdbcCommand comm = new OdbcCommand(consultaMostrar, conexion.conexionbd());
+                OdbcDataReader mostrarDatos = comm.ExecuteReader();
+
+                while (mostrarDatos.Read())
+                {
+                    Cbo_MC.Refresh();
+                    Cbo_MC.Items.Add(mostrarDatos.GetValue(1).ToString());
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
         private void Btn_Imprimir_Click(object sender, EventArgs e)
         {
 
-           
-
-
-        }
-
-        private void Btn_minimizar_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
-        }
-
-        private void Btn_cerrar_Click(object sender, EventArgs e)
-        {
-            this.Dispose();
-        }
-
-        private void Btn_Buscar_Click(object sender, EventArgs e)
-        {
-
-            
-        }
-
-        private void Btn_ayuda_Click(object sender, EventArgs e)
-        {
-            string ruta = "";
-            string indice = "";
-
-            OdbcDataReader mostrarEmpleado = logic.consultaayuda("18");
-            try
-            {
-                while (mostrarEmpleado.Read())
-                {
-                    ruta = mostrarEmpleado.GetString(1);
-                    indice = mostrarEmpleado.GetString(2);
-                }
-            }
-            catch (Exception err)
-            {
-                Console.WriteLine(err.Message);
-            }
-
-            Help.ShowHelp(this, ruta, indice);
-        }
-
-        private void btn_producción_Click(object sender, EventArgs e)
-        {
-            Frm_consultaEmpleado concep = new Frm_consultaEmpleado();
-            concep.ShowDialog();
-
-            if (concep.DialogResult == DialogResult.OK)
-            {
-                Txt_Id.Text = concep.Dgv_consultaEmpleado.Rows[concep.Dgv_consultaEmpleado.CurrentRow.Index].
-                      Cells[0].Value.ToString();
-            }
-        }
-
-        private void btn_contratacion_Click(object sender, EventArgs e)
-        {
-            Frm_TipoContratacion concep = new Frm_TipoContratacion();
-            concep.ShowDialog();
-
-            if (concep.DialogResult == DialogResult.OK)
-            {
-                Txt_tipocontratacion.Text = concep.Dgv_consultaContratacion.Rows[concep.Dgv_consultaContratacion.CurrentRow.Index].
-                      Cells[0].Value.ToString();
-            }
-        }
-
-        private void btn_comunicacion_Click(object sender, EventArgs e)
-        {
-            Frm_consultaMediodeComunicacion concep = new Frm_consultaMediodeComunicacion();
-            concep.ShowDialog();
-
-            if (concep.DialogResult == DialogResult.OK)
-            {
-                txt_mediocomunicacion.Text = concep.Dgv_consultaMedios.Rows[concep.Dgv_consultaMedios.CurrentRow.Index].
-                      Cells[0].Value.ToString();
-            }
-        }
-
-        private void Btn_Imprimir_Click_1(object sender, EventArgs e)
-        {
             Document doc = new Document();
             PdfWriter.GetInstance(doc, new FileStream("Convo.pdf", FileMode.Create)); // asignamos el nombre de archivo
             // Importante Abrir el documento
             doc.Open();
             // Creamos un titulo personalizado con tamaño de fuente 18 y color Azul
             Paragraph title = new Paragraph();
-
+  
             title.Add("CONVOCATORIA DE TRABAJO ");
             doc.Add(title);
             // Agregamos un parrafo vacio como separacion.
@@ -222,8 +131,8 @@ namespace CapaDiseño.Procesos
             // Segunda fila
             table.AddCell(Txt_Id.Text);
             table.AddCell(DTP_fEHCA.Text);
-            table.AddCell(Txt_tipocontratacion.Text);
-            table.AddCell(txt_mediocomunicacion.Text);
+            table.AddCell(Cbo_TipoC.Text);
+            table.AddCell(Cbo_MC.Text);
 
             // DOS LINEAS DE SEPARACION
             doc.Add(new Paragraph(" "));
@@ -280,20 +189,44 @@ namespace CapaDiseño.Procesos
                 MessageBox.Show("El documneto ha sido creado, dirijase a la carpeta PDF en su Disco C");
             }
 
-            Txt_Id.Clear();
-            txt_mediocomunicacion.Clear();
-            Txt_NombrePDF.Clear();
-            Txt_tipocontratacion.Clear();
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void Btn_minimizar_Click(object sender, EventArgs e)
         {
-            Txt_Id.Clear();
-            txt_mediocomunicacion.Clear();
-            Txt_NombrePDF.Clear();
-            Txt_tipocontratacion.Clear();
-            
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void Btn_cerrar_Click(object sender, EventArgs e)
+        {
+            this.Dispose();
+        }
+
+        private void Btn_Buscar_Click(object sender, EventArgs e)
+        {
+            MostrarConsulta();  
+        }
+
+        private void Btn_ayuda_Click(object sender, EventArgs e)
+        {
+            string ruta = "";
+            string indice = "";
+
+            OdbcDataReader mostrarEmpleado = logic.consultaayuda("18");
+            try
+            {
+                while (mostrarEmpleado.Read())
+                {
+                    ruta = mostrarEmpleado.GetString(1);
+                    indice = mostrarEmpleado.GetString(2);
+                }
+            }
+            catch (Exception err)
+            {
+                Console.WriteLine(err.Message);
+            }
+
+            Help.ShowHelp(this, ruta, indice);
         }
     }
 }

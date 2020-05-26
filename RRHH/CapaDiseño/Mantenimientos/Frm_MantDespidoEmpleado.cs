@@ -97,13 +97,13 @@ namespace CapaDiseño.Mantenimientos
                     while (Reunion.Read())
                     {
 
-                        //Txt_NombreEmpleado.Text = Reunion.GetString(0);
+                        Txt_NombreEmpleado.Text = Reunion.GetString(0);
 
                     }
-                    //if(Txt_NombreEmpleado.Text == "")
-                    //{
-                      //  MessageBox.Show("Debe ingresar un codigo existente");
-                    //}
+                    if(Txt_NombreEmpleado.Text == "")
+                    {
+                        MessageBox.Show("Debe ingresar un codigo existente");
+                    }
                 }
                 catch (Exception err)
                 {
@@ -116,7 +116,7 @@ namespace CapaDiseño.Mantenimientos
         private void Btn_RealizarDespido_Click(object sender, EventArgs e)
         {
 
-            if ( Txt_RazonDespido.Text == "")
+            if (Txt_NombreEmpleado.Text == "" | Txt_RazonDespido.Text == "")
             {
                 MessageBox.Show("Debe llenar todos los Campos Solicitados");
             }
@@ -124,18 +124,18 @@ namespace CapaDiseño.Mantenimientos
             {
                 //FORMATO DE FECHAS Y HORAS
                 string sFechaIngreso;
-                //sFechaIngreso = Dtp_FechaIngreso.Value.ToString("yyyy-MM-dd");
-               // OdbcDataReader Despido = Logic.InsertaDespido(Txt_CodigoEmpleado.Text, Txt_RazonDespido.Text, Txt_Descripcion.Text);
+                sFechaIngreso = Dtp_FechaIngreso.Value.ToString("yyyy-MM-dd");
+                OdbcDataReader Despido = Logic.InsertaDespido(Txt_CodigoEmpleado.Text, Txt_RazonDespido.Text, Txt_Descripcion.Text, sFechaIngreso);
                 MessageBox.Show("Despido Ingresado");
                 Logic.bitacora("0", slocalIP, smacAddresses, suser, "RRHH", DateTime.Now.ToString("G"), "Guardar", this.GetType().Name);
 
                 //LimpiarCampos
                 Txt_CodigoEmpleado.Clear();
                 Txt_CodigoEmpleado.Focus();
-               
+                Txt_NombreEmpleado.Clear();
                 Txt_RazonDespido.Clear();
                 Txt_Descripcion.Clear();
-               // Dtp_FechaIngreso.ResetText();
+                Dtp_FechaIngreso.ResetText();
 
             }
         }

@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Nomina));
             this.Pnl_nombreForm = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
             this.btn_Ayuda = new System.Windows.Forms.Button();
             this.btn_minimizar = new System.Windows.Forms.Button();
             this.lbl_procesonominal = new System.Windows.Forms.Label();
@@ -54,6 +53,11 @@
             this.Gpb_Detallenominal = new System.Windows.Forms.GroupBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Dgv_empleadoscontables = new System.Windows.Forms.DataGridView();
+            this.lbl_subtotalpercepciones = new System.Windows.Forms.Label();
+            this.Txt_SubtotalPercepciones = new System.Windows.Forms.TextBox();
+            this.lbl_subtotaldeducciones = new System.Windows.Forms.Label();
+            this.Txt_SubtotalDeducciones = new System.Windows.Forms.TextBox();
+            this.btn_generarnomina = new System.Windows.Forms.Button();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -62,12 +66,6 @@
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lbl_subtotalpercepciones = new System.Windows.Forms.Label();
-            this.Txt_SubtotalPercepciones = new System.Windows.Forms.TextBox();
-            this.lbl_subtotaldeducciones = new System.Windows.Forms.Label();
-            this.Txt_SubtotalDeducciones = new System.Windows.Forms.TextBox();
-            this.btn_generarnomina = new System.Windows.Forms.Button();
-            this.btn_generar = new System.Windows.Forms.Button();
             this.Pnl_nombreForm.SuspendLayout();
             this.Gpb_nominaencabezado.SuspendLayout();
             this.Gpb_Detallenominal.SuspendLayout();
@@ -78,7 +76,6 @@
             // Pnl_nombreForm
             // 
             this.Pnl_nombreForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
-            this.Pnl_nombreForm.Controls.Add(this.label3);
             this.Pnl_nombreForm.Controls.Add(this.btn_Ayuda);
             this.Pnl_nombreForm.Controls.Add(this.btn_minimizar);
             this.Pnl_nombreForm.Controls.Add(this.lbl_procesonominal);
@@ -87,17 +84,6 @@
             this.Pnl_nombreForm.Name = "Pnl_nombreForm";
             this.Pnl_nombreForm.Size = new System.Drawing.Size(1310, 63);
             this.Pnl_nombreForm.TabIndex = 1;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(26, 19);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(62, 25);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "233 -";
             // 
             // btn_Ayuda
             // 
@@ -128,7 +114,7 @@
             this.lbl_procesonominal.AutoSize = true;
             this.lbl_procesonominal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_procesonominal.ForeColor = System.Drawing.Color.White;
-            this.lbl_procesonominal.Location = new System.Drawing.Point(83, 19);
+            this.lbl_procesonominal.Location = new System.Drawing.Point(26, 15);
             this.lbl_procesonominal.Name = "lbl_procesonominal";
             this.lbl_procesonominal.Size = new System.Drawing.Size(175, 25);
             this.lbl_procesonominal.TabIndex = 0;
@@ -338,6 +324,55 @@
             this.Dgv_empleadoscontables.Size = new System.Drawing.Size(1187, 101);
             this.Dgv_empleadoscontables.TabIndex = 0;
             // 
+            // lbl_subtotalpercepciones
+            // 
+            this.lbl_subtotalpercepciones.AutoSize = true;
+            this.lbl_subtotalpercepciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_subtotalpercepciones.Location = new System.Drawing.Point(85, 614);
+            this.lbl_subtotalpercepciones.Name = "lbl_subtotalpercepciones";
+            this.lbl_subtotalpercepciones.Size = new System.Drawing.Size(215, 20);
+            this.lbl_subtotalpercepciones.TabIndex = 4;
+            this.lbl_subtotalpercepciones.Text = "Sub Total Percepciones:";
+            // 
+            // Txt_SubtotalPercepciones
+            // 
+            this.Txt_SubtotalPercepciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_SubtotalPercepciones.Location = new System.Drawing.Point(365, 611);
+            this.Txt_SubtotalPercepciones.Name = "Txt_SubtotalPercepciones";
+            this.Txt_SubtotalPercepciones.Size = new System.Drawing.Size(148, 27);
+            this.Txt_SubtotalPercepciones.TabIndex = 5;
+            // 
+            // lbl_subtotaldeducciones
+            // 
+            this.lbl_subtotaldeducciones.AutoSize = true;
+            this.lbl_subtotaldeducciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_subtotaldeducciones.Location = new System.Drawing.Point(648, 614);
+            this.lbl_subtotaldeducciones.Name = "lbl_subtotaldeducciones";
+            this.lbl_subtotaldeducciones.Size = new System.Drawing.Size(210, 20);
+            this.lbl_subtotaldeducciones.TabIndex = 6;
+            this.lbl_subtotaldeducciones.Text = "Sub Total Deducciones:";
+            // 
+            // Txt_SubtotalDeducciones
+            // 
+            this.Txt_SubtotalDeducciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Txt_SubtotalDeducciones.Location = new System.Drawing.Point(910, 611);
+            this.Txt_SubtotalDeducciones.Name = "Txt_SubtotalDeducciones";
+            this.Txt_SubtotalDeducciones.Size = new System.Drawing.Size(148, 27);
+            this.Txt_SubtotalDeducciones.TabIndex = 7;
+            // 
+            // btn_generarnomina
+            // 
+            this.btn_generarnomina.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
+            this.btn_generarnomina.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_generarnomina.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_generarnomina.Location = new System.Drawing.Point(1080, 676);
+            this.btn_generarnomina.Name = "btn_generarnomina";
+            this.btn_generarnomina.Size = new System.Drawing.Size(194, 40);
+            this.btn_generarnomina.TabIndex = 8;
+            this.btn_generarnomina.Text = "Generar Nomina";
+            this.btn_generarnomina.UseVisualStyleBackColor = false;
+            this.btn_generarnomina.Click += new System.EventHandler(this.Btn_generarnomina_Click);
+            // 
             // Column1
             // 
             this.Column1.HeaderText = "Nombre";
@@ -394,71 +429,11 @@
             this.Column8.Name = "Column8";
             this.Column8.Width = 125;
             // 
-            // lbl_subtotalpercepciones
-            // 
-            this.lbl_subtotalpercepciones.AutoSize = true;
-            this.lbl_subtotalpercepciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_subtotalpercepciones.Location = new System.Drawing.Point(85, 614);
-            this.lbl_subtotalpercepciones.Name = "lbl_subtotalpercepciones";
-            this.lbl_subtotalpercepciones.Size = new System.Drawing.Size(215, 20);
-            this.lbl_subtotalpercepciones.TabIndex = 4;
-            this.lbl_subtotalpercepciones.Text = "Sub Total Percepciones:";
-            // 
-            // Txt_SubtotalPercepciones
-            // 
-            this.Txt_SubtotalPercepciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_SubtotalPercepciones.Location = new System.Drawing.Point(365, 611);
-            this.Txt_SubtotalPercepciones.Name = "Txt_SubtotalPercepciones";
-            this.Txt_SubtotalPercepciones.Size = new System.Drawing.Size(148, 27);
-            this.Txt_SubtotalPercepciones.TabIndex = 5;
-            // 
-            // lbl_subtotaldeducciones
-            // 
-            this.lbl_subtotaldeducciones.AutoSize = true;
-            this.lbl_subtotaldeducciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_subtotaldeducciones.Location = new System.Drawing.Point(648, 614);
-            this.lbl_subtotaldeducciones.Name = "lbl_subtotaldeducciones";
-            this.lbl_subtotaldeducciones.Size = new System.Drawing.Size(210, 20);
-            this.lbl_subtotaldeducciones.TabIndex = 6;
-            this.lbl_subtotaldeducciones.Text = "Sub Total Deducciones:";
-            // 
-            // Txt_SubtotalDeducciones
-            // 
-            this.Txt_SubtotalDeducciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Txt_SubtotalDeducciones.Location = new System.Drawing.Point(910, 611);
-            this.Txt_SubtotalDeducciones.Name = "Txt_SubtotalDeducciones";
-            this.Txt_SubtotalDeducciones.Size = new System.Drawing.Size(148, 27);
-            this.Txt_SubtotalDeducciones.TabIndex = 7;
-            // 
-            // btn_generarnomina
-            // 
-            this.btn_generarnomina.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
-            this.btn_generarnomina.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_generarnomina.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_generarnomina.Location = new System.Drawing.Point(1080, 676);
-            this.btn_generarnomina.Name = "btn_generarnomina";
-            this.btn_generarnomina.Size = new System.Drawing.Size(194, 40);
-            this.btn_generarnomina.TabIndex = 8;
-            this.btn_generarnomina.Text = "Generar Nomina";
-            this.btn_generarnomina.UseVisualStyleBackColor = false;
-            this.btn_generarnomina.Click += new System.EventHandler(this.Btn_generarnomina_Click);
-            // 
-            // btn_generar
-            // 
-            this.btn_generar.Location = new System.Drawing.Point(611, 260);
-            this.btn_generar.Name = "btn_generar";
-            this.btn_generar.Size = new System.Drawing.Size(75, 23);
-            this.btn_generar.TabIndex = 9;
-            this.btn_generar.Text = "Generar Nomina";
-            this.btn_generar.UseVisualStyleBackColor = true;
-            this.btn_generar.Click += new System.EventHandler(this.Btn_generar_Click);
-            // 
             // Frm_Nomina
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1303, 728);
-            this.Controls.Add(this.btn_generar);
             this.Controls.Add(this.btn_generarnomina);
             this.Controls.Add(this.Txt_SubtotalDeducciones);
             this.Controls.Add(this.lbl_subtotaldeducciones);
@@ -522,7 +497,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Button btn_generar;
     }
 }

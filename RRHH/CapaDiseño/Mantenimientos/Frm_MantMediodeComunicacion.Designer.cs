@@ -50,7 +50,6 @@
             this.Btn_guardar = new System.Windows.Forms.Button();
             this.Btn_editar = new System.Windows.Forms.Button();
             this.Btn_ingresar = new System.Windows.Forms.Button();
-            this.label_cod = new System.Windows.Forms.Label();
             this.Pnl_nombreForm.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -58,15 +57,14 @@
             // Pnl_nombreForm
             // 
             this.Pnl_nombreForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
-            this.Pnl_nombreForm.Controls.Add(this.label_cod);
             this.Pnl_nombreForm.Controls.Add(this.btn_Ayuda);
             this.Pnl_nombreForm.Controls.Add(this.Label_MantEmpleados);
             this.Pnl_nombreForm.Controls.Add(this.btn_minimizar);
             this.Pnl_nombreForm.Controls.Add(this.btn_cerrar);
             this.Pnl_nombreForm.Location = new System.Drawing.Point(-1, 0);
-            this.Pnl_nombreForm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Pnl_nombreForm.Margin = new System.Windows.Forms.Padding(2);
             this.Pnl_nombreForm.Name = "Pnl_nombreForm";
-            this.Pnl_nombreForm.Size = new System.Drawing.Size(859, 63);
+            this.Pnl_nombreForm.Size = new System.Drawing.Size(644, 51);
             this.Pnl_nombreForm.TabIndex = 2;
             // 
             // btn_Ayuda
@@ -74,10 +72,10 @@
             this.btn_Ayuda.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Ayuda.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_Ayuda.Image = ((System.Drawing.Image)(resources.GetObject("btn_Ayuda.Image")));
-            this.btn_Ayuda.Location = new System.Drawing.Point(740, 14);
-            this.btn_Ayuda.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_Ayuda.Location = new System.Drawing.Point(555, 11);
+            this.btn_Ayuda.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Ayuda.Name = "btn_Ayuda";
-            this.btn_Ayuda.Size = new System.Drawing.Size(44, 38);
+            this.btn_Ayuda.Size = new System.Drawing.Size(33, 31);
             this.btn_Ayuda.TabIndex = 6;
             this.btn_Ayuda.UseVisualStyleBackColor = true;
             this.btn_Ayuda.Click += new System.EventHandler(this.Btn_Ayuda_Click);
@@ -87,9 +85,10 @@
             this.Label_MantEmpleados.AutoSize = true;
             this.Label_MantEmpleados.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label_MantEmpleados.ForeColor = System.Drawing.Color.White;
-            this.Label_MantEmpleados.Location = new System.Drawing.Point(111, 18);
+            this.Label_MantEmpleados.Location = new System.Drawing.Point(19, 15);
+            this.Label_MantEmpleados.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Label_MantEmpleados.Name = "Label_MantEmpleados";
-            this.Label_MantEmpleados.Size = new System.Drawing.Size(532, 25);
+            this.Label_MantEmpleados.Size = new System.Drawing.Size(431, 20);
             this.Label_MantEmpleados.TabIndex = 0;
             this.Label_MantEmpleados.Text = "MANTENIMIENTO DE MEDIOS DE COMUNICACION";
             // 
@@ -98,10 +97,10 @@
             this.btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_minimizar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_minimizar.Image = ((System.Drawing.Image)(resources.GetObject("btn_minimizar.Image")));
-            this.btn_minimizar.Location = new System.Drawing.Point(691, 14);
-            this.btn_minimizar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_minimizar.Location = new System.Drawing.Point(518, 11);
+            this.btn_minimizar.Margin = new System.Windows.Forms.Padding(2);
             this.btn_minimizar.Name = "btn_minimizar";
-            this.btn_minimizar.Size = new System.Drawing.Size(44, 38);
+            this.btn_minimizar.Size = new System.Drawing.Size(33, 31);
             this.btn_minimizar.TabIndex = 5;
             this.btn_minimizar.UseVisualStyleBackColor = true;
             this.btn_minimizar.Click += new System.EventHandler(this.Btn_minimizar_Click);
@@ -111,10 +110,10 @@
             this.btn_cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_cerrar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_cerrar.Image = ((System.Drawing.Image)(resources.GetObject("btn_cerrar.Image")));
-            this.btn_cerrar.Location = new System.Drawing.Point(789, 14);
-            this.btn_cerrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_cerrar.Location = new System.Drawing.Point(592, 11);
+            this.btn_cerrar.Margin = new System.Windows.Forms.Padding(2);
             this.btn_cerrar.Name = "btn_cerrar";
-            this.btn_cerrar.Size = new System.Drawing.Size(44, 38);
+            this.btn_cerrar.Size = new System.Drawing.Size(33, 31);
             this.btn_cerrar.TabIndex = 4;
             this.btn_cerrar.UseVisualStyleBackColor = true;
             this.btn_cerrar.Click += new System.EventHandler(this.Btn_cerrar_Click);
@@ -131,11 +130,9 @@
             this.groupBox1.Controls.Add(this.Label_Nombre);
             this.groupBox1.Controls.Add(this.Txt_ID);
             this.groupBox1.Controls.Add(this.Label_IDMC);
-            this.groupBox1.Location = new System.Drawing.Point(31, 187);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Location = new System.Drawing.Point(23, 152);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox1.Size = new System.Drawing.Size(788, 220);
+            this.groupBox1.Size = new System.Drawing.Size(591, 179);
             this.groupBox1.TabIndex = 78;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "DATOS";
@@ -143,93 +140,83 @@
             // Cbo_Estado
             // 
             this.Cbo_Estado.FormattingEnabled = true;
-            this.Cbo_Estado.Location = new System.Drawing.Point(521, 128);
-            this.Cbo_Estado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Cbo_Estado.Location = new System.Drawing.Point(391, 104);
             this.Cbo_Estado.Name = "Cbo_Estado";
-            this.Cbo_Estado.Size = new System.Drawing.Size(241, 24);
+            this.Cbo_Estado.Size = new System.Drawing.Size(182, 21);
             this.Cbo_Estado.TabIndex = 9;
             this.Cbo_Estado.SelectedIndexChanged += new System.EventHandler(this.Cbo_Estado_SelectedIndexChanged);
             // 
             // Label_Estado
             // 
             this.Label_Estado.AutoSize = true;
-            this.Label_Estado.Location = new System.Drawing.Point(428, 130);
-            this.Label_Estado.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label_Estado.Location = new System.Drawing.Point(321, 106);
             this.Label_Estado.Name = "Label_Estado";
-            this.Label_Estado.Size = new System.Drawing.Size(52, 17);
+            this.Label_Estado.Size = new System.Drawing.Size(40, 13);
             this.Label_Estado.TabIndex = 8;
             this.Label_Estado.Text = "Estado";
             // 
             // Txt_Telefono
             // 
-            this.Txt_Telefono.Location = new System.Drawing.Point(521, 71);
-            this.Txt_Telefono.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Txt_Telefono.Location = new System.Drawing.Point(391, 58);
             this.Txt_Telefono.Name = "Txt_Telefono";
-            this.Txt_Telefono.Size = new System.Drawing.Size(241, 22);
+            this.Txt_Telefono.Size = new System.Drawing.Size(182, 20);
             this.Txt_Telefono.TabIndex = 7;
             // 
             // Label_Telefono
             // 
             this.Label_Telefono.AutoSize = true;
-            this.Label_Telefono.Location = new System.Drawing.Point(428, 75);
-            this.Label_Telefono.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label_Telefono.Location = new System.Drawing.Point(321, 61);
             this.Label_Telefono.Name = "Label_Telefono";
-            this.Label_Telefono.Size = new System.Drawing.Size(64, 17);
+            this.Label_Telefono.Size = new System.Drawing.Size(49, 13);
             this.Label_Telefono.TabIndex = 6;
             this.Label_Telefono.Text = "Telefono";
             // 
             // Txt_Direccion
             // 
-            this.Txt_Direccion.Location = new System.Drawing.Point(124, 159);
-            this.Txt_Direccion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Txt_Direccion.Location = new System.Drawing.Point(93, 129);
             this.Txt_Direccion.Name = "Txt_Direccion";
-            this.Txt_Direccion.Size = new System.Drawing.Size(241, 22);
+            this.Txt_Direccion.Size = new System.Drawing.Size(182, 20);
             this.Txt_Direccion.TabIndex = 5;
             // 
             // Label_Direccion
             // 
             this.Label_Direccion.AutoSize = true;
-            this.Label_Direccion.Location = new System.Drawing.Point(31, 162);
-            this.Label_Direccion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label_Direccion.Location = new System.Drawing.Point(23, 132);
             this.Label_Direccion.Name = "Label_Direccion";
-            this.Label_Direccion.Size = new System.Drawing.Size(67, 17);
+            this.Label_Direccion.Size = new System.Drawing.Size(52, 13);
             this.Label_Direccion.TabIndex = 4;
             this.Label_Direccion.Text = "Direccion";
             // 
             // Txt_Nombre
             // 
-            this.Txt_Nombre.Location = new System.Drawing.Point(124, 100);
-            this.Txt_Nombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Txt_Nombre.Location = new System.Drawing.Point(93, 81);
             this.Txt_Nombre.Name = "Txt_Nombre";
-            this.Txt_Nombre.Size = new System.Drawing.Size(241, 22);
+            this.Txt_Nombre.Size = new System.Drawing.Size(182, 20);
             this.Txt_Nombre.TabIndex = 3;
             // 
             // Label_Nombre
             // 
             this.Label_Nombre.AutoSize = true;
-            this.Label_Nombre.Location = new System.Drawing.Point(31, 103);
-            this.Label_Nombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label_Nombre.Location = new System.Drawing.Point(23, 84);
             this.Label_Nombre.Name = "Label_Nombre";
-            this.Label_Nombre.Size = new System.Drawing.Size(58, 17);
+            this.Label_Nombre.Size = new System.Drawing.Size(44, 13);
             this.Label_Nombre.TabIndex = 2;
             this.Label_Nombre.Text = "Nombre";
             // 
             // Txt_ID
             // 
-            this.Txt_ID.Location = new System.Drawing.Point(124, 44);
-            this.Txt_ID.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Txt_ID.Location = new System.Drawing.Point(93, 36);
             this.Txt_ID.Name = "Txt_ID";
-            this.Txt_ID.Size = new System.Drawing.Size(241, 22);
+            this.Txt_ID.Size = new System.Drawing.Size(182, 20);
             this.Txt_ID.TabIndex = 1;
             this.Txt_ID.TextChanged += new System.EventHandler(this.Txt_ID_TextChanged);
             // 
             // Label_IDMC
             // 
             this.Label_IDMC.AutoSize = true;
-            this.Label_IDMC.Location = new System.Drawing.Point(31, 48);
-            this.Label_IDMC.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label_IDMC.Location = new System.Drawing.Point(23, 39);
             this.Label_IDMC.Name = "Label_IDMC";
-            this.Label_IDMC.Size = new System.Drawing.Size(21, 17);
+            this.Label_IDMC.Size = new System.Drawing.Size(18, 13);
             this.Label_IDMC.TabIndex = 0;
             this.Label_IDMC.Text = "ID";
             // 
@@ -244,10 +231,10 @@
             this.Btn_consultar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_consultar.Image = ((System.Drawing.Image)(resources.GetObject("Btn_consultar.Image")));
             this.Btn_consultar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Btn_consultar.Location = new System.Drawing.Point(596, 71);
-            this.Btn_consultar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_consultar.Location = new System.Drawing.Point(447, 58);
+            this.Btn_consultar.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_consultar.Name = "Btn_consultar";
-            this.Btn_consultar.Size = new System.Drawing.Size(147, 110);
+            this.Btn_consultar.Size = new System.Drawing.Size(110, 89);
             this.Btn_consultar.TabIndex = 91;
             this.Btn_consultar.Text = "Consultar";
             this.Btn_consultar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -265,10 +252,10 @@
             this.Btn_borrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_borrar.Image = ((System.Drawing.Image)(resources.GetObject("Btn_borrar.Image")));
             this.Btn_borrar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Btn_borrar.Location = new System.Drawing.Point(484, 71);
-            this.Btn_borrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_borrar.Location = new System.Drawing.Point(363, 58);
+            this.Btn_borrar.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_borrar.Name = "Btn_borrar";
-            this.Btn_borrar.Size = new System.Drawing.Size(115, 110);
+            this.Btn_borrar.Size = new System.Drawing.Size(86, 89);
             this.Btn_borrar.TabIndex = 90;
             this.Btn_borrar.Text = "Borrar";
             this.Btn_borrar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -286,10 +273,10 @@
             this.Btn_guardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_guardar.Image = ((System.Drawing.Image)(resources.GetObject("Btn_guardar.Image")));
             this.Btn_guardar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Btn_guardar.Location = new System.Drawing.Point(372, 71);
-            this.Btn_guardar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_guardar.Location = new System.Drawing.Point(279, 58);
+            this.Btn_guardar.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_guardar.Name = "Btn_guardar";
-            this.Btn_guardar.Size = new System.Drawing.Size(115, 110);
+            this.Btn_guardar.Size = new System.Drawing.Size(86, 89);
             this.Btn_guardar.TabIndex = 89;
             this.Btn_guardar.Text = "Guardar";
             this.Btn_guardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -307,10 +294,10 @@
             this.Btn_editar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_editar.Image = ((System.Drawing.Image)(resources.GetObject("Btn_editar.Image")));
             this.Btn_editar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Btn_editar.Location = new System.Drawing.Point(260, 71);
-            this.Btn_editar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_editar.Location = new System.Drawing.Point(195, 58);
+            this.Btn_editar.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_editar.Name = "Btn_editar";
-            this.Btn_editar.Size = new System.Drawing.Size(115, 110);
+            this.Btn_editar.Size = new System.Drawing.Size(86, 89);
             this.Btn_editar.TabIndex = 88;
             this.Btn_editar.Text = "Editar";
             this.Btn_editar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -328,32 +315,21 @@
             this.Btn_ingresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_ingresar.Image = ((System.Drawing.Image)(resources.GetObject("Btn_ingresar.Image")));
             this.Btn_ingresar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Btn_ingresar.Location = new System.Drawing.Point(148, 71);
-            this.Btn_ingresar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_ingresar.Location = new System.Drawing.Point(111, 58);
+            this.Btn_ingresar.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_ingresar.Name = "Btn_ingresar";
-            this.Btn_ingresar.Size = new System.Drawing.Size(115, 110);
+            this.Btn_ingresar.Size = new System.Drawing.Size(86, 89);
             this.Btn_ingresar.TabIndex = 87;
             this.Btn_ingresar.Text = "Ingresar";
             this.Btn_ingresar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.Btn_ingresar.UseVisualStyleBackColor = false;
             this.Btn_ingresar.Click += new System.EventHandler(this.Btn_ingresar_Click);
             // 
-            // label_cod
-            // 
-            this.label_cod.AutoSize = true;
-            this.label_cod.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_cod.ForeColor = System.Drawing.Color.White;
-            this.label_cod.Location = new System.Drawing.Point(43, 18);
-            this.label_cod.Name = "label_cod";
-            this.label_cod.Size = new System.Drawing.Size(62, 25);
-            this.label_cod.TabIndex = 8;
-            this.label_cod.Text = "206 -";
-            // 
             // Frm_MediodeComunicacion
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(853, 433);
+            this.ClientSize = new System.Drawing.Size(640, 352);
             this.Controls.Add(this.Btn_consultar);
             this.Controls.Add(this.Btn_borrar);
             this.Controls.Add(this.Btn_guardar);
@@ -363,7 +339,6 @@
             this.Controls.Add(this.Pnl_nombreForm);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Location = new System.Drawing.Point(852, 12);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Frm_MediodeComunicacion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_MediodeComunicacion";
@@ -398,6 +373,5 @@
         private System.Windows.Forms.Button Btn_guardar;
         private System.Windows.Forms.Button Btn_editar;
         private System.Windows.Forms.Button Btn_ingresar;
-        private System.Windows.Forms.Label label_cod;
     }
 }

@@ -64,10 +64,10 @@ namespace CapaDiseño.Procesos
 
             if (concep.DialogResult == DialogResult.OK)
             {
-                txt_tipo.Text = concep.Dgv_consultaContratacion.Rows[concep.Dgv_consultaContratacion.CurrentRow.Index].
+                txt_creador.Text = concep.Dgv_consultaContratacion.Rows[concep.Dgv_consultaContratacion.CurrentRow.Index].
                       Cells[0].Value.ToString();
             }
-            if (string.IsNullOrEmpty(txt_tipo.Text))
+            if (string.IsNullOrEmpty(txt_creador.Text))
                 MessageBox.Show("Debe de seleccionar un tipo de contratación");
             else {
                 txt_extras.Enabled = true;

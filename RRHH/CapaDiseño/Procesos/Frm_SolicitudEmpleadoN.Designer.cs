@@ -62,7 +62,6 @@
             this.lbl_estudios = new System.Windows.Forms.Label();
             this.lbl_desCursos = new System.Windows.Forms.Label();
             this.txt_extras = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.Pnl_nombreForm.SuspendLayout();
             this.Gpb_nominaencabezado.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -71,7 +70,6 @@
             // Pnl_nombreForm
             // 
             this.Pnl_nombreForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
-            this.Pnl_nombreForm.Controls.Add(this.label3);
             this.Pnl_nombreForm.Controls.Add(this.btn_Ayuda);
             this.Pnl_nombreForm.Controls.Add(this.btn_minimizar);
             this.Pnl_nombreForm.Controls.Add(this.lbl_titulo);
@@ -113,7 +111,7 @@
             this.lbl_titulo.AutoSize = true;
             this.lbl_titulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_titulo.ForeColor = System.Drawing.Color.White;
-            this.lbl_titulo.Location = new System.Drawing.Point(87, 17);
+            this.lbl_titulo.Location = new System.Drawing.Point(27, 15);
             this.lbl_titulo.Name = "lbl_titulo";
             this.lbl_titulo.Size = new System.Drawing.Size(265, 25);
             this.lbl_titulo.TabIndex = 0;
@@ -298,7 +296,7 @@
             // 
             this.chc_Cursos.AutoSize = true;
             this.chc_Cursos.Location = new System.Drawing.Point(392, 233);
-            this.chc_Cursos.Margin = new System.Windows.Forms.Padding(4);
+            this.chc_Cursos.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chc_Cursos.Name = "chc_Cursos";
             this.chc_Cursos.Size = new System.Drawing.Size(18, 17);
             this.chc_Cursos.TabIndex = 59;
@@ -308,7 +306,7 @@
             // 
             this.chc_Graduado.AutoSize = true;
             this.chc_Graduado.Location = new System.Drawing.Point(392, 201);
-            this.chc_Graduado.Margin = new System.Windows.Forms.Padding(4);
+            this.chc_Graduado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chc_Graduado.Name = "chc_Graduado";
             this.chc_Graduado.Size = new System.Drawing.Size(18, 17);
             this.chc_Graduado.TabIndex = 58;
@@ -318,7 +316,7 @@
             // 
             this.chc_Estudiante.AutoSize = true;
             this.chc_Estudiante.Location = new System.Drawing.Point(392, 169);
-            this.chc_Estudiante.Margin = new System.Windows.Forms.Padding(4);
+            this.chc_Estudiante.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chc_Estudiante.Name = "chc_Estudiante";
             this.chc_Estudiante.Size = new System.Drawing.Size(18, 17);
             this.chc_Estudiante.TabIndex = 57;
@@ -328,7 +326,7 @@
             // 
             this.chc_bachillerato.AutoSize = true;
             this.chc_bachillerato.Location = new System.Drawing.Point(392, 137);
-            this.chc_bachillerato.Margin = new System.Windows.Forms.Padding(4);
+            this.chc_bachillerato.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chc_bachillerato.Name = "chc_bachillerato";
             this.chc_bachillerato.Size = new System.Drawing.Size(18, 17);
             this.chc_bachillerato.TabIndex = 56;
@@ -338,7 +336,7 @@
             // 
             this.chc_secundaria.AutoSize = true;
             this.chc_secundaria.Location = new System.Drawing.Point(392, 103);
-            this.chc_secundaria.Margin = new System.Windows.Forms.Padding(4);
+            this.chc_secundaria.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chc_secundaria.Name = "chc_secundaria";
             this.chc_secundaria.Size = new System.Drawing.Size(18, 17);
             this.chc_secundaria.TabIndex = 55;
@@ -348,7 +346,7 @@
             // 
             this.chc_primaria.AutoSize = true;
             this.chc_primaria.Location = new System.Drawing.Point(392, 71);
-            this.chc_primaria.Margin = new System.Windows.Forms.Padding(4);
+            this.chc_primaria.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.chc_primaria.Name = "chc_primaria";
             this.chc_primaria.Size = new System.Drawing.Size(18, 17);
             this.chc_primaria.TabIndex = 54;
@@ -448,23 +446,11 @@
             this.txt_extras.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.txt_extras.Location = new System.Drawing.Point(631, 59);
-            this.txt_extras.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_extras.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_extras.Multiline = true;
             this.txt_extras.Name = "txt_extras";
             this.txt_extras.Size = new System.Drawing.Size(549, 222);
             this.txt_extras.TabIndex = 45;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(27, 15);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(62, 25);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "230 -";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Frm_SolicitudEmpleadoN
             // 
@@ -476,7 +462,7 @@
             this.Controls.Add(this.Gpb_nominaencabezado);
             this.Controls.Add(this.Pnl_nombreForm);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Frm_SolicitudEmpleadoN";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_SolicitudEmpleadoN";
@@ -526,6 +512,5 @@
         private System.Windows.Forms.Label lbl_estudios;
         private System.Windows.Forms.Label lbl_desCursos;
         private System.Windows.Forms.TextBox txt_extras;
-        private System.Windows.Forms.Label label3;
     }
 }

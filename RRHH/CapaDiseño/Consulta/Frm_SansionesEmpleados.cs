@@ -63,10 +63,5 @@ namespace CapaDiseño.Procesos
             Dgv_SancionEmpleado.Rows.Clear();
             MostrarSansionEmpleado();
         }
-
-        private void Lbl_SansionesPersonal_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

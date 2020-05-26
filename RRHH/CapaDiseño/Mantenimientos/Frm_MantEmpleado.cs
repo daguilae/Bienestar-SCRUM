@@ -22,10 +22,8 @@ namespace CapaDiseño.Mantenimientos
         string slocalIP;
         string smacAddresses;
         string suser;
-        string tipopermiso;
-        string scampo;
-
-
+        
+          
 
         public void obtenerip()
         {
@@ -48,125 +46,26 @@ namespace CapaDiseño.Mantenimientos
                 }
             }
         }
-        public Frm_MantEmpleado(String susuario,String permiso)
+        public Frm_MantEmpleado(String susuario)
         {
             InitializeComponent();
-            scampo = logic.siguiente("empleado", "pkcodigoempleado");
-            Txt_Cod.Text = scampo;
             obtenerip();
-            Cbo_estado.Items.Add("Activo");
-            Cbo_estado.Items.Add("Inactivo");
-            
-
             suser = susuario;
-            tipopermiso = permiso;
-            Btn_guardar.Enabled = false;
-            Btn_editar.Enabled = false;
-            Btn_borrar.Enabled = false;
-            Btn_consultar.Enabled = false;
-            bloquear();
-
-        }
-
-        public void desbloquear()
-        {
-         
-            TxtSegundoApellido.Enabled = true;
-            Txt_SegundoNombre.Enabled = true;
-            Txt_PrimerApellido.Enabled = true;
-            Txt_PrimerNombre.Enabled = true;
-            Txt_Telefono.Enabled = true;
-            Txt_Celular.Enabled = true;
-            Txt_email.Enabled = true;
-            Txt_Nit.Enabled = true;
-            Txt_Direccion.Enabled = true;
-            Cbo_estado.Enabled = true;
-            Dtp_FechaNacimiento.Enabled = true;
-        }
-
-        public void bloquear()
-        {
             Txt_Cod.Enabled = false;
-            TxtSegundoApellido.Enabled = false;
+            Txt_PrimerApellido.Enabled = false;
             Txt_SegundoNombre.Enabled = false;
             Txt_PrimerApellido.Enabled = false;
-            Txt_PrimerNombre.Enabled = false;
+            Txt_SegundoNombre.Enabled = false;
             Txt_Telefono.Enabled = false;
             Txt_Celular.Enabled = false;
             Txt_email.Enabled = false;
             Txt_Nit.Enabled = false;
             Txt_Direccion.Enabled = false;
-            Cbo_estado.Enabled = false;
-            Dtp_FechaNacimiento.Enabled = false;
-        }
-
-        public void limpiar()
-        {
-            Txt_Cod.Text = "";
-            TxtSegundoApellido.Text = "";
-            Txt_PrimerNombre.Text = "";
-            Txt_PrimerApellido.Text = "";
-            Txt_SegundoNombre.Text = "";
-            Txt_Telefono.Text = "";
-            Txt_Celular.Text = "";
-            Txt_email.Text = "";
-            Txt_Nit.Text = "";
-            Txt_Direccion.Text = "";
-
-
         }
 
         private void Pnl_nombreForm_Paint(object sender, PaintEventArgs e)
         {
 
-        }
-
-        public void permisos()
-        {
-            if (tipopermiso == "1111")
-            {
-                //todos
-                Btn_guardar.Enabled = true;
-                Btn_editar.Enabled = true;
-                Btn_borrar.Enabled = true;
-                Btn_consultar.Enabled = true;
-                desbloquear();
-            }
-            if (tipopermiso == "1001")
-            {
-                //Guardar
-                Btn_guardar.Enabled = true;
-                Btn_editar.Enabled = false;
-                Btn_borrar.Enabled = false;
-                Btn_consultar.Enabled = true;
-                desbloquear();
-            }
-            if (tipopermiso == "0101")
-            {
-                //modificar
-                Btn_guardar.Enabled = false;
-                Btn_editar.Enabled = true;
-                Btn_borrar.Enabled = false;
-                Btn_consultar.Enabled = true;
-                desbloquear();
-            }
-            if (tipopermiso == "0011")
-            {
-                //eliminar
-                Btn_guardar.Enabled = false;
-                Btn_editar.Enabled = false;
-                Btn_borrar.Enabled = true;
-                Btn_consultar.Enabled = true;
-                desbloquear();
-            }
-            if (tipopermiso == "0001")
-            {
-                Btn_guardar.Enabled = false;
-                Btn_editar.Enabled = false;
-                Btn_borrar.Enabled = false;
-                Btn_ingresar.Enabled = false;
-                Btn_consultar.Enabled = true;
-            }
         }
 
         private void TextBox15_TextChanged(object sender, EventArgs e)
@@ -257,7 +156,7 @@ namespace CapaDiseño.Mantenimientos
 
         public void PicActualizar_Click(object sender, EventArgs e)
         {
-            OdbcDataReader cita = logic.ModificarEmpleado(Txt_Cod.Text, Txt_PrimerNombre.Text, Txt_SegundoNombre.Text,Txt_PrimerApellido.Text,TxtSegundoApellido.Text,Txt_Telefono.Text,Txt_Celular.Text,Txt_email.Text,Txt_Direccion.Text,Txt_Nit.Text,Cbo_estado.Text);
+            OdbcDataReader cita = logic.ModificarEmpleado(Txt_Cod.Text,Txt_PrimerApellido.Text,Txt_SegundoNombre.Text,Txt_PrimerApellido.Text,TxtSegundoApellido.Text,Txt_Telefono.Text,Txt_Celular.Text,Txt_email.Text,Txt_Direccion.Text,Txt_Nit.Text,Cbo_estado.Text);
             MessageBox.Show("Datos modificados correctamente.");
             logic.bitacora("0", slocalIP, smacAddresses, suser, "RRHH", DateTime.Now.ToString("G"), "Modificar", this.GetType().Name);
 
@@ -265,7 +164,7 @@ namespace CapaDiseño.Mantenimientos
 
         private void Pic_Guardar_Click(object sender, EventArgs e)
         {
-            OdbcDataReader cita = logic.Insertarempleado(Txt_Cod.Text, "1", Txt_PrimerNombre.Text, Txt_SegundoNombre.Text, Txt_PrimerApellido.Text, TxtSegundoApellido.Text, Txt_Telefono.Text, Txt_Celular.Text, Txt_email.Text, Txt_Direccion.Text, "1998-04-01", Cbo_estado.Text,"1",Txt_Nit.Text);
+            OdbcDataReader cita = logic.Insertarempleado(Txt_PrimerApellido.Text, Txt_SegundoNombre.Text, Txt_PrimerApellido.Text, TxtSegundoApellido.Text, Txt_Telefono.Text, Txt_Celular.Text, Txt_email.Text, Txt_Direccion.Text,Txt_Nit.Text ,Cbo_estado.Text);
             MessageBox.Show("Datos Insertados");
             logic.bitacora("0", slocalIP, smacAddresses, suser, "RRHH", DateTime.Now.ToString("G"), "Guardar", this.GetType().Name);
 
@@ -289,8 +188,14 @@ namespace CapaDiseño.Mantenimientos
 
         private void Btn_ingresar_Click(object sender, EventArgs e)
         {
-
-            permisos();
+            Txt_PrimerApellido.Enabled = true;
+            Txt_SegundoNombre.Enabled = true;
+            Txt_PrimerApellido.Enabled = true;
+            Txt_SegundoNombre.Enabled = true;
+            Txt_Telefono.Enabled = true;
+            Txt_Celular.Enabled = true;
+            Txt_email.Enabled = true;
+            Txt_Direccion.Enabled = true;
         }
 
         private void Btn_editar_Click(object sender, EventArgs e)
@@ -298,15 +203,14 @@ namespace CapaDiseño.Mantenimientos
             OdbcDataReader cita = logic.ModificarEmpleado(Txt_Cod.Text, Txt_PrimerApellido.Text, Txt_SegundoNombre.Text, Txt_PrimerApellido.Text, TxtSegundoApellido.Text, Txt_Telefono.Text, Txt_Celular.Text, Txt_email.Text, Txt_Direccion.Text,Txt_Nit.Text ,Cbo_estado.Text);
             MessageBox.Show("Datos modificados correctamente.");
             logic.bitacora("0", slocalIP, smacAddresses, suser, "RRHH", DateTime.Now.ToString("G"), "Modificar", this.GetType().Name);
-            limpiar();
         }
 
         private void Btn_guardar_Click(object sender, EventArgs e)
         {
-            OdbcDataReader cita = logic.Insertarempleado(Txt_Cod.Text, "1", Txt_PrimerNombre.Text, Txt_SegundoNombre.Text, Txt_PrimerApellido.Text, TxtSegundoApellido.Text, Txt_Telefono.Text, Txt_Celular.Text, Txt_email.Text, Txt_Direccion.Text, " ", Cbo_estado.Text, "1", Txt_Nit.Text);
+            OdbcDataReader cita = logic.Insertarempleado(Txt_PrimerApellido.Text, Txt_SegundoNombre.Text, Txt_PrimerApellido.Text, TxtSegundoApellido.Text, Txt_Telefono.Text, Txt_Celular.Text, Txt_email.Text, Txt_Direccion.Text, Txt_Nit.Text ,Cbo_estado.Text);
             MessageBox.Show("Datos Insertados");
             logic.bitacora("0", slocalIP, smacAddresses, suser, "RRHH", DateTime.Now.ToString("G"), "Guardar", this.GetType().Name);
-            limpiar();
+
         }
 
         private void Btn_borrar_Click(object sender, EventArgs e)
@@ -314,7 +218,6 @@ namespace CapaDiseño.Mantenimientos
             OdbcDataReader cita = logic.eliminarEmpleado(Txt_Cod.Text);
             MessageBox.Show("Eliminado Correctamente.");
             logic.bitacora("0", slocalIP, smacAddresses, suser, "RRHH", DateTime.Now.ToString("G"), "Eliminar", this.GetType().Name);
-            limpiar();
         }
 
         private void Btn_consultar_Click(object sender, EventArgs e)
@@ -353,7 +256,8 @@ namespace CapaDiseño.Mantenimientos
 
         private void Cbo_estado_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+            Cbo_estado.Items.Add("1");
+            Cbo_estado.Items.Add("0");
 
         }
     }

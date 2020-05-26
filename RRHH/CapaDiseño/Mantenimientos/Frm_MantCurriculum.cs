@@ -23,9 +23,8 @@ namespace CapaDiseño.Mantenimientos
         string slocalIP;
         string smacAddresses;
         string suser;
-	string tipopermiso;
-	
-                  
+        
+          
         public void obtenerip()
         {
             IPHostEntry host;
@@ -48,26 +47,13 @@ namespace CapaDiseño.Mantenimientos
             }
         }
 
-        public Frm_MantCurriculum(String susuario, String permiso)
+        public Frm_MantCurriculum(String susuario)
         {
 
             InitializeComponent();
             scampo = logic.siguiente("tbl_curriculums", "pkidCurriculum");
             obtenerip();
             suser = susuario;
-	    bloqueartxt();
-            tipopermiso = permiso;
-            /*------------------------*/
-            Btn_guardar.Enabled = false;
-            Btn_editar.Enabled = false;
-            Btn_borrar.Enabled = false;
-	    Btn_consultar.Enabled=false;
-            /*------------------------*/
-
-        }
-
- public void bloqueartxt()
-        {
 
             chc_primaria.Enabled = false;
             chc_secundaria.Enabled = false;
@@ -84,28 +70,8 @@ namespace CapaDiseño.Mantenimientos
             txt_Experiencia.Enabled = false;
             txt_Sueldo.Enabled = false;
             txt_extras.Enabled = false;
-            txt_Numero.Enabled = false;
         }
-        public void desbloqueartxt()
-        {
-          
-           chc_primaria.Enabled = true;
-            chc_secundaria.Enabled = true;
-            chc_bachillerato.Enabled = true;
-            chc_Estudiante.Enabled = true;
-            chc_Graduado.Enabled = true;
-            chc_Cursos.Enabled = true;
-            Txt_Cod.Text = scampo;
-            Txt_nombre.Enabled = true;
-            txt_Apellido.Enabled = true;
-            txt_Direccion.Enabled = true;
-            txt_Correo.Enabled = true;
-            txt_Solicitud.Enabled = true;
-            txt_Experiencia.Enabled = true;
-            txt_Sueldo.Enabled = true;
-            txt_extras.Enabled = true;
-            txt_Numero.Enabled = true;
-        }
+
         public void limpiar()
         {
             Txt_Cod.Text = " ";
@@ -126,54 +92,8 @@ namespace CapaDiseño.Mantenimientos
 
             scampo = logic.siguiente("tbl_curriculums", "pkidCurriculum");
             Txt_Cod.Text = scampo;
-        }
 
-public void permisos()
-        {
-            if (tipopermiso == "1111")
-            {
-                //todos
-                Btn_guardar.Enabled = true;
-                Btn_editar.Enabled = true;
-                Btn_borrar.Enabled = true;
-                Btn_consultar.Enabled = true;
-                desbloqueartxt();
-            }
-            if (tipopermiso == "1001")
-            {
-                //Guardar
-                Btn_guardar.Enabled = true;
-                Btn_editar.Enabled = false;
-                Btn_borrar.Enabled = false;
-                Btn_consultar.Enabled = true;
-                desbloqueartxt();
-            }
-            if (tipopermiso == "0101")
-            {
-                //modificar
-                Btn_guardar.Enabled = false;
-                Btn_editar.Enabled = true;
-                Btn_borrar.Enabled = false;
-                Btn_consultar.Enabled = true;
-                desbloqueartxt();
-            }
-            if (tipopermiso == "0011")
-            {
-                //eliminar
-                Btn_guardar.Enabled = false;
-                Btn_editar.Enabled = false;
-                Btn_borrar.Enabled = true;
-                Btn_consultar.Enabled = true;
-                desbloqueartxt();
-            }
-            if (tipopermiso == "0001")
-            {
-                Btn_guardar.Enabled = false;
-                Btn_editar.Enabled = false;
-                Btn_borrar.Enabled = false;
-                Btn_ingresar.Enabled = false;
-                Btn_consultar.Enabled = true;
-            }
+
         }
 
         private void Btn_buscarCreador_Click(object sender, EventArgs e)
@@ -198,7 +118,22 @@ public void permisos()
 
         private void Btn_ingresar_Click(object sender, EventArgs e)
         {
-            permisos();
+            chc_primaria.Enabled = true;
+            chc_secundaria.Enabled = true;
+            chc_bachillerato.Enabled = true;
+            chc_Estudiante.Enabled = true;
+            chc_Graduado.Enabled = true;
+            chc_Cursos.Enabled = true;
+            Txt_Cod.Text = scampo;
+            Txt_nombre.Enabled = true;
+            txt_Apellido.Enabled = true;
+            txt_Direccion.Enabled = true;
+            txt_Correo.Enabled = true;
+            txt_Solicitud.Enabled = true;
+            txt_Experiencia.Enabled = true;
+            txt_Sueldo.Enabled = true;
+            txt_extras.Enabled = true;
+
         }
 
         private void Btn_guardar_Click(object sender, EventArgs e)

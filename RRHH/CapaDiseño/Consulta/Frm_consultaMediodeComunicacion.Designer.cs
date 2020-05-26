@@ -38,11 +38,10 @@
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Pnl_nombreForm = new System.Windows.Forms.Panel();
+            this.Label_CMC = new System.Windows.Forms.Label();
             this.btn_Ayuda = new System.Windows.Forms.Button();
             this.btn_minimizar = new System.Windows.Forms.Button();
             this.btn_cerrar = new System.Windows.Forms.Button();
-            this.Label_CMC = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_consultaMedios)).BeginInit();
             this.Pnl_nombreForm.SuspendLayout();
             this.SuspendLayout();
@@ -137,7 +136,6 @@
             // Pnl_nombreForm
             // 
             this.Pnl_nombreForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
-            this.Pnl_nombreForm.Controls.Add(this.label1);
             this.Pnl_nombreForm.Controls.Add(this.btn_Ayuda);
             this.Pnl_nombreForm.Controls.Add(this.btn_minimizar);
             this.Pnl_nombreForm.Controls.Add(this.btn_cerrar);
@@ -147,6 +145,17 @@
             this.Pnl_nombreForm.Name = "Pnl_nombreForm";
             this.Pnl_nombreForm.Size = new System.Drawing.Size(969, 63);
             this.Pnl_nombreForm.TabIndex = 79;
+            // 
+            // Label_CMC
+            // 
+            this.Label_CMC.AutoSize = true;
+            this.Label_CMC.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_CMC.ForeColor = System.Drawing.Color.White;
+            this.Label_CMC.Location = new System.Drawing.Point(27, 15);
+            this.Label_CMC.Name = "Label_CMC";
+            this.Label_CMC.Size = new System.Drawing.Size(377, 25);
+            this.Label_CMC.TabIndex = 0;
+            this.Label_CMC.Text = "Consulta de Medios de Comunicacion";
             // 
             // btn_Ayuda
             // 
@@ -187,28 +196,6 @@
             this.btn_cerrar.UseVisualStyleBackColor = true;
             this.btn_cerrar.Click += new System.EventHandler(this.btn_cerrar_Click_1);
             // 
-            // Label_CMC
-            // 
-            this.Label_CMC.AutoSize = true;
-            this.Label_CMC.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_CMC.ForeColor = System.Drawing.Color.White;
-            this.Label_CMC.Location = new System.Drawing.Point(83, 19);
-            this.Label_CMC.Name = "Label_CMC";
-            this.Label_CMC.Size = new System.Drawing.Size(377, 25);
-            this.Label_CMC.TabIndex = 0;
-            this.Label_CMC.Text = "Consulta de Medios de Comunicacion";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(18, 18);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 25);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "223 -";
-            // 
             // Frm_consultaMediodeComunicacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -219,7 +206,7 @@
             this.Controls.Add(this.Dgv_consultaMedios);
             this.Controls.Add(this.Pnl_nombreForm);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Frm_consultaMediodeComunicacion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_consultaMediodeComunicacion";
@@ -245,6 +232,5 @@
         private System.Windows.Forms.Button btn_Ayuda;
         private System.Windows.Forms.Button btn_minimizar;
         private System.Windows.Forms.Button btn_cerrar;
-        private System.Windows.Forms.Label label1;
     }
 }

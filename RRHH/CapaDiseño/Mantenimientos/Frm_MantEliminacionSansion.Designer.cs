@@ -48,7 +48,6 @@
             this.btn_Ayuda = new System.Windows.Forms.Button();
             this.btn_minimizar = new System.Windows.Forms.Button();
             this.btn_cerrar = new System.Windows.Forms.Button();
-            this.Lbl_IngresoSansion = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Barra)).BeginInit();
             this.Gpb_IngresoDatos.SuspendLayout();
             this.Gpb_Busqueda.SuspendLayout();
@@ -70,7 +69,7 @@
             this.Lbl_EliminarSansion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
             this.Lbl_EliminarSansion.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_EliminarSansion.ForeColor = System.Drawing.Color.White;
-            this.Lbl_EliminarSansion.Location = new System.Drawing.Point(111, 9);
+            this.Lbl_EliminarSansion.Location = new System.Drawing.Point(12, 2);
             this.Lbl_EliminarSansion.Name = "Lbl_EliminarSansion";
             this.Lbl_EliminarSansion.Size = new System.Drawing.Size(316, 31);
             this.Lbl_EliminarSansion.TabIndex = 29;
@@ -262,24 +261,11 @@
             this.btn_cerrar.UseVisualStyleBackColor = false;
             this.btn_cerrar.Click += new System.EventHandler(this.btn_cerrar_Click);
             // 
-            // Lbl_IngresoSansion
-            // 
-            this.Lbl_IngresoSansion.AutoSize = true;
-            this.Lbl_IngresoSansion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
-            this.Lbl_IngresoSansion.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_IngresoSansion.ForeColor = System.Drawing.Color.White;
-            this.Lbl_IngresoSansion.Location = new System.Drawing.Point(37, 8);
-            this.Lbl_IngresoSansion.Name = "Lbl_IngresoSansion";
-            this.Lbl_IngresoSansion.Size = new System.Drawing.Size(80, 31);
-            this.Lbl_IngresoSansion.TabIndex = 74;
-            this.Lbl_IngresoSansion.Text = "212 -";
-            // 
             // Frm_MantEliminacionSansion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(629, 508);
-            this.Controls.Add(this.Lbl_IngresoSansion);
             this.Controls.Add(this.btn_Ayuda);
             this.Controls.Add(this.btn_minimizar);
             this.Controls.Add(this.btn_cerrar);
@@ -323,6 +309,5 @@
         private System.Windows.Forms.Button btn_cerrar;
         private System.Windows.Forms.DateTimePicker Dtp_FechaSalida;
         private System.Windows.Forms.DateTimePicker Dtp_FechaIngreso;
-        private System.Windows.Forms.Label Lbl_IngresoSansion;
     }
 }

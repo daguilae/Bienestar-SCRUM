@@ -42,7 +42,6 @@
             this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.creador = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label1 = new System.Windows.Forms.Label();
             this.Pnl_nombreForm.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_consultaPre)).BeginInit();
             this.SuspendLayout();
@@ -50,7 +49,6 @@
             // Pnl_nombreForm
             // 
             this.Pnl_nombreForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
-            this.Pnl_nombreForm.Controls.Add(this.label1);
             this.Pnl_nombreForm.Controls.Add(this.btn_Ayuda);
             this.Pnl_nombreForm.Controls.Add(this.btn_minimizar);
             this.Pnl_nombreForm.Controls.Add(this.lbl_procesonominal);
@@ -92,7 +90,7 @@
             this.lbl_procesonominal.AutoSize = true;
             this.lbl_procesonominal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_procesonominal.ForeColor = System.Drawing.Color.White;
-            this.lbl_procesonominal.Location = new System.Drawing.Point(95, 19);
+            this.lbl_procesonominal.Location = new System.Drawing.Point(27, 15);
             this.lbl_procesonominal.Name = "lbl_procesonominal";
             this.lbl_procesonominal.Size = new System.Drawing.Size(284, 25);
             this.lbl_procesonominal.TabIndex = 0;
@@ -115,7 +113,7 @@
             // 
             this.btn_selec.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_selec.Location = new System.Drawing.Point(972, 71);
-            this.btn_selec.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_selec.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_selec.Name = "btn_selec";
             this.btn_selec.Size = new System.Drawing.Size(332, 53);
             this.btn_selec.TabIndex = 40;
@@ -138,7 +136,7 @@
             // 
             this.txt_id.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_id.Location = new System.Drawing.Point(180, 85);
-            this.txt_id.Margin = new System.Windows.Forms.Padding(4);
+            this.txt_id.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_id.Name = "txt_id";
             this.txt_id.Size = new System.Drawing.Size(225, 26);
             this.txt_id.TabIndex = 38;
@@ -148,7 +146,7 @@
             // 
             this.btn_buscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_buscar.Location = new System.Drawing.Point(413, 85);
-            this.btn_buscar.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_buscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_buscar.Name = "btn_buscar";
             this.btn_buscar.Size = new System.Drawing.Size(100, 28);
             this.btn_buscar.TabIndex = 37;
@@ -169,7 +167,7 @@
             this.creador,
             this.tipo});
             this.Dgv_consultaPre.Location = new System.Drawing.Point(12, 140);
-            this.Dgv_consultaPre.Margin = new System.Windows.Forms.Padding(4);
+            this.Dgv_consultaPre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Dgv_consultaPre.Name = "Dgv_consultaPre";
             this.Dgv_consultaPre.ReadOnly = true;
             this.Dgv_consultaPre.RowHeadersVisible = false;
@@ -198,17 +196,6 @@
             this.tipo.MinimumWidth = 6;
             this.tipo.Name = "tipo";
             this.tipo.ReadOnly = true;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(31, 19);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 25);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "240 -";
             // 
             // Frm_busquedaInterna
             // 
@@ -250,6 +237,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn id;
         private System.Windows.Forms.DataGridViewTextBoxColumn creador;
         private System.Windows.Forms.DataGridViewTextBoxColumn tipo;
-        private System.Windows.Forms.Label label1;
     }
 }

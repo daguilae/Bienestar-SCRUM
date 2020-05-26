@@ -42,7 +42,6 @@
             this.Lbl_IngresoSansion = new System.Windows.Forms.Label();
             this.Pic_Barra = new System.Windows.Forms.PictureBox();
             this.btn_cerrar = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.Gpb_IngresoDatos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Barra)).BeginInit();
             this.SuspendLayout();
@@ -53,7 +52,7 @@
             this.btn_Ayuda.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Ayuda.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_Ayuda.Image = global::CapaDiseño.Properties.Resources.question__1_;
-            this.btn_Ayuda.Location = new System.Drawing.Point(600, 10);
+            this.btn_Ayuda.Location = new System.Drawing.Point(471, 6);
             this.btn_Ayuda.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_Ayuda.Name = "btn_Ayuda";
             this.btn_Ayuda.Size = new System.Drawing.Size(44, 38);
@@ -67,7 +66,7 @@
             this.btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_minimizar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_minimizar.Image = ((System.Drawing.Image)(resources.GetObject("btn_minimizar.Image")));
-            this.btn_minimizar.Location = new System.Drawing.Point(550, 10);
+            this.btn_minimizar.Location = new System.Drawing.Point(421, 6);
             this.btn_minimizar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_minimizar.Name = "btn_minimizar";
             this.btn_minimizar.Size = new System.Drawing.Size(44, 38);
@@ -95,7 +94,7 @@
             this.Gpb_IngresoDatos.Controls.Add(this.Lbl_Descripcion);
             this.Gpb_IngresoDatos.Controls.Add(this.Lbl_RazonSansion);
             this.Gpb_IngresoDatos.Controls.Add(this.Lbl_NombreEmpleado);
-            this.Gpb_IngresoDatos.Location = new System.Drawing.Point(83, 77);
+            this.Gpb_IngresoDatos.Location = new System.Drawing.Point(16, 84);
             this.Gpb_IngresoDatos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Gpb_IngresoDatos.Name = "Gpb_IngresoDatos";
             this.Gpb_IngresoDatos.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -162,7 +161,7 @@
             this.Lbl_IngresoSansion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
             this.Lbl_IngresoSansion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_IngresoSansion.ForeColor = System.Drawing.Color.White;
-            this.Lbl_IngresoSansion.Location = new System.Drawing.Point(124, 18);
+            this.Lbl_IngresoSansion.Location = new System.Drawing.Point(29, 14);
             this.Lbl_IngresoSansion.Name = "Lbl_IngresoSansion";
             this.Lbl_IngresoSansion.Size = new System.Drawing.Size(357, 25);
             this.Lbl_IngresoSansion.TabIndex = 40;
@@ -174,7 +173,7 @@
             this.Pic_Barra.Location = new System.Drawing.Point(1, 1);
             this.Pic_Barra.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Pic_Barra.Name = "Pic_Barra";
-            this.Pic_Barra.Size = new System.Drawing.Size(803, 55);
+            this.Pic_Barra.Size = new System.Drawing.Size(577, 55);
             this.Pic_Barra.TabIndex = 39;
             this.Pic_Barra.TabStop = false;
             // 
@@ -184,7 +183,7 @@
             this.btn_cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_cerrar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_cerrar.Image = ((System.Drawing.Image)(resources.GetObject("btn_cerrar.Image")));
-            this.btn_cerrar.Location = new System.Drawing.Point(649, 10);
+            this.btn_cerrar.Location = new System.Drawing.Point(520, 6);
             this.btn_cerrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_cerrar.Name = "btn_cerrar";
             this.btn_cerrar.Size = new System.Drawing.Size(44, 38);
@@ -192,24 +191,11 @@
             this.btn_cerrar.UseVisualStyleBackColor = false;
             this.btn_cerrar.Click += new System.EventHandler(this.btn_cerrar_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(38, 15);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 31);
-            this.label1.TabIndex = 47;
-            this.label1.Text = "210 -";
-            // 
             // Frm_MantIngresocuentascontables
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(705, 337);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(569, 337);
             this.Controls.Add(this.btn_cerrar);
             this.Controls.Add(this.btn_Ayuda);
             this.Controls.Add(this.btn_minimizar);
@@ -217,7 +203,7 @@
             this.Controls.Add(this.Lbl_IngresoSansion);
             this.Controls.Add(this.Pic_Barra);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Frm_MantIngresocuentascontables";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_MantIngresocuentascontables";
@@ -244,6 +230,5 @@
         private System.Windows.Forms.Label Lbl_IngresoSansion;
         private System.Windows.Forms.PictureBox Pic_Barra;
         private System.Windows.Forms.Button btn_cerrar;
-        private System.Windows.Forms.Label label1;
     }
 }

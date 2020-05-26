@@ -45,7 +45,6 @@ namespace CapaDiseño.Procesos
         public Frm_Asignaciondeconcepto()
         {
             InitializeComponent();
-            Txt_codigoconcepto.Enabled = false;
             MostrarEmpleados();
             Txt_codemp.Visible = false;
             obtenerip();
@@ -183,69 +182,11 @@ namespace CapaDiseño.Procesos
                       Cells[1].Value.ToString();
 
             }
-
-          
-                
         }
 
         private void Btn_Aceptar_Click(object sender, EventArgs e)
         {
-            string concepto = "";
-            if (Txt_codigoconcepto.Text != "") {
-                OdbcDataReader mostrarEmpleado2 = logic.llenarasignacionconcepto(Txt_codigoconcepto.Text);
-                try
-                {
-                    while (mostrarEmpleado2.Read())
-                    {
-                        concepto = mostrarEmpleado2.GetString(2);
-
-                    }
-                }
-                catch (Exception err)
-                {
-                    Console.WriteLine(err.Message);
-                }
-
-                if ( Txt_codigoconcepto.Text == concepto)
-                {
-                    Dgv_consultaempleado.Rows.Clear();
-                    OdbcDataReader mostrarEmpleado = logic.llenarasignacionconcepto(Txt_codigoconcepto.Text);
-                    try
-                    {
-                        while (mostrarEmpleado.Read())
-                        {
-                            Dgv_consultaempleado.Rows.Add(mostrarEmpleado.GetString(0), mostrarEmpleado.GetString(1));
-
-                            foreach (DataGridViewRow row in Dgv_consultaempleado.Rows)
-                            {
-
-                                row.Cells["Column3"].Value = true;
-
-
-                            }
-                        }
-                    }
-                    catch (Exception err)
-                    {
-                        Console.WriteLine(err.Message);
-                    }
-
-                }
-                else
-                {
-                    MostrarEmpleados();
-
-                }
-            }
-            else
-            {
-                MostrarEmpleados();
-            }
-        }
-
-        private void Frm_Asignaciondeconcepto_Load(object sender, EventArgs e)
-        {
-
+            this.Dispose();
         }
     }
 }

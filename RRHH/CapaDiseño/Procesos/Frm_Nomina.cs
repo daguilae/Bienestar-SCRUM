@@ -59,13 +59,47 @@ namespace CapaDiseño.Procesos
         public Frm_Nomina(String susuario)
         {
             InitializeComponent();
-          //  MostrarEmpleados();
+            MostrarEmpleados();
             obtenerip();
             suser = susuario;
             Txt_SubtotalPercepciones.Enabled = false;
             Txt_SubtotalDeducciones.Enabled = false;
             Txt_saldonominal.Enabled = false;
 
+            foreach (DataGridViewRow row in Dgv_empleadoscontables.Rows)
+            {
+                if (Convert.ToString(row.Cells["Column6"].Value) == "Percepcion")
+                {
+                    if (Convert.ToString(row.Cells["Column7"].Value) == "Suma")
+                    {
+                       
+                 
+                        row.Cells["Column8"].Value = Convert.ToDouble(row.Cells["Column3"].Value) + Convert.ToDouble(row.Cells["Column5"].Value);
+                    }
+                    if (Convert.ToString(row.Cells["Column7"].Value) == "Multiplicacion")
+                    {
+                    
+                        row.Cells["Column8"].Value = Convert.ToDouble(row.Cells["Column3"].Value) * Convert.ToDouble(row.Cells["Column5"].Value);
+                    }
+
+
+                }
+                else if (Convert.ToString(row.Cells["Column6"].Value) == "Deduccion")
+                {
+                    if (Convert.ToString(row.Cells["Column7"].Value) == "Suma")
+                    {
+                       
+                        row.Cells["Column8"].Value = Convert.ToDouble(row.Cells["Column3"].Value) + Convert.ToDouble(row.Cells["Column5"].Value);
+                    }
+                    if (Convert.ToString(row.Cells["Column7"].Value) == "Multiplicacion")
+                    {
+                      
+                        row.Cells["Column8"].Value = Convert.ToDouble(row.Cells["Column3"].Value) * Convert.ToDouble(row.Cells["Column5"].Value);
+                    }
+                }
+
+
+            }
         }
 
         public void MostrarEmpleados()
@@ -252,45 +286,6 @@ namespace CapaDiseño.Procesos
 
         }
 
-        private void Btn_generar_Click(object sender, EventArgs e)
-        {
-            MostrarEmpleados();
-
-            foreach (DataGridViewRow row in Dgv_empleadoscontables.Rows)
-            {
-                if (Convert.ToString(row.Cells["Column6"].Value) == "Percepcion")
-                {
-                    if (Convert.ToString(row.Cells["Column7"].Value) == "Suma")
-                    {
-
-
-                        row.Cells["Column8"].Value = Convert.ToDouble(row.Cells["Column3"].Value) + Convert.ToDouble(row.Cells["Column5"].Value);
-                    }
-                    if (Convert.ToString(row.Cells["Column7"].Value) == "Multiplicacion")
-                    {
-
-                        row.Cells["Column8"].Value = Convert.ToDouble(row.Cells["Column3"].Value) * Convert.ToDouble(row.Cells["Column5"].Value);
-                    }
-
-
-                }
-                else if (Convert.ToString(row.Cells["Column6"].Value) == "Deduccion")
-                {
-                    if (Convert.ToString(row.Cells["Column7"].Value) == "Suma")
-                    {
-
-                        row.Cells["Column8"].Value = Convert.ToDouble(row.Cells["Column3"].Value) + Convert.ToDouble(row.Cells["Column5"].Value);
-                    }
-                    if (Convert.ToString(row.Cells["Column7"].Value) == "Multiplicacion")
-                    {
-
-                        row.Cells["Column8"].Value = Convert.ToDouble(row.Cells["Column3"].Value) * Convert.ToDouble(row.Cells["Column5"].Value);
-                    }
-                }
-
-
-            }
-        }
     }
     }
 

@@ -52,7 +52,6 @@
             this.btn_cerrar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.Btn_ConsultarEmpleados = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.Gpb_IngresoDatos.SuspendLayout();
             this.Gpb_Busqueda.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Barra)).BeginInit();
@@ -65,7 +64,7 @@
             this.Lbl_IngresoSansion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
             this.Lbl_IngresoSansion.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_IngresoSansion.ForeColor = System.Drawing.Color.White;
-            this.Lbl_IngresoSansion.Location = new System.Drawing.Point(120, 9);
+            this.Lbl_IngresoSansion.Location = new System.Drawing.Point(15, 11);
             this.Lbl_IngresoSansion.Name = "Lbl_IngresoSansion";
             this.Lbl_IngresoSansion.Size = new System.Drawing.Size(265, 31);
             this.Lbl_IngresoSansion.TabIndex = 32;
@@ -307,24 +306,11 @@
             this.Btn_ConsultarEmpleados.UseVisualStyleBackColor = true;
             this.Btn_ConsultarEmpleados.Click += new System.EventHandler(this.Btn_ConsultarEmpleados_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(25, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 31);
-            this.label1.TabIndex = 41;
-            this.label1.Text = "208 -";
-            // 
             // Frm_MantIngresoSansion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(661, 516);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btn_Ayuda);
             this.Controls.Add(this.btn_minimizar);
@@ -374,6 +360,5 @@
         private System.Windows.Forms.DateTimePicker Dtp_FechaIngreso;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button Btn_ConsultarEmpleados;
-        private System.Windows.Forms.Label label1;
     }
 }

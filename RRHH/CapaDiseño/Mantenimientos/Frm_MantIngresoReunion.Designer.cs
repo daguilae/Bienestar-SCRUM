@@ -58,7 +58,6 @@
             this.btn_cerrar = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.Btn_ConsultarEmpleados = new System.Windows.Forms.Button();
-            this.Lbl_IngresoSansion = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Barra)).BeginInit();
             this.Gpb_Ingreso.SuspendLayout();
             this.Gpb_Reunion.SuspendLayout();
@@ -81,7 +80,7 @@
             this.Lbl_CreacionReunion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
             this.Lbl_CreacionReunion.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_CreacionReunion.ForeColor = System.Drawing.Color.White;
-            this.Lbl_CreacionReunion.Location = new System.Drawing.Point(123, 9);
+            this.Lbl_CreacionReunion.Location = new System.Drawing.Point(12, 7);
             this.Lbl_CreacionReunion.Name = "Lbl_CreacionReunion";
             this.Lbl_CreacionReunion.Size = new System.Drawing.Size(287, 31);
             this.Lbl_CreacionReunion.TabIndex = 65;
@@ -374,24 +373,11 @@
             this.Btn_ConsultarEmpleados.UseVisualStyleBackColor = true;
             this.Btn_ConsultarEmpleados.Click += new System.EventHandler(this.Btn_ConsultarEmpleados_Click);
             // 
-            // Lbl_IngresoSansion
-            // 
-            this.Lbl_IngresoSansion.AutoSize = true;
-            this.Lbl_IngresoSansion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
-            this.Lbl_IngresoSansion.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Lbl_IngresoSansion.ForeColor = System.Drawing.Color.White;
-            this.Lbl_IngresoSansion.Location = new System.Drawing.Point(37, 9);
-            this.Lbl_IngresoSansion.Name = "Lbl_IngresoSansion";
-            this.Lbl_IngresoSansion.Size = new System.Drawing.Size(80, 31);
-            this.Lbl_IngresoSansion.TabIndex = 79;
-            this.Lbl_IngresoSansion.Text = "209 -";
-            // 
             // Frm_MantIngresoReunion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(755, 646);
-            this.Controls.Add(this.Lbl_IngresoSansion);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btn_Ayuda);
             this.Controls.Add(this.btn_minimizar);
@@ -447,6 +433,5 @@
         private System.Windows.Forms.Label Lbl_FechaIngreso;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button Btn_ConsultarEmpleados;
-        private System.Windows.Forms.Label Lbl_IngresoSansion;
     }
 }

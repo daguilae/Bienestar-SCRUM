@@ -1,5 +1,4 @@
-﻿
-using CapaDiseño;
+﻿using CapaDiseño;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,7 +18,7 @@ namespace prueba
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MDIParent1("JOSE","1111"));
+            Application.Run(new MDIParent1(""));
         }
     }
 }

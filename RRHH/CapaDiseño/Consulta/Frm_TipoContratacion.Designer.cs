@@ -38,11 +38,10 @@
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Pnl_nombreForm = new System.Windows.Forms.Panel();
+            this.Label_Contratar = new System.Windows.Forms.Label();
             this.btn_Ayuda = new System.Windows.Forms.Button();
             this.btn_minimizar = new System.Windows.Forms.Button();
             this.btn_cerrar = new System.Windows.Forms.Button();
-            this.Label_Contratar = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_consultaContratacion)).BeginInit();
             this.Pnl_nombreForm.SuspendLayout();
             this.SuspendLayout();
@@ -138,7 +137,6 @@
             // Pnl_nombreForm
             // 
             this.Pnl_nombreForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
-            this.Pnl_nombreForm.Controls.Add(this.label1);
             this.Pnl_nombreForm.Controls.Add(this.btn_Ayuda);
             this.Pnl_nombreForm.Controls.Add(this.btn_minimizar);
             this.Pnl_nombreForm.Controls.Add(this.btn_cerrar);
@@ -148,6 +146,17 @@
             this.Pnl_nombreForm.Name = "Pnl_nombreForm";
             this.Pnl_nombreForm.Size = new System.Drawing.Size(900, 63);
             this.Pnl_nombreForm.TabIndex = 79;
+            // 
+            // Label_Contratar
+            // 
+            this.Label_Contratar.AutoSize = true;
+            this.Label_Contratar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label_Contratar.ForeColor = System.Drawing.Color.White;
+            this.Label_Contratar.Location = new System.Drawing.Point(27, 15);
+            this.Label_Contratar.Name = "Label_Contratar";
+            this.Label_Contratar.Size = new System.Drawing.Size(336, 25);
+            this.Label_Contratar.TabIndex = 0;
+            this.Label_Contratar.Text = "Consulta de Tipo de Contratacion";
             // 
             // btn_Ayuda
             // 
@@ -188,28 +197,6 @@
             this.btn_cerrar.UseVisualStyleBackColor = true;
             this.btn_cerrar.Click += new System.EventHandler(this.btn_cerrar_Click_1);
             // 
-            // Label_Contratar
-            // 
-            this.Label_Contratar.AutoSize = true;
-            this.Label_Contratar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label_Contratar.ForeColor = System.Drawing.Color.White;
-            this.Label_Contratar.Location = new System.Drawing.Point(90, 20);
-            this.Label_Contratar.Name = "Label_Contratar";
-            this.Label_Contratar.Size = new System.Drawing.Size(336, 25);
-            this.Label_Contratar.TabIndex = 0;
-            this.Label_Contratar.Text = "Consulta de Tipo de Contratacion";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(31, 19);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 25);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "218 -";
-            // 
             // Frm_TipoContratacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -220,7 +207,7 @@
             this.Controls.Add(this.Dgv_consultaContratacion);
             this.Controls.Add(this.Pnl_nombreForm);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Frm_TipoContratacion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_TipoContratacion";
@@ -247,6 +234,5 @@
         private System.Windows.Forms.Button btn_Ayuda;
         private System.Windows.Forms.Button btn_minimizar;
         private System.Windows.Forms.Button btn_cerrar;
-        private System.Windows.Forms.Label label1;
     }
 }

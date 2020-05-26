@@ -46,7 +46,6 @@
             this.Btn_guardar = new System.Windows.Forms.Button();
             this.Btn_editar = new System.Windows.Forms.Button();
             this.Btn_ingresar = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.Pnl_nombreForm.SuspendLayout();
             this.gpb_datos.SuspendLayout();
             this.SuspendLayout();
@@ -56,7 +55,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(80, 19);
+            this.label1.Location = new System.Drawing.Point(27, 15);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(428, 25);
             this.label1.TabIndex = 0;
@@ -65,7 +64,6 @@
             // Pnl_nombreForm
             // 
             this.Pnl_nombreForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
-            this.Pnl_nombreForm.Controls.Add(this.label2);
             this.Pnl_nombreForm.Controls.Add(this.btn_Ayuda);
             this.Pnl_nombreForm.Controls.Add(this.btn_minimizar);
             this.Pnl_nombreForm.Controls.Add(this.label1);
@@ -295,17 +293,6 @@
             this.Btn_ingresar.UseVisualStyleBackColor = false;
             this.Btn_ingresar.Click += new System.EventHandler(this.Btn_ingresar_Click);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(12, 15);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 25);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "216 -";
-            // 
             // Frm_ManteDepartamento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -351,6 +338,5 @@
         private System.Windows.Forms.Button Btn_ingresar;
         private System.Windows.Forms.Label lbl_desCursos;
         private System.Windows.Forms.TextBox txt_descripcion;
-        private System.Windows.Forms.Label label2;
     }
 }

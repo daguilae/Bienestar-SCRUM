@@ -33,16 +33,15 @@
             this.Lbl_ControlAsistenciaPersonal = new System.Windows.Forms.Label();
             this.Btn_actualizar = new System.Windows.Forms.Button();
             this.Dgv_AsistenciaPersonal = new System.Windows.Forms.DataGridView();
+            this.btn_Ayuda = new System.Windows.Forms.Button();
+            this.btn_minimizar = new System.Windows.Forms.Button();
+            this.btn_cerrar = new System.Windows.Forms.Button();
             this.cod = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CODP = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btn_Ayuda = new System.Windows.Forms.Button();
-            this.btn_minimizar = new System.Windows.Forms.Button();
-            this.btn_cerrar = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Barra)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_AsistenciaPersonal)).BeginInit();
             this.SuspendLayout();
@@ -63,7 +62,7 @@
             this.Lbl_ControlAsistenciaPersonal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
             this.Lbl_ControlAsistenciaPersonal.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_ControlAsistenciaPersonal.ForeColor = System.Drawing.Color.White;
-            this.Lbl_ControlAsistenciaPersonal.Location = new System.Drawing.Point(89, 14);
+            this.Lbl_ControlAsistenciaPersonal.Location = new System.Drawing.Point(15, 14);
             this.Lbl_ControlAsistenciaPersonal.Name = "Lbl_ControlAsistenciaPersonal";
             this.Lbl_ControlAsistenciaPersonal.Size = new System.Drawing.Size(462, 31);
             this.Lbl_ControlAsistenciaPersonal.TabIndex = 29;
@@ -110,48 +109,6 @@
             this.Dgv_AsistenciaPersonal.Size = new System.Drawing.Size(754, 297);
             this.Dgv_AsistenciaPersonal.TabIndex = 81;
             // 
-            // cod
-            // 
-            this.cod.HeaderText = "Codigo Asistencia";
-            this.cod.MinimumWidth = 6;
-            this.cod.Name = "cod";
-            this.cod.Width = 125;
-            // 
-            // CODP
-            // 
-            this.CODP.HeaderText = "Codigo Empleado";
-            this.CODP.MinimumWidth = 6;
-            this.CODP.Name = "CODP";
-            this.CODP.Width = 125;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Fecha Ingreso";
-            this.Column1.MinimumWidth = 6;
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 125;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Fecha Salida";
-            this.Column2.MinimumWidth = 6;
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 125;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Hora Ingreso";
-            this.Column3.MinimumWidth = 6;
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 125;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Hora Salida";
-            this.Column4.MinimumWidth = 6;
-            this.Column4.Name = "Column4";
-            this.Column4.Width = 125;
-            // 
             // btn_Ayuda
             // 
             this.btn_Ayuda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
@@ -194,24 +151,53 @@
             this.btn_cerrar.UseVisualStyleBackColor = false;
             this.btn_cerrar.Click += new System.EventHandler(this.btn_cerrar_Click);
             // 
-            // label1
+            // cod
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(15, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 31);
-            this.label1.TabIndex = 87;
-            this.label1.Text = "220 -";
+            this.cod.HeaderText = "Codigo Asistencia";
+            this.cod.MinimumWidth = 6;
+            this.cod.Name = "cod";
+            this.cod.Width = 125;
+            // 
+            // CODP
+            // 
+            this.CODP.HeaderText = "Codigo Empleado";
+            this.CODP.MinimumWidth = 6;
+            this.CODP.Name = "CODP";
+            this.CODP.Width = 125;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "Fecha Ingreso";
+            this.Column1.MinimumWidth = 6;
+            this.Column1.Name = "Column1";
+            this.Column1.Width = 125;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Fecha Salida";
+            this.Column2.MinimumWidth = 6;
+            this.Column2.Name = "Column2";
+            this.Column2.Width = 125;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Hora Ingreso";
+            this.Column3.MinimumWidth = 6;
+            this.Column3.Name = "Column3";
+            this.Column3.Width = 125;
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Hora Salida";
+            this.Column4.MinimumWidth = 6;
+            this.Column4.Name = "Column4";
+            this.Column4.Width = 125;
             // 
             // Frm_ControlAsistenciaPersonal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(829, 476);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_Ayuda);
             this.Controls.Add(this.btn_minimizar);
             this.Controls.Add(this.btn_cerrar);
@@ -245,6 +231,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.Label label1;
     }
 }

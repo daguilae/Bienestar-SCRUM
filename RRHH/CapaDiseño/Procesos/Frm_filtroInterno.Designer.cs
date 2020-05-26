@@ -45,7 +45,6 @@
             this.codJ = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.apellido = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label2 = new System.Windows.Forms.Label();
             this.Pnl_nombreForm.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_consultaAceptados)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_empleados)).BeginInit();
@@ -56,7 +55,7 @@
             this.lbl_procesonominal.AutoSize = true;
             this.lbl_procesonominal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_procesonominal.ForeColor = System.Drawing.Color.White;
-            this.lbl_procesonominal.Location = new System.Drawing.Point(83, 19);
+            this.lbl_procesonominal.Location = new System.Drawing.Point(27, 15);
             this.lbl_procesonominal.Name = "lbl_procesonominal";
             this.lbl_procesonominal.Size = new System.Drawing.Size(182, 25);
             this.lbl_procesonominal.TabIndex = 0;
@@ -65,7 +64,6 @@
             // Pnl_nombreForm
             // 
             this.Pnl_nombreForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
-            this.Pnl_nombreForm.Controls.Add(this.label2);
             this.Pnl_nombreForm.Controls.Add(this.btn_Ayuda);
             this.Pnl_nombreForm.Controls.Add(this.btn_minimizar);
             this.Pnl_nombreForm.Controls.Add(this.lbl_procesonominal);
@@ -138,7 +136,7 @@
             this.cod,
             this.puesto});
             this.Dgv_consultaAceptados.Location = new System.Drawing.Point(24, 101);
-            this.Dgv_consultaAceptados.Margin = new System.Windows.Forms.Padding(4);
+            this.Dgv_consultaAceptados.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Dgv_consultaAceptados.Name = "Dgv_consultaAceptados";
             this.Dgv_consultaAceptados.ReadOnly = true;
             this.Dgv_consultaAceptados.RowHeadersVisible = false;
@@ -165,7 +163,7 @@
             // 
             this.btn_buscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_buscar.Location = new System.Drawing.Point(581, 457);
-            this.btn_buscar.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_buscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_buscar.Name = "btn_buscar";
             this.btn_buscar.Size = new System.Drawing.Size(307, 49);
             this.btn_buscar.TabIndex = 45;
@@ -198,7 +196,7 @@
             this.nombre,
             this.apellido});
             this.dgv_empleados.Location = new System.Drawing.Point(24, 298);
-            this.dgv_empleados.Margin = new System.Windows.Forms.Padding(4);
+            this.dgv_empleados.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgv_empleados.Name = "dgv_empleados";
             this.dgv_empleados.ReadOnly = true;
             this.dgv_empleados.RowHeadersVisible = false;
@@ -234,17 +232,6 @@
             this.apellido.MinimumWidth = 6;
             this.apellido.Name = "apellido";
             this.apellido.ReadOnly = true;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(22, 18);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 25);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "235 -";
             // 
             // Frm_filtroInterno
             // 
@@ -290,6 +277,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn codJ;
         private System.Windows.Forms.DataGridViewTextBoxColumn nombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn apellido;
-        private System.Windows.Forms.Label label2;
     }
 }

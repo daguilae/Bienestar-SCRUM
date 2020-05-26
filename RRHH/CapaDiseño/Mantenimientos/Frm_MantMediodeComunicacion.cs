@@ -23,7 +23,6 @@ namespace CapaDiseño.Procesos
         string smacAddresses;
         string suser;
         string scampo;
-        string tipopermiso;
 
 
         public void obtenerip()
@@ -47,100 +46,21 @@ namespace CapaDiseño.Procesos
                 }
             }
         }
-        public Frm_MediodeComunicacion(String susuario, String permiso)
+        public Frm_MediodeComunicacion(String susuario)
         {
 
             InitializeComponent();
             obtenerip();
             suser = susuario;
 
-            Cbo_Estado.Items.Add("Activo");
-            Cbo_Estado.Items.Add("Inactivo");
-            tipopermiso = permiso;
-            //bloqueo de campos
-            Btn_guardar.Enabled = false;
-            Btn_editar.Enabled = false;
-            Btn_borrar.Enabled = false;
-            Btn_consultar.Enabled = false;
-            bloquear();
-
-            scampo = logic.siguiente("mediodecomunicacion", "pkmediodecomunicacion");
-            Txt_ID.Text = scampo;
-        }
-
-        public void permisos()
-        {
-            if (tipopermiso == "1111")
-            {
-                //todos
-                Btn_guardar.Enabled = true;
-                Btn_editar.Enabled = true;
-                Btn_borrar.Enabled = true;
-                Btn_consultar.Enabled = true;
-                desbloquear();
-            }
-            if (tipopermiso == "1001")
-            {
-                //Guardar
-                Btn_guardar.Enabled = true;
-                Btn_editar.Enabled = false;
-                Btn_borrar.Enabled = false;
-                Btn_consultar.Enabled = true;
-                desbloquear();
-            }
-            if (tipopermiso == "0101")
-            {
-                //modificar
-                Btn_guardar.Enabled = false;
-                Btn_editar.Enabled = true;
-                Btn_borrar.Enabled = false;
-                Btn_consultar.Enabled = true;
-                desbloquear();
-            }
-            if (tipopermiso == "0011")
-            {
-                //eliminar
-                Btn_guardar.Enabled = false;
-                Btn_editar.Enabled = false;
-                Btn_borrar.Enabled = true;
-                Btn_consultar.Enabled = true;
-                desbloquear();
-            }
-            if (tipopermiso == "0001")
-            {
-                Btn_guardar.Enabled = false;
-                Btn_editar.Enabled = false;
-                Btn_borrar.Enabled = false;
-                Btn_ingresar.Enabled = false;
-                Btn_consultar.Enabled = true;
-            }
-        }
-
-        public void desbloquear()
-        {
-            Txt_Nombre.Enabled = true;
-            Txt_Direccion.Enabled = true;
-            Txt_Telefono.Enabled = true;
-            Cbo_Estado.Enabled = true;
-        }
-
-        public void bloquear()
-        {
             Txt_ID.Enabled = false;
             Txt_Nombre.Enabled = false;
             Txt_Direccion.Enabled = false;
             Txt_Telefono.Enabled = false;
             Cbo_Estado.Enabled = false;
-        }
 
-        public void limpiar()
-        {
-            Txt_ID.Text = "";
-            Txt_Nombre.Text = "";
-            Txt_Direccion.Text = "";
-            Txt_Telefono.Text = "";
-            Cbo_Estado.Text = "";
-
+            scampo = logic.siguiente("mediodecomunicacion", "pkmediodecomunicacion");
+            Txt_ID.Text = scampo;
         }
 
         private void Btn_cerrar_Click(object sender, EventArgs e)
@@ -183,50 +103,33 @@ namespace CapaDiseño.Procesos
 
         private void Btn_ingresar_Click(object sender, EventArgs e)
         {
-            permisos();
+            Txt_ID.Enabled = true;
+            Txt_Nombre.Enabled = true;
+            Txt_Direccion.Enabled = true;
+            Txt_Telefono.Enabled = true;
+            Cbo_Estado.Enabled = true;
         }
 
         private void Btn_editar_Click(object sender, EventArgs e)
         {
-            if (Cbo_Estado.Text == "Activo")
-            {
-                Cbo_Estado.Text = "1";
-            }
-            else
-            {
-                Cbo_Estado.Text = "0";
-            }
             OdbcDataReader cita = logic.ModificarMC(Txt_ID.Text, Txt_Nombre.Text, Txt_Direccion.Text, Txt_Telefono.Text, Cbo_Estado.Text);
             MessageBox.Show("Datos modificados correctamente.");
             logic.bitacora("0", slocalIP, smacAddresses, suser, "RRHH", DateTime.Now.ToString("G"), "Modificar", this.GetType().Name);
-            limpiar();
-            bloquear();
         }
 
         private void Btn_guardar_Click(object sender, EventArgs e)
         {
-            if (Cbo_Estado.Text == "Activo")
-            {
-                Cbo_Estado.Text = "1";
-            }
-            else
-            {
-                Cbo_Estado.Text = "0";
-            }
-            OdbcDataReader cita = logic.InsertarMC(Txt_ID.Text,Txt_Nombre.Text, Txt_Direccion.Text, Txt_Telefono.Text, Cbo_Estado.Text);
+            OdbcDataReader cita = logic.InsertarMC(Txt_Nombre.Text, Txt_Direccion.Text, Txt_Telefono.Text, Cbo_Estado.Text);
             MessageBox.Show("Datos insertar correctamente.");
             logic.bitacora("0", slocalIP, smacAddresses, suser, "RRHH", DateTime.Now.ToString("G"), "Guardar", this.GetType().Name);
-            limpiar();
-            bloquear();
+
         }
 
         private void Btn_borrar_Click(object sender, EventArgs e)
         {
-            OdbcDataReader cita = logic.eliminarMC(Txt_ID.Text);
+            OdbcDataReader cita = logic.eliminarEmpleado(Txt_ID.Text);
             MessageBox.Show("Eliminado Correctamente.");
             logic.bitacora("0", slocalIP, smacAddresses, suser, "RRHH", DateTime.Now.ToString("G"), "Eliminar", this.GetType().Name);
-            limpiar();
-            bloquear();
         }
 
         private void Btn_consultar_Click(object sender, EventArgs e)

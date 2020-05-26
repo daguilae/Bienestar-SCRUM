@@ -58,7 +58,6 @@
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
-            this.label7 = new System.Windows.Forms.Label();
             this.Gpb_Detallenominal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_poliza)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -132,9 +131,9 @@
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Location = new System.Drawing.Point(588, 96);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Size = new System.Drawing.Size(468, 97);
             this.groupBox2.TabIndex = 48;
             this.groupBox2.TabStop = false;
@@ -143,7 +142,7 @@
             // dateTimePicker3
             // 
             this.dateTimePicker3.Location = new System.Drawing.Point(140, 65);
-            this.dateTimePicker3.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dateTimePicker3.Name = "dateTimePicker3";
             this.dateTimePicker3.Size = new System.Drawing.Size(265, 22);
             this.dateTimePicker3.TabIndex = 3;
@@ -152,7 +151,7 @@
             // dateTimePicker2
             // 
             this.dateTimePicker2.Location = new System.Drawing.Point(140, 23);
-            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(265, 22);
             this.dateTimePicker2.TabIndex = 2;
@@ -189,9 +188,9 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(21, 106);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Size = new System.Drawing.Size(560, 161);
             this.groupBox1.TabIndex = 47;
             this.groupBox1.TabStop = false;
@@ -201,7 +200,7 @@
             // Txt_numeronomina
             // 
             this.Txt_numeronomina.Location = new System.Drawing.Point(140, 126);
-            this.Txt_numeronomina.Margin = new System.Windows.Forms.Padding(4);
+            this.Txt_numeronomina.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Txt_numeronomina.Name = "Txt_numeronomina";
             this.Txt_numeronomina.Size = new System.Drawing.Size(132, 22);
             this.Txt_numeronomina.TabIndex = 40;
@@ -221,7 +220,7 @@
             // Txt_tipo
             // 
             this.Txt_tipo.Location = new System.Drawing.Point(140, 94);
-            this.Txt_tipo.Margin = new System.Windows.Forms.Padding(4);
+            this.Txt_tipo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Txt_tipo.Name = "Txt_tipo";
             this.Txt_tipo.Size = new System.Drawing.Size(265, 22);
             this.Txt_tipo.TabIndex = 39;
@@ -231,7 +230,7 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(140, 64);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(265, 22);
             this.dateTimePicker1.TabIndex = 5;
@@ -240,7 +239,7 @@
             // Txt_numeropoliza
             // 
             this.Txt_numeropoliza.Location = new System.Drawing.Point(140, 31);
-            this.Txt_numeropoliza.Margin = new System.Windows.Forms.Padding(4);
+            this.Txt_numeropoliza.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Txt_numeropoliza.Name = "Txt_numeropoliza";
             this.Txt_numeropoliza.Size = new System.Drawing.Size(132, 22);
             this.Txt_numeropoliza.TabIndex = 4;
@@ -282,7 +281,6 @@
             // Pnl_nombreForm
             // 
             this.Pnl_nombreForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
-            this.Pnl_nombreForm.Controls.Add(this.label7);
             this.Pnl_nombreForm.Controls.Add(this.btn_Ayuda);
             this.Pnl_nombreForm.Controls.Add(this.btn_minimizar);
             this.Pnl_nombreForm.Controls.Add(this.lbl_procesonominal);
@@ -324,7 +322,7 @@
             this.lbl_procesonominal.AutoSize = true;
             this.lbl_procesonominal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_procesonominal.ForeColor = System.Drawing.Color.White;
-            this.lbl_procesonominal.Location = new System.Drawing.Point(94, 23);
+            this.lbl_procesonominal.Location = new System.Drawing.Point(27, 15);
             this.lbl_procesonominal.Name = "lbl_procesonominal";
             this.lbl_procesonominal.Size = new System.Drawing.Size(216, 25);
             this.lbl_procesonominal.TabIndex = 0;
@@ -346,7 +344,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(888, 455);
-            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(168, 58);
             this.button1.TabIndex = 53;
@@ -367,7 +365,7 @@
             // textBox10
             // 
             this.textBox10.Location = new System.Drawing.Point(295, 545);
-            this.textBox10.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox10.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(132, 22);
             this.textBox10.TabIndex = 62;
@@ -375,7 +373,7 @@
             // textBox11
             // 
             this.textBox11.Location = new System.Drawing.Point(468, 545);
-            this.textBox11.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox11.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(132, 22);
             this.textBox11.TabIndex = 63;
@@ -383,24 +381,13 @@
             // button2
             // 
             this.button2.Location = new System.Drawing.Point(888, 420);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 28);
             this.button2.TabIndex = 64;
             this.button2.Text = "ACTUALIZAR";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click_1);
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(36, 23);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(62, 25);
-            this.label7.TabIndex = 7;
-            this.label7.Text = "232 -";
             // 
             // Frm_polizaNomina
             // 
@@ -417,7 +404,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.Pnl_nombreForm);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Frm_polizaNomina";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_polizaNomina";
@@ -465,6 +452,5 @@
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.TextBox textBox11;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label7;
     }
 }

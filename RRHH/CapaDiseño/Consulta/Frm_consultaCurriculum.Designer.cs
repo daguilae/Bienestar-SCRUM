@@ -49,7 +49,6 @@
             this.gU = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.cE = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.descripcion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label2 = new System.Windows.Forms.Label();
             this.Pnl_nombreForm.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_consultaCurriculum)).BeginInit();
             this.SuspendLayout();
@@ -57,7 +56,6 @@
             // Pnl_nombreForm
             // 
             this.Pnl_nombreForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
-            this.Pnl_nombreForm.Controls.Add(this.label2);
             this.Pnl_nombreForm.Controls.Add(this.btn_minimizar);
             this.Pnl_nombreForm.Controls.Add(this.label1);
             this.Pnl_nombreForm.Controls.Add(this.btn_cerrar);
@@ -85,7 +83,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(86, 15);
+            this.label1.Location = new System.Drawing.Point(27, 15);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(238, 25);
             this.label1.TabIndex = 0;
@@ -261,17 +259,6 @@
             this.descripcion.Name = "descripcion";
             this.descripcion.Width = 125;
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(27, 15);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 25);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "228 -";
-            // 
             // Frm_consultaCurriculum
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -316,6 +303,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn gU;
         private System.Windows.Forms.DataGridViewTextBoxColumn cE;
         private System.Windows.Forms.DataGridViewTextBoxColumn descripcion;
-        private System.Windows.Forms.Label label2;
     }
 }

@@ -51,7 +51,6 @@
             this.Column10 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Btn_actualizar = new System.Windows.Forms.Button();
             this.Btn_seleccionar = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.Pnl_nombreForm.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_consultaEmpleado)).BeginInit();
             this.SuspendLayout();
@@ -59,15 +58,14 @@
             // Pnl_nombreForm
             // 
             this.Pnl_nombreForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
-            this.Pnl_nombreForm.Controls.Add(this.label2);
             this.Pnl_nombreForm.Controls.Add(this.btn_Ayuda);
             this.Pnl_nombreForm.Controls.Add(this.btn_minimizar);
             this.Pnl_nombreForm.Controls.Add(this.btn_cerrar);
             this.Pnl_nombreForm.Controls.Add(this.label1);
-            this.Pnl_nombreForm.Location = new System.Drawing.Point(-3, -2);
-            this.Pnl_nombreForm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Pnl_nombreForm.Location = new System.Drawing.Point(-2, -2);
+            this.Pnl_nombreForm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Pnl_nombreForm.Name = "Pnl_nombreForm";
-            this.Pnl_nombreForm.Size = new System.Drawing.Size(1293, 63);
+            this.Pnl_nombreForm.Size = new System.Drawing.Size(970, 51);
             this.Pnl_nombreForm.TabIndex = 2;
             // 
             // btn_Ayuda
@@ -75,10 +73,10 @@
             this.btn_Ayuda.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Ayuda.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_Ayuda.Image = global::CapaDiseño.Properties.Resources.question__1_;
-            this.btn_Ayuda.Location = new System.Drawing.Point(1181, 15);
-            this.btn_Ayuda.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_Ayuda.Location = new System.Drawing.Point(886, 12);
+            this.btn_Ayuda.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_Ayuda.Name = "btn_Ayuda";
-            this.btn_Ayuda.Size = new System.Drawing.Size(44, 38);
+            this.btn_Ayuda.Size = new System.Drawing.Size(33, 31);
             this.btn_Ayuda.TabIndex = 9;
             this.btn_Ayuda.UseVisualStyleBackColor = true;
             this.btn_Ayuda.Click += new System.EventHandler(this.btn_Ayuda_Click);
@@ -88,10 +86,10 @@
             this.btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_minimizar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_minimizar.Image = ((System.Drawing.Image)(resources.GetObject("btn_minimizar.Image")));
-            this.btn_minimizar.Location = new System.Drawing.Point(1133, 15);
-            this.btn_minimizar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_minimizar.Location = new System.Drawing.Point(850, 12);
+            this.btn_minimizar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_minimizar.Name = "btn_minimizar";
-            this.btn_minimizar.Size = new System.Drawing.Size(44, 38);
+            this.btn_minimizar.Size = new System.Drawing.Size(33, 31);
             this.btn_minimizar.TabIndex = 8;
             this.btn_minimizar.UseVisualStyleBackColor = true;
             this.btn_minimizar.Click += new System.EventHandler(this.btn_minimizar_Click_1);
@@ -101,10 +99,10 @@
             this.btn_cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_cerrar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_cerrar.Image = ((System.Drawing.Image)(resources.GetObject("btn_cerrar.Image")));
-            this.btn_cerrar.Location = new System.Drawing.Point(1232, 15);
-            this.btn_cerrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_cerrar.Location = new System.Drawing.Point(924, 12);
+            this.btn_cerrar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btn_cerrar.Name = "btn_cerrar";
-            this.btn_cerrar.Size = new System.Drawing.Size(44, 38);
+            this.btn_cerrar.Size = new System.Drawing.Size(33, 31);
             this.btn_cerrar.TabIndex = 7;
             this.btn_cerrar.UseVisualStyleBackColor = true;
             this.btn_cerrar.Click += new System.EventHandler(this.btn_cerrar_Click_1);
@@ -114,9 +112,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(90, 15);
+            this.label1.Location = new System.Drawing.Point(20, 12);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(241, 25);
+            this.label1.Size = new System.Drawing.Size(199, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Consulta de Empleados";
             // 
@@ -138,14 +137,14 @@
             this.Column9,
             this.Column14,
             this.Column10});
-            this.Dgv_consultaEmpleado.Location = new System.Drawing.Point(11, 89);
-            this.Dgv_consultaEmpleado.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Dgv_consultaEmpleado.Location = new System.Drawing.Point(8, 72);
+            this.Dgv_consultaEmpleado.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Dgv_consultaEmpleado.Name = "Dgv_consultaEmpleado";
             this.Dgv_consultaEmpleado.RowHeadersVisible = false;
             this.Dgv_consultaEmpleado.RowHeadersWidth = 51;
             this.Dgv_consultaEmpleado.RowTemplate.Height = 24;
             this.Dgv_consultaEmpleado.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.Dgv_consultaEmpleado.Size = new System.Drawing.Size(1041, 208);
+            this.Dgv_consultaEmpleado.Size = new System.Drawing.Size(781, 169);
             this.Dgv_consultaEmpleado.TabIndex = 3;
             this.Dgv_consultaEmpleado.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.Dgv_consultaEmpleado_CellContentClick);
             // 
@@ -255,10 +254,10 @@
             this.Btn_actualizar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SeaGreen;
             this.Btn_actualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_actualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_actualizar.Location = new System.Drawing.Point(1096, 204);
-            this.Btn_actualizar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_actualizar.Location = new System.Drawing.Point(822, 166);
+            this.Btn_actualizar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Btn_actualizar.Name = "Btn_actualizar";
-            this.Btn_actualizar.Size = new System.Drawing.Size(164, 41);
+            this.Btn_actualizar.Size = new System.Drawing.Size(123, 33);
             this.Btn_actualizar.TabIndex = 74;
             this.Btn_actualizar.Text = "Actualizar";
             this.Btn_actualizar.UseVisualStyleBackColor = true;
@@ -272,37 +271,26 @@
             this.Btn_seleccionar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SeaGreen;
             this.Btn_seleccionar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_seleccionar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Btn_seleccionar.Location = new System.Drawing.Point(1096, 122);
-            this.Btn_seleccionar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_seleccionar.Location = new System.Drawing.Point(822, 99);
+            this.Btn_seleccionar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Btn_seleccionar.Name = "Btn_seleccionar";
-            this.Btn_seleccionar.Size = new System.Drawing.Size(164, 41);
+            this.Btn_seleccionar.Size = new System.Drawing.Size(123, 33);
             this.Btn_seleccionar.TabIndex = 73;
             this.Btn_seleccionar.Text = "Seleccionar";
             this.Btn_seleccionar.UseVisualStyleBackColor = true;
             this.Btn_seleccionar.Click += new System.EventHandler(this.Btn_seleccionar_Click);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(28, 15);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 25);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "225 -";
-            // 
             // Frm_consultaEmpleado
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1285, 324);
+            this.ClientSize = new System.Drawing.Size(964, 263);
             this.Controls.Add(this.Btn_actualizar);
             this.Controls.Add(this.Btn_seleccionar);
             this.Controls.Add(this.Dgv_consultaEmpleado);
             this.Controls.Add(this.Pnl_nombreForm);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Frm_consultaEmpleado";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_consultaEmpleado";
@@ -337,6 +325,5 @@
         private System.Windows.Forms.Button btn_Ayuda;
         private System.Windows.Forms.Button btn_minimizar;
         private System.Windows.Forms.Button btn_cerrar;
-        private System.Windows.Forms.Label label2;
     }
 }

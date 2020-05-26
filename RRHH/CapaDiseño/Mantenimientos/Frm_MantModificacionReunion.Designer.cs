@@ -52,7 +52,6 @@
             this.btn_Ayuda = new System.Windows.Forms.Button();
             this.btn_minimizar = new System.Windows.Forms.Button();
             this.btn_cerrar = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Barra)).BeginInit();
             this.Gpb_DatosReunion.SuspendLayout();
             this.Gpb_Reunion.SuspendLayout();
@@ -74,7 +73,7 @@
             this.Lbl_ModificacionReunion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
             this.Lbl_ModificacionReunion.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_ModificacionReunion.ForeColor = System.Drawing.Color.White;
-            this.Lbl_ModificacionReunion.Location = new System.Drawing.Point(91, 12);
+            this.Lbl_ModificacionReunion.Location = new System.Drawing.Point(8, 11);
             this.Lbl_ModificacionReunion.Name = "Lbl_ModificacionReunion";
             this.Lbl_ModificacionReunion.Size = new System.Drawing.Size(364, 31);
             this.Lbl_ModificacionReunion.TabIndex = 64;
@@ -308,24 +307,11 @@
             this.btn_cerrar.UseVisualStyleBackColor = false;
             this.btn_cerrar.Click += new System.EventHandler(this.btn_cerrar_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 31);
-            this.label1.TabIndex = 71;
-            this.label1.Text = "204 -";
-            // 
             // Frm_MantModificacionReunion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(629, 575);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_Ayuda);
             this.Controls.Add(this.btn_minimizar);
             this.Controls.Add(this.btn_cerrar);
@@ -373,6 +359,5 @@
         private System.Windows.Forms.DateTimePicker Dtp_FechaIngreso;
         private System.Windows.Forms.Label Lbl_HoraIngreso;
         private System.Windows.Forms.Label Lbl_FechaIngreso;
-        private System.Windows.Forms.Label label1;
     }
 }

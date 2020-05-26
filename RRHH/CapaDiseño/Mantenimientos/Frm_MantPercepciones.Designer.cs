@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_MantPercepciones));
             this.Pnl_nombreForm = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
             this.btn_Ayuda = new System.Windows.Forms.Button();
             this.btn_minimizar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -60,37 +59,25 @@
             // Pnl_nombreForm
             // 
             this.Pnl_nombreForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
-            this.Pnl_nombreForm.Controls.Add(this.label3);
             this.Pnl_nombreForm.Controls.Add(this.btn_Ayuda);
             this.Pnl_nombreForm.Controls.Add(this.btn_minimizar);
             this.Pnl_nombreForm.Controls.Add(this.label1);
             this.Pnl_nombreForm.Controls.Add(this.btn_cerrar);
             this.Pnl_nombreForm.Location = new System.Drawing.Point(-1, -2);
-            this.Pnl_nombreForm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Pnl_nombreForm.Margin = new System.Windows.Forms.Padding(2);
             this.Pnl_nombreForm.Name = "Pnl_nombreForm";
-            this.Pnl_nombreForm.Size = new System.Drawing.Size(1056, 63);
+            this.Pnl_nombreForm.Size = new System.Drawing.Size(736, 51);
             this.Pnl_nombreForm.TabIndex = 0;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(13, 18);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(62, 25);
-            this.label3.TabIndex = 8;
-            this.label3.Text = "203 -";
             // 
             // btn_Ayuda
             // 
             this.btn_Ayuda.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_Ayuda.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_Ayuda.Image = ((System.Drawing.Image)(resources.GetObject("btn_Ayuda.Image")));
-            this.btn_Ayuda.Location = new System.Drawing.Point(913, 14);
-            this.btn_Ayuda.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_Ayuda.Location = new System.Drawing.Point(647, 12);
+            this.btn_Ayuda.Margin = new System.Windows.Forms.Padding(2);
             this.btn_Ayuda.Name = "btn_Ayuda";
-            this.btn_Ayuda.Size = new System.Drawing.Size(44, 38);
+            this.btn_Ayuda.Size = new System.Drawing.Size(33, 31);
             this.btn_Ayuda.TabIndex = 6;
             this.btn_Ayuda.UseVisualStyleBackColor = true;
             this.btn_Ayuda.Click += new System.EventHandler(this.Btn_Ayuda_Click);
@@ -100,10 +87,10 @@
             this.btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_minimizar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_minimizar.Image = ((System.Drawing.Image)(resources.GetObject("btn_minimizar.Image")));
-            this.btn_minimizar.Location = new System.Drawing.Point(866, 14);
-            this.btn_minimizar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_minimizar.Location = new System.Drawing.Point(612, 12);
+            this.btn_minimizar.Margin = new System.Windows.Forms.Padding(2);
             this.btn_minimizar.Name = "btn_minimizar";
-            this.btn_minimizar.Size = new System.Drawing.Size(44, 38);
+            this.btn_minimizar.Size = new System.Drawing.Size(33, 31);
             this.btn_minimizar.TabIndex = 5;
             this.btn_minimizar.UseVisualStyleBackColor = true;
             this.btn_minimizar.Click += new System.EventHandler(this.Btn_minimizar_Click);
@@ -113,9 +100,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(78, 18);
+            this.label1.Location = new System.Drawing.Point(20, 12);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(587, 25);
+            this.label1.Size = new System.Drawing.Size(479, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "MANTENIMIENTO DE PERCEPCIONES Y DEDUCCIONES";
             // 
@@ -124,10 +112,10 @@
             this.btn_cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btn_cerrar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_cerrar.Image = ((System.Drawing.Image)(resources.GetObject("btn_cerrar.Image")));
-            this.btn_cerrar.Location = new System.Drawing.Point(963, 14);
-            this.btn_cerrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_cerrar.Location = new System.Drawing.Point(685, 12);
+            this.btn_cerrar.Margin = new System.Windows.Forms.Padding(2);
             this.btn_cerrar.Name = "btn_cerrar";
-            this.btn_cerrar.Size = new System.Drawing.Size(44, 38);
+            this.btn_cerrar.Size = new System.Drawing.Size(33, 31);
             this.btn_cerrar.TabIndex = 4;
             this.btn_cerrar.UseVisualStyleBackColor = true;
             this.btn_cerrar.Click += new System.EventHandler(this.Btn_cerrar_Click);
@@ -143,10 +131,10 @@
             this.Btn_consultar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_consultar.Image = ((System.Drawing.Image)(resources.GetObject("Btn_consultar.Image")));
             this.Btn_consultar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Btn_consultar.Location = new System.Drawing.Point(617, 90);
-            this.Btn_consultar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_consultar.Location = new System.Drawing.Point(463, 73);
+            this.Btn_consultar.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_consultar.Name = "Btn_consultar";
-            this.Btn_consultar.Size = new System.Drawing.Size(187, 110);
+            this.Btn_consultar.Size = new System.Drawing.Size(140, 89);
             this.Btn_consultar.TabIndex = 67;
             this.Btn_consultar.Text = "Consultar";
             this.Btn_consultar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -164,10 +152,10 @@
             this.Btn_borrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_borrar.Image = ((System.Drawing.Image)(resources.GetObject("Btn_borrar.Image")));
             this.Btn_borrar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Btn_borrar.Location = new System.Drawing.Point(504, 90);
-            this.Btn_borrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_borrar.Location = new System.Drawing.Point(378, 73);
+            this.Btn_borrar.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_borrar.Name = "Btn_borrar";
-            this.Btn_borrar.Size = new System.Drawing.Size(115, 110);
+            this.Btn_borrar.Size = new System.Drawing.Size(86, 89);
             this.Btn_borrar.TabIndex = 66;
             this.Btn_borrar.Text = "Borrar";
             this.Btn_borrar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -185,10 +173,10 @@
             this.Btn_guardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_guardar.Image = ((System.Drawing.Image)(resources.GetObject("Btn_guardar.Image")));
             this.Btn_guardar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Btn_guardar.Location = new System.Drawing.Point(392, 90);
-            this.Btn_guardar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_guardar.Location = new System.Drawing.Point(294, 73);
+            this.Btn_guardar.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_guardar.Name = "Btn_guardar";
-            this.Btn_guardar.Size = new System.Drawing.Size(115, 110);
+            this.Btn_guardar.Size = new System.Drawing.Size(86, 89);
             this.Btn_guardar.TabIndex = 64;
             this.Btn_guardar.Text = "Guardar";
             this.Btn_guardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -206,10 +194,10 @@
             this.Btn_editar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_editar.Image = ((System.Drawing.Image)(resources.GetObject("Btn_editar.Image")));
             this.Btn_editar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Btn_editar.Location = new System.Drawing.Point(280, 90);
-            this.Btn_editar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_editar.Location = new System.Drawing.Point(210, 73);
+            this.Btn_editar.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_editar.Name = "Btn_editar";
-            this.Btn_editar.Size = new System.Drawing.Size(115, 110);
+            this.Btn_editar.Size = new System.Drawing.Size(86, 89);
             this.Btn_editar.TabIndex = 63;
             this.Btn_editar.Text = "Editar";
             this.Btn_editar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -227,10 +215,10 @@
             this.Btn_ingresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_ingresar.Image = ((System.Drawing.Image)(resources.GetObject("Btn_ingresar.Image")));
             this.Btn_ingresar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Btn_ingresar.Location = new System.Drawing.Point(168, 90);
-            this.Btn_ingresar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_ingresar.Location = new System.Drawing.Point(126, 73);
+            this.Btn_ingresar.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_ingresar.Name = "Btn_ingresar";
-            this.Btn_ingresar.Size = new System.Drawing.Size(115, 110);
+            this.Btn_ingresar.Size = new System.Drawing.Size(86, 89);
             this.Btn_ingresar.TabIndex = 62;
             this.Btn_ingresar.Text = "Ingresar";
             this.Btn_ingresar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -252,11 +240,11 @@
             this.gpb_datos.Controls.Add(this.Lbl_codPercepcion);
             this.gpb_datos.Controls.Add(this.Txt_Cod);
             this.gpb_datos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gpb_datos.Location = new System.Drawing.Point(29, 231);
-            this.gpb_datos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.gpb_datos.Location = new System.Drawing.Point(22, 188);
+            this.gpb_datos.Margin = new System.Windows.Forms.Padding(2);
             this.gpb_datos.Name = "gpb_datos";
-            this.gpb_datos.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.gpb_datos.Size = new System.Drawing.Size(927, 259);
+            this.gpb_datos.Padding = new System.Windows.Forms.Padding(2);
+            this.gpb_datos.Size = new System.Drawing.Size(695, 167);
             this.gpb_datos.TabIndex = 68;
             this.gpb_datos.TabStop = false;
             this.gpb_datos.Text = "Datos";
@@ -265,21 +253,22 @@
             // 
             this.Cbo_estado.FormattingEnabled = true;
             this.Cbo_estado.Items.AddRange(new object[] {
-            "Activo",
-            "Inactivo"});
-            this.Cbo_estado.Location = new System.Drawing.Point(732, 179);
-            this.Cbo_estado.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            "0",
+            "1"});
+            this.Cbo_estado.Location = new System.Drawing.Point(549, 107);
+            this.Cbo_estado.Margin = new System.Windows.Forms.Padding(2);
             this.Cbo_estado.Name = "Cbo_estado";
-            this.Cbo_estado.Size = new System.Drawing.Size(161, 28);
+            this.Cbo_estado.Size = new System.Drawing.Size(122, 25);
             this.Cbo_estado.TabIndex = 11;
             this.Cbo_estado.SelectedIndexChanged += new System.EventHandler(this.Cbo_estado_SelectedIndexChanged);
             // 
             // lbl_estado
             // 
             this.lbl_estado.AutoSize = true;
-            this.lbl_estado.Location = new System.Drawing.Point(575, 187);
+            this.lbl_estado.Location = new System.Drawing.Point(431, 114);
+            this.lbl_estado.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_estado.Name = "lbl_estado";
-            this.lbl_estado.Size = new System.Drawing.Size(61, 20);
+            this.lbl_estado.Size = new System.Drawing.Size(52, 17);
             this.lbl_estado.TabIndex = 10;
             this.lbl_estado.Text = "Estado";
             // 
@@ -287,47 +276,50 @@
             // 
             this.Cbo_tipooperacion.FormattingEnabled = true;
             this.Cbo_tipooperacion.Items.AddRange(new object[] {
-            "Suma",
-            "Multiplica"});
-            this.Cbo_tipooperacion.Location = new System.Drawing.Point(732, 114);
-            this.Cbo_tipooperacion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            "0",
+            "1"});
+            this.Cbo_tipooperacion.Location = new System.Drawing.Point(549, 69);
+            this.Cbo_tipooperacion.Margin = new System.Windows.Forms.Padding(2);
             this.Cbo_tipooperacion.Name = "Cbo_tipooperacion";
-            this.Cbo_tipooperacion.Size = new System.Drawing.Size(161, 28);
+            this.Cbo_tipooperacion.Size = new System.Drawing.Size(122, 25);
             this.Cbo_tipooperacion.TabIndex = 9;
             this.Cbo_tipooperacion.SelectedIndexChanged += new System.EventHandler(this.Cbo_tipooperacion_SelectedIndexChanged);
             // 
             // lbl_accion
             // 
             this.lbl_accion.AutoSize = true;
-            this.lbl_accion.Location = new System.Drawing.Point(571, 120);
+            this.lbl_accion.Location = new System.Drawing.Point(428, 74);
+            this.lbl_accion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_accion.Name = "lbl_accion";
-            this.lbl_accion.Size = new System.Drawing.Size(147, 20);
+            this.lbl_accion.Size = new System.Drawing.Size(127, 17);
             this.lbl_accion.TabIndex = 8;
             this.lbl_accion.Text = "Tipo de operacion:";
             // 
             // Txt_Saldo
             // 
-            this.Txt_Saldo.Location = new System.Drawing.Point(732, 42);
-            this.Txt_Saldo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Txt_Saldo.Location = new System.Drawing.Point(549, 34);
+            this.Txt_Saldo.Margin = new System.Windows.Forms.Padding(2);
             this.Txt_Saldo.Name = "Txt_Saldo";
-            this.Txt_Saldo.Size = new System.Drawing.Size(161, 27);
+            this.Txt_Saldo.Size = new System.Drawing.Size(122, 23);
             this.Txt_Saldo.TabIndex = 7;
             // 
             // lbl_saldo
             // 
             this.lbl_saldo.AutoSize = true;
-            this.lbl_saldo.Location = new System.Drawing.Point(571, 46);
+            this.lbl_saldo.Location = new System.Drawing.Point(428, 37);
+            this.lbl_saldo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_saldo.Name = "lbl_saldo";
-            this.lbl_saldo.Size = new System.Drawing.Size(56, 20);
+            this.lbl_saldo.Size = new System.Drawing.Size(48, 17);
             this.lbl_saldo.TabIndex = 6;
             this.lbl_saldo.Text = "Saldo:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(27, 187);
+            this.label2.Location = new System.Drawing.Point(20, 108);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(122, 20);
+            this.label2.Size = new System.Drawing.Size(104, 17);
             this.label2.TabIndex = 5;
             this.label2.Text = "Tipo Concepto:";
             // 
@@ -335,55 +327,57 @@
             // 
             this.Cbo_tipo.FormattingEnabled = true;
             this.Cbo_tipo.Items.AddRange(new object[] {
-            "Debe",
-            "Haber"});
-            this.Cbo_tipo.Location = new System.Drawing.Point(321, 184);
-            this.Cbo_tipo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            "0",
+            "1"});
+            this.Cbo_tipo.Location = new System.Drawing.Point(220, 106);
+            this.Cbo_tipo.Margin = new System.Windows.Forms.Padding(2);
             this.Cbo_tipo.Name = "Cbo_tipo";
-            this.Cbo_tipo.Size = new System.Drawing.Size(173, 28);
+            this.Cbo_tipo.Size = new System.Drawing.Size(131, 25);
             this.Cbo_tipo.TabIndex = 4;
             // 
             // Txt_nombre
             // 
-            this.Txt_nombre.Location = new System.Drawing.Point(322, 115);
-            this.Txt_nombre.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Txt_nombre.Location = new System.Drawing.Point(220, 68);
+            this.Txt_nombre.Margin = new System.Windows.Forms.Padding(2);
             this.Txt_nombre.Name = "Txt_nombre";
-            this.Txt_nombre.Size = new System.Drawing.Size(173, 27);
+            this.Txt_nombre.Size = new System.Drawing.Size(131, 23);
             this.Txt_nombre.TabIndex = 3;
             // 
             // Lbl_nom
             // 
             this.Lbl_nom.AutoSize = true;
-            this.Lbl_nom.Location = new System.Drawing.Point(28, 122);
+            this.Lbl_nom.Location = new System.Drawing.Point(20, 74);
+            this.Lbl_nom.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lbl_nom.Name = "Lbl_nom";
-            this.Lbl_nom.Size = new System.Drawing.Size(149, 20);
+            this.Lbl_nom.Size = new System.Drawing.Size(126, 17);
             this.Lbl_nom.TabIndex = 2;
             this.Lbl_nom.Text = "Nombre Concepto:";
             // 
             // Lbl_codPercepcion
             // 
             this.Lbl_codPercepcion.AutoSize = true;
-            this.Lbl_codPercepcion.Location = new System.Drawing.Point(27, 42);
+            this.Lbl_codPercepcion.Location = new System.Drawing.Point(20, 34);
+            this.Lbl_codPercepcion.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lbl_codPercepcion.Name = "Lbl_codPercepcion";
-            this.Lbl_codPercepcion.Size = new System.Drawing.Size(261, 20);
+            this.Lbl_codPercepcion.Size = new System.Drawing.Size(221, 17);
             this.Lbl_codPercepcion.TabIndex = 1;
             this.Lbl_codPercepcion.Text = "Codigo de percepcion/Deduccion:";
             // 
             // Txt_Cod
             // 
-            this.Txt_Cod.Location = new System.Drawing.Point(321, 39);
-            this.Txt_Cod.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Txt_Cod.Location = new System.Drawing.Point(249, 34);
+            this.Txt_Cod.Margin = new System.Windows.Forms.Padding(2);
             this.Txt_Cod.Name = "Txt_Cod";
-            this.Txt_Cod.Size = new System.Drawing.Size(174, 27);
+            this.Txt_Cod.Size = new System.Drawing.Size(102, 23);
             this.Txt_Cod.TabIndex = 0;
             this.Txt_Cod.TextChanged += new System.EventHandler(this.Txt_Cod_TextChanged);
             // 
             // Frm_MantPercepciones
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1030, 560);
+            this.ClientSize = new System.Drawing.Size(732, 369);
             this.Controls.Add(this.gpb_datos);
             this.Controls.Add(this.Btn_consultar);
             this.Controls.Add(this.Btn_borrar);
@@ -392,7 +386,7 @@
             this.Controls.Add(this.Btn_ingresar);
             this.Controls.Add(this.Pnl_nombreForm);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Frm_MantPercepciones";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_MantPercepciones";
@@ -429,6 +423,5 @@
         private System.Windows.Forms.Label Lbl_nom;
         private System.Windows.Forms.Label Lbl_codPercepcion;
         private System.Windows.Forms.TextBox Txt_Cod;
-        private System.Windows.Forms.Label label3;
     }
 }

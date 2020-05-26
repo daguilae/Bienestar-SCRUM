@@ -23,11 +23,7 @@ namespace CapaDiseño.Mantenimientos
         string slocalIP;
         string smacAddresses;
         string suser;
-        string tipopermiso;
-       
         
-
-	    
           
         public void obtenerip()
         {
@@ -50,94 +46,16 @@ namespace CapaDiseño.Mantenimientos
                 }
             }
         }
-
-        public Frm_MantJornada(String susuario,String permiso)
+        public Frm_MantJornada(String susuario)
         {
             InitializeComponent();
             obtenerip();
-            Txt_codigoJornada.Text= logic.siguiente("jornada", "pkcodigojornada"); 
             suser = susuario;
-            tipopermiso = permiso;
-            Cbo_estadoJornada.Items.Add("Activo");
-            Cbo_estadoJornada.Items.Add("Inactivo");
-            /*------------------------*/
-            Btn_guardar.Enabled = false;
-            Btn_editar.Enabled = false;
-            Btn_borrar.Enabled = false;
-	    Btn_consultar.Enabled = false;
-            /*------------------------*/
-	   bloqueartxt();
 
-           
-        }
- public void bloqueartxt()
-        {
-          
             Txt_codigoJornada.Enabled = false;
             Txt_nombreJornada.Enabled = false;
             Txt_horasJornada.Enabled = false;
             Cbo_estadoJornada.Enabled = false;
-        }
-        public void desbloqueartxt()
-        {
-            Txt_nombreJornada.Enabled = true;
-            Txt_horasJornada.Enabled = true;
-            Cbo_estadoJornada.Enabled = true;
-        }
-        public void limpiar()
-        {
-            Txt_codigoJornada.Text = "";
-            Txt_nombreJornada.Text = "";
-            Txt_horasJornada.Text = "";
-            Cbo_estadoJornada.Text = "";
-        }
-
-public void permisos()
-        {
-            if (tipopermiso == "1111")
-            {
-                //todos
-                Btn_guardar.Enabled = true;
-                Btn_editar.Enabled = true;
-                Btn_borrar.Enabled = true;
-                Btn_consultar.Enabled = true;
-                desbloqueartxt();
-            }
-            if (tipopermiso == "1001")
-            {
-                //Guardar
-                Btn_guardar.Enabled = true;
-                Btn_editar.Enabled = false;
-                Btn_borrar.Enabled = false;
-                Btn_consultar.Enabled = true;
-                desbloqueartxt();
-            }
-            if (tipopermiso == "0101")
-            {
-                //modificar
-                Btn_guardar.Enabled = false;
-                Btn_editar.Enabled = true;
-                Btn_borrar.Enabled = false;
-                Btn_consultar.Enabled = true;
-                desbloqueartxt();
-            }
-            if (tipopermiso == "0011")
-            {
-                //eliminar
-                Btn_guardar.Enabled = false;
-                Btn_editar.Enabled = false;
-                Btn_borrar.Enabled = true;
-                Btn_consultar.Enabled = true;
-                desbloqueartxt();
-            }
-            if (tipopermiso == "0001")
-            {
-                Btn_guardar.Enabled = false;
-                Btn_editar.Enabled = false;
-                Btn_borrar.Enabled = false;
-                Btn_ingresar.Enabled = false;
-                Btn_consultar.Enabled = true;
-            }
         }
 
         private void Btn_minimizar_Click(object sender, EventArgs e)
@@ -174,43 +92,25 @@ public void permisos()
 
         private void Btn_ingresar_Click(object sender, EventArgs e)
         {
-            permisos();
+            Txt_codigoJornada.Enabled = true;
+            Txt_nombreJornada.Enabled = true;
+            Txt_horasJornada.Enabled = true;
+            Cbo_estadoJornada.Enabled = true;
         }
 
         private void Btn_editar_Click(object sender, EventArgs e)
         {
-            if (Cbo_estadoJornada.Text == "Activo")
-            {
-                Cbo_estadoJornada.Text = "1";
-            }
-            else
-            {
-                Cbo_estadoJornada.Text = "0";
-            }
             OdbcDataReader jornada = logic.modificarJornada(Txt_codigoJornada.Text, Txt_nombreJornada.Text, Txt_horasJornada.Text, Cbo_estadoJornada.Text);
             MessageBox.Show("Datos modificados correctamente.");
             logic.bitacora("0", slocalIP, smacAddresses, suser, "RRHH", DateTime.Now.ToString("G"), "Modificar", this.GetType().Name);
-	    limpiar();
-            bloqueartxt();
 
         }
 
         private void Btn_guardar_Click(object sender, EventArgs e)
         {
-            if (Cbo_estadoJornada.Text == "Activo")
-            {
-                Cbo_estadoJornada.Text = "1";
-            }
-            else
-            {
-                Cbo_estadoJornada.Text = "0";
-            }
             OdbcDataReader jornada = logic.insertarJornada(Txt_codigoJornada.Text, Txt_nombreJornada.Text, Txt_horasJornada.Text, Cbo_estadoJornada.Text);
             MessageBox.Show("Datos registrados.");
             logic.bitacora("0", slocalIP, smacAddresses, suser, "RRHH", DateTime.Now.ToString("G"), "Guardar", this.GetType().Name);
-	        limpiar();
-            Txt_codigoJornada.Text = logic.siguiente("jornada", "pkcodigojornada");
-            bloqueartxt();
 
         }
 
@@ -219,8 +119,7 @@ public void permisos()
             OdbcDataReader jornada = logic.eliminarJornada(Txt_codigoJornada.Text);
             MessageBox.Show("Eliminado Correctamentee.");
             logic.bitacora("0", slocalIP, smacAddresses, suser, "RRHH", DateTime.Now.ToString("G"), "Eliminar", this.GetType().Name);
-	    limpiar();
-            bloqueartxt();
+
         }
 
         private void Btn_consultar_Click(object sender, EventArgs e)
@@ -243,7 +142,8 @@ public void permisos()
 
         private void Cbo_estadoJornada_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
+            Cbo_estadoJornada.Items.Add("1");
+            Cbo_estadoJornada.Items.Add("0");
         }
 
         private void Frm_MantJornada_Load(object sender, EventArgs e)

@@ -33,6 +33,9 @@
             this.Lbl_SansionesPersonal = new System.Windows.Forms.Label();
             this.Btn_actualizar = new System.Windows.Forms.Button();
             this.Dgv_SancionEmpleado = new System.Windows.Forms.DataGridView();
+            this.btn_Ayuda = new System.Windows.Forms.Button();
+            this.btn_minimizar = new System.Windows.Forms.Button();
+            this.btn_cerrar = new System.Windows.Forms.Button();
             this.cod = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.CODP = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.primaria = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -40,10 +43,6 @@
             this.bachillerato = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.eU = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Estado = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.btn_Ayuda = new System.Windows.Forms.Button();
-            this.btn_minimizar = new System.Windows.Forms.Button();
-            this.btn_cerrar = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.Pic_Barra)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_SancionEmpleado)).BeginInit();
             this.SuspendLayout();
@@ -64,13 +63,12 @@
             this.Lbl_SansionesPersonal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
             this.Lbl_SansionesPersonal.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_SansionesPersonal.ForeColor = System.Drawing.Color.White;
-            this.Lbl_SansionesPersonal.Location = new System.Drawing.Point(112, 9);
+            this.Lbl_SansionesPersonal.Location = new System.Drawing.Point(21, 7);
             this.Lbl_SansionesPersonal.Name = "Lbl_SansionesPersonal";
             this.Lbl_SansionesPersonal.Size = new System.Drawing.Size(320, 31);
             this.Lbl_SansionesPersonal.TabIndex = 29;
             this.Lbl_SansionesPersonal.Text = "Sanciones del Personal";
             this.Lbl_SansionesPersonal.UseMnemonic = false;
-            this.Lbl_SansionesPersonal.Click += new System.EventHandler(this.Lbl_SansionesPersonal_Click);
             // 
             // Btn_actualizar
             // 
@@ -113,6 +111,48 @@
             this.Dgv_SancionEmpleado.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.Dgv_SancionEmpleado.Size = new System.Drawing.Size(1007, 297);
             this.Dgv_SancionEmpleado.TabIndex = 84;
+            // 
+            // btn_Ayuda
+            // 
+            this.btn_Ayuda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
+            this.btn_Ayuda.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_Ayuda.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_Ayuda.Image = global::CapaDiseño.Properties.Resources.question__1_;
+            this.btn_Ayuda.Location = new System.Drawing.Point(964, 5);
+            this.btn_Ayuda.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_Ayuda.Name = "btn_Ayuda";
+            this.btn_Ayuda.Size = new System.Drawing.Size(44, 38);
+            this.btn_Ayuda.TabIndex = 89;
+            this.btn_Ayuda.UseVisualStyleBackColor = false;
+            this.btn_Ayuda.Click += new System.EventHandler(this.btn_Ayuda_Click);
+            // 
+            // btn_minimizar
+            // 
+            this.btn_minimizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
+            this.btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_minimizar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_minimizar.Image = ((System.Drawing.Image)(resources.GetObject("btn_minimizar.Image")));
+            this.btn_minimizar.Location = new System.Drawing.Point(915, 5);
+            this.btn_minimizar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_minimizar.Name = "btn_minimizar";
+            this.btn_minimizar.Size = new System.Drawing.Size(44, 38);
+            this.btn_minimizar.TabIndex = 88;
+            this.btn_minimizar.UseVisualStyleBackColor = false;
+            this.btn_minimizar.Click += new System.EventHandler(this.btn_minimizar_Click);
+            // 
+            // btn_cerrar
+            // 
+            this.btn_cerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
+            this.btn_cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btn_cerrar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_cerrar.Image = ((System.Drawing.Image)(resources.GetObject("btn_cerrar.Image")));
+            this.btn_cerrar.Location = new System.Drawing.Point(1013, 5);
+            this.btn_cerrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_cerrar.Name = "btn_cerrar";
+            this.btn_cerrar.Size = new System.Drawing.Size(44, 38);
+            this.btn_cerrar.TabIndex = 87;
+            this.btn_cerrar.UseVisualStyleBackColor = false;
+            this.btn_cerrar.Click += new System.EventHandler(this.btn_cerrar_Click);
             // 
             // cod
             // 
@@ -163,67 +203,11 @@
             this.Estado.Name = "Estado";
             this.Estado.Width = 125;
             // 
-            // btn_Ayuda
-            // 
-            this.btn_Ayuda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
-            this.btn_Ayuda.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_Ayuda.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btn_Ayuda.Image = global::CapaDiseño.Properties.Resources.question__1_;
-            this.btn_Ayuda.Location = new System.Drawing.Point(964, 5);
-            this.btn_Ayuda.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btn_Ayuda.Name = "btn_Ayuda";
-            this.btn_Ayuda.Size = new System.Drawing.Size(44, 38);
-            this.btn_Ayuda.TabIndex = 89;
-            this.btn_Ayuda.UseVisualStyleBackColor = false;
-            this.btn_Ayuda.Click += new System.EventHandler(this.btn_Ayuda_Click);
-            // 
-            // btn_minimizar
-            // 
-            this.btn_minimizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
-            this.btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_minimizar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btn_minimizar.Image = ((System.Drawing.Image)(resources.GetObject("btn_minimizar.Image")));
-            this.btn_minimizar.Location = new System.Drawing.Point(915, 5);
-            this.btn_minimizar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btn_minimizar.Name = "btn_minimizar";
-            this.btn_minimizar.Size = new System.Drawing.Size(44, 38);
-            this.btn_minimizar.TabIndex = 88;
-            this.btn_minimizar.UseVisualStyleBackColor = false;
-            this.btn_minimizar.Click += new System.EventHandler(this.btn_minimizar_Click);
-            // 
-            // btn_cerrar
-            // 
-            this.btn_cerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
-            this.btn_cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btn_cerrar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btn_cerrar.Image = ((System.Drawing.Image)(resources.GetObject("btn_cerrar.Image")));
-            this.btn_cerrar.Location = new System.Drawing.Point(1013, 5);
-            this.btn_cerrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.btn_cerrar.Name = "btn_cerrar";
-            this.btn_cerrar.Size = new System.Drawing.Size(44, 38);
-            this.btn_cerrar.TabIndex = 87;
-            this.btn_cerrar.UseVisualStyleBackColor = false;
-            this.btn_cerrar.Click += new System.EventHandler(this.btn_cerrar_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(37, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(80, 31);
-            this.label1.TabIndex = 90;
-            this.label1.Text = "219 -";
-            this.label1.UseMnemonic = false;
-            // 
             // Frm_SansionesEmpleados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 491);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_Ayuda);
             this.Controls.Add(this.btn_minimizar);
             this.Controls.Add(this.btn_cerrar);
@@ -258,6 +242,5 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn bachillerato;
         private System.Windows.Forms.DataGridViewTextBoxColumn eU;
         private System.Windows.Forms.DataGridViewTextBoxColumn Estado;
-        private System.Windows.Forms.Label label1;
     }
 }

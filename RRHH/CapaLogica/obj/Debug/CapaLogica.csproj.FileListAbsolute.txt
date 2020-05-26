@@ -217,50 +217,6 @@ C:\Users\prueb\Desktop\ElBienestar-Didactico-Freddy-de-leon\HRM\RRHH\CapaLogica\
 C:\Users\prueb\Desktop\ElBienestar-Didactico-Freddy-de-leon\HRM\RRHH\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
 C:\Users\prueb\Desktop\ElBienestar-Didactico-Freddy-de-leon\HRM\RRHH\CapaLogica\obj\Debug\CapaLogica.dll
 C:\Users\prueb\Desktop\ElBienestar-Didactico-Freddy-de-leon\HRM\RRHH\CapaLogica\obj\Debug\CapaLogica.pdb
-C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\bin\Debug\CapaLogica.dll
-C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\bin\Debug\CapaLogica.pdb
-C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\bin\Debug\CapaDatos.dll
-C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\bin\Debug\itextsharp.dll
-C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\bin\Debug\CapaDatos.pdb
-C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\bin\Debug\itextsharp.xml
-C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\obj\Debug\CapaLogica.csprojAssemblyReference.cache
-C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
-C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
-C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\obj\Debug\CapaLogica.dll
-C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\obj\Debug\CapaLogica.pdb
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\bin\Debug\CapaLogica.dll
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\bin\Debug\CapaLogica.pdb
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\bin\Debug\CapaDatos.dll
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\bin\Debug\itextsharp.dll
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\bin\Debug\CapaDatos.pdb
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\bin\Debug\itextsharp.xml
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\obj\Debug\CapaLogica.csprojAssemblyReference.cache
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\obj\Debug\CapaLogica.dll
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\obj\Debug\CapaLogica.pdb
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaLogica\bin\Debug\CapaLogica.dll
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaLogica\bin\Debug\CapaLogica.pdb
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaLogica\bin\Debug\CapaDatos.dll
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaLogica\bin\Debug\itextsharp.dll
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaLogica\bin\Debug\CapaDatos.pdb
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaLogica\bin\Debug\itextsharp.xml
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaLogica\obj\Debug\CapaLogica.csprojAssemblyReference.cache
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaLogica\obj\Debug\CapaLogica.dll
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaLogica\obj\Debug\CapaLogica.pdb
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaLogica\bin\Debug\CapaLogica.dll
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaLogica\bin\Debug\CapaLogica.pdb
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaLogica\bin\Debug\CapaDatos.dll
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaLogica\bin\Debug\itextsharp.dll
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaLogica\bin\Debug\CapaDatos.pdb
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaLogica\bin\Debug\itextsharp.xml
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaLogica\obj\Debug\CapaLogica.csprojAssemblyReference.cache
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaLogica\obj\Debug\CapaLogica.dll
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaLogica\obj\Debug\CapaLogica.pdb
 C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaLogica\bin\Debug\CapaLogica.dll
 C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaLogica\bin\Debug\CapaLogica.pdb
 C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaLogica\bin\Debug\CapaDatos.dll
@@ -272,3 +228,14 @@ C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaLogica\obj\Debug\CapaLogica.csproj.C
 C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
 C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaLogica\obj\Debug\CapaLogica.dll
 C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaLogica\obj\Debug\CapaLogica.pdb
+C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\bin\Debug\CapaLogica.dll
+C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\bin\Debug\CapaLogica.pdb
+C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\bin\Debug\CapaDatos.dll
+C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\bin\Debug\itextsharp.dll
+C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\bin\Debug\CapaDatos.pdb
+C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\bin\Debug\itextsharp.xml
+C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\obj\Debug\CapaLogica.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\obj\Debug\CapaLogica.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\obj\Debug\CapaLogica.csproj.CopyComplete
+C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\obj\Debug\CapaLogica.dll
+C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaLogica\obj\Debug\CapaLogica.pdb

@@ -37,11 +37,6 @@ namespace CapaLogica
             return sn.Insertarnomina(sCodigo, sTiponomina, sFechainicio, sfechafin, sCodigoemp, sobservaciones, ssaldototal);          
         }
         //Obtener siguiente registro
-        public OdbcDataReader llenarasignacionconcepto(string sConcepto)
-        {
-            return sn.llenarasignacionconcepoto(sConcepto);
-        }
-
         public string siguiente(string tabla, string campo)
         {
             string llave = sn.obtenerfinal(tabla, campo);
@@ -92,9 +87,9 @@ namespace CapaLogica
         }
         /*FIN DE INSERTAR BANCO*/
         //------------------------------------------------------------------------------------------------------INSERTEMPLEADO--------//
-        public OdbcDataReader Insertarempleado(string cod, string jornada ,string Pnombre, string Snombre, string Papellido, string Sapellido, string telefono, string celular, string email, string direccion, string fechanacimiento, string Eestado, string TipoContratacion_pkcodigocontratacion, string Nit)
+        public OdbcDataReader Insertarempleado(string Pnombre, string Snombre, string Papellido, string Sapellido, string telefono, string celular, string email, string direccion, string Nit,string Eestado)
         {
-            return sn.InsertarEmp(cod,jornada, Pnombre, Snombre, Papellido, Sapellido, telefono, celular, email, direccion, fechanacimiento, Eestado, TipoContratacion_pkcodigocontratacion, Nit);
+            return sn.InsertarEmp(Pnombre, Snombre, Papellido, Sapellido, telefono, celular, email, direccion,Nit ,Eestado);
         }
         //---------------------------------------------------------------------------------------------------------------------------//
         //------------------------------------------------------------------------------------------------------UPDATE EMPLEADO------//
@@ -116,9 +111,9 @@ namespace CapaLogica
         }
         //------------------------------------------------------------------------------------------------------------------------//
         //------------------------------------------------------------------------------------------------------INSERTAR MC------//
-        public OdbcDataReader InsertarMC(string idmc,string Nombre, string Direccion, string Telefono, string Eestado)
+        public OdbcDataReader InsertarMC(string Nombre, string Direccion, string Telefono, string Eestado)
         {
-            return sn.InsertarMC(idmc,Nombre, Direccion, Telefono, Eestado);
+            return sn.InsertarMC(Nombre, Direccion, Telefono, Eestado);
         }
         //-----------------------------------------------------------------------------------------------------------------------//
        //------------------------------------------------------------------------------------------------------UPDATE MC-------//
@@ -138,21 +133,21 @@ namespace CapaLogica
             return sn.consultaJornada(codigomedio);
         }
         //------------------------------------------------------------------------------INSERTAR TIPO CONTRATACION ---------]---//
-        public OdbcDataReader InsertarTC(string cod,string Contrato, string Mes, string Proyecto, string Eestado)
+        public OdbcDataReader InsertarTC(string Contrato, string Mes, string Proyecto, string Eestado)
         {
-            return sn.InsertarTipoC(cod,Contrato, Mes, Proyecto, Eestado);
+            return sn.InsertarMC(Contrato, Mes, Proyecto, Eestado);
         }
         //----------------------------------------------------------------------------------------------------------------------//
         //----------------------------------------------------------------------------------------UPDATE TIPO CONTRATACION------//
         public OdbcDataReader ModificarTC(string Cod, string Contrato, string Mes, string Proyecto, string Eestado)
         {
-            return sn.UpdateTipoC(Cod, Contrato, Mes, Proyecto, Eestado);
+            return sn.UpdateMC(Cod, Contrato, Mes, Proyecto, Eestado);
         }
         //---------------------------------------------------------------------------------------------------------------------//
         //-----------------------------------ELIMINAR TIPO CONTRATACION -------------------------------------------------------//
         public OdbcDataReader eliminarTC(string Eestado)
         {
-            return sn.EliminarTipoC(Eestado);
+            return sn.EliminarMC(Eestado);
         }
         //---------------------------------------------------------------------------------------------------------------------//
         //-----------------------------------------------------------------------------CONSULTA CONTRATACION-------------------------------------------------------------------------------------------------//
@@ -203,51 +198,30 @@ namespace CapaLogica
             return sn.eliminarCurriculum(sCodigo);
         }
         //-------------------------------------------------------------------------------------------------------------------------------------------------------------//
-        
+        //---------------------------------------------------------------------------DESEMPEÑO-------------------------------------------------------------------------//
+        //--------------------------------------------------------INSERTAR KPI-------------------------------------------------------//
+        public OdbcDataReader InsertarKpi(string fechaEvaluacion, string desempeño)
+        {
+            return sn.InsertarKpi(fechaEvaluacion, desempeño);
+        }
+        //-------------------------------------------------------------------------------------------------------------------------------------------------------------//
+        //--------------------------------------------------------INSERTAR CATEGORIA-------------------------------------------------------//
+        public OdbcDataReader InsertarCategoria(string nombreCat)
+        {
+            return sn.InsertarCategoria(nombreCat);
+        }
+        //-------------------------------------------------------------------------------------------------------------------------------------------------------------//
         //--------------------------------------------------------INSERTAR META-------------------------------------------------------//
-        public OdbcDataReader InsertarMeta(string pkcodigo_meta, string nombre_meta, string descripcion, string plazo_meta, string puntaje, string estado)
+        public OdbcDataReader InsertarMeta(string nombreMeta, string tipoMeta, string descrip, string comple, string fechaMeta, string pun)
         {
-            return sn.Insertarmeta(pkcodigo_meta,nombre_meta,descripcion,plazo_meta,puntaje,estado);
+            return sn.InsertarMeta(nombreMeta, tipoMeta, descrip, comple, fechaMeta, pun);
         }
-
-        public OdbcDataReader ModificarMeta(string pkcodigo_meta, string nombre_meta, string descripcion, string plazo_meta, string puntaje, string estado)
+        //-------------------------------------------------------------------------------------------------------------------------------------------------------------//
+        //--------------------------------------------------------INSERTAR TOTAL KPI-------------------------------------------------------//
+        public OdbcDataReader InsertarKpiTotal(string totalKpi)
         {
-            return sn.ModificarMeta( pkcodigo_meta,nombre_meta, descripcion, plazo_meta, puntaje, estado);
-
+            return sn.InsertarKpiTotal(totalKpi);
         }
-
-        public OdbcDataReader Eliminarmeta(string pkcodigo_meta)
-        {
-            return sn.EliminarMeta(pkcodigo_meta);
-
-        }
-
-        public OdbcDataReader Consultameta()
-        {
-            return sn.Consultameta();
-           
-        }
-
-        public OdbcDataReader ConsultaEvaluacion(string fkcodempleado)
-        {
-            return sn.ConsultaEvaluacion(fkcodempleado);
-
-        }
-        public OdbcDataReader InsertarEvaluacion(string pkcodigokpi, string fechadeasignacion, string puntuacion, string fkcodigoempleado, string fkcodigo_meta, string estado_completado, string fecha_realizacion)
-        {
-            return sn.InsertarEvaluacion(pkcodigokpi, fechadeasignacion, puntuacion, fkcodigoempleado, fkcodigo_meta, estado_completado, fecha_realizacion);
-        }
-
-        public OdbcDataReader ModificarEvaluacion(string pkcodigokpi, string fechadeasignacion, string puntuacion, string fkcodigoempleado, string fkcodigo_meta, string estado_completado, string fecha_realizacion)
-        {
-            return sn.ModificarEvaluacion(pkcodigokpi, fechadeasignacion, puntuacion, fkcodigoempleado, fkcodigo_meta, estado_completado, fecha_realizacion);
-        }
-
-        public OdbcDataReader ConsultaPromedio(string codigo)
-        {
-            return sn.ConsultaPromedio(codigo);
-        }
-
         //-------------------------------------------------------------------------------------------------------------------------------------------------------------//
         //pppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
         //-------------------------------------------------------------------------------------------------------------------------------------------------------------//
@@ -291,9 +265,9 @@ namespace CapaLogica
         }
         //-------------------------------------------------------------------------------------------------------------------------------------------------------------//
         //------------------------------------------------------------------------------------------------------INSERTAR DESPIDO ---------------------------------------------
-        public OdbcDataReader InsertaDespido(string sCodigoEmpleado, string sRazonDespido, string sDescripcion, string sFecha, double dIndemnizacion)
+        public OdbcDataReader InsertaDespido(string sCodigoEmpleado, string sRazonDespido, string sDescripcion, string sFecha)
         {
-            return sn.InsertarDespido(sCodigoEmpleado, sRazonDespido, sDescripcion, sFecha, dIndemnizacion);
+            return sn.InsertarDespido(sCodigoEmpleado, sRazonDespido, sDescripcion, sFecha);
         }
         //-------------------------------------------------------------------------------------------------------------------------------------------------------------//
         //------------------------------------------------------------------------------------------------------INSERTAR SANSION ---------------------------------------------
@@ -425,19 +399,6 @@ namespace CapaLogica
         {
             return sn.Insertarpoliza(codigopoliza, codigonomina, fechainicial, fechafinal);
         }
-
-        //buscarfechacontratación
-        public OdbcDataReader BuscarFechaInicioContratacion(string sCodigo)
-        {
-            return sn.BuscarFechaInicioContratacion(sCodigo);
-        }
-        //----------------------
-        //buscar jornada empleado
-        public OdbcDataReader BuscaJornadaEmpleado(string sCodigo)
-        {
-            return sn.BuscarJornadaEmpleado(sCodigo);
-        }
-        //-------------------------------------------------------------------------------------------------------------------------------------------------------------//
 
     }
 }

@@ -38,6 +38,8 @@
             this.mantenimientosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.conceptosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.perfilesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.despidoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ingresoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.reunionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.crearToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modificacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -53,7 +55,6 @@
             this.curriculumToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.jornadasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.departamentosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.metasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.procesosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nominaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.asignacionDeConceptoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -62,18 +63,16 @@
             this.controlDeAsistenciaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.sancionToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.convocatoriaYSeleccionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.kPIEmpleadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.desempeñoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.metasToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.busquedaInternaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.polizasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.polizaNominaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.asignacionMetaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.despidoEmpleadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.herramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.lbl_user = new System.Windows.Forms.Label();
             this.btn_cerrar = new System.Windows.Forms.PictureBox();
             this.btn_minimzar = new System.Windows.Forms.PictureBox();
-            this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btn_cerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_minimzar)).BeginInit();
@@ -81,29 +80,28 @@
             // 
             // toolStrip
             // 
-            this.toolStrip.BackColor = System.Drawing.Color.White;
+            this.toolStrip.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.toolStrip.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.toolStrip.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip.Location = new System.Drawing.Point(0, 28);
             this.toolStrip.Name = "toolStrip";
             this.toolStrip.Padding = new System.Windows.Forms.Padding(0, 0, 1, 2);
             this.toolStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.toolStrip.Size = new System.Drawing.Size(1942, 25);
+            this.toolStrip.Size = new System.Drawing.Size(1890, 25);
             this.toolStrip.TabIndex = 1;
             this.toolStrip.Text = "ToolStrip";
             // 
             // toolsMenu
             // 
             this.toolsMenu.Name = "toolsMenu";
-            this.toolsMenu.Size = new System.Drawing.Size(63, 24);
-            this.toolsMenu.Text = "Inicio ";
-            this.toolsMenu.Click += new System.EventHandler(this.ToolsMenu_Click);
+            this.toolsMenu.Size = new System.Drawing.Size(112, 24);
+            this.toolsMenu.Text = "&Herramientas";
             // 
             // cerrarToolStripMenuItem
             // 
             this.cerrarToolStripMenuItem.Name = "cerrarToolStripMenuItem";
-            this.cerrarToolStripMenuItem.Size = new System.Drawing.Size(82, 24);
-            this.cerrarToolStripMenuItem.Text = "Reportes";
+            this.cerrarToolStripMenuItem.Size = new System.Drawing.Size(119, 24);
+            this.cerrarToolStripMenuItem.Text = "Cerrar Modulo";
             this.cerrarToolStripMenuItem.Click += new System.EventHandler(this.CerrarToolStripMenuItem_Click);
             // 
             // menuStrip
@@ -114,15 +112,12 @@
             this.toolsMenu,
             this.mantenimientosToolStripMenuItem,
             this.procesosToolStripMenuItem,
-            this.cerrarToolStripMenuItem,
-            this.herramientasToolStripMenuItem,
-            this.ayudaToolStripMenuItem,
-            this.cerrarSesionToolStripMenuItem});
+            this.cerrarToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
             this.menuStrip.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
             this.menuStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
-            this.menuStrip.Size = new System.Drawing.Size(1942, 28);
+            this.menuStrip.Size = new System.Drawing.Size(1890, 28);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "MenuStrip";
             // 
@@ -131,6 +126,7 @@
             this.mantenimientosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.conceptosToolStripMenuItem,
             this.perfilesToolStripMenuItem,
+            this.despidoToolStripMenuItem,
             this.reunionToolStripMenuItem,
             this.controlDeAsistenciaToolStripMenuItem,
             this.sancionToolStripMenuItem,
@@ -139,8 +135,7 @@
             this.tipoDeContratoToolStripMenuItem,
             this.curriculumToolStripMenuItem,
             this.jornadasToolStripMenuItem,
-            this.departamentosToolStripMenuItem,
-            this.metasToolStripMenuItem});
+            this.departamentosToolStripMenuItem});
             this.mantenimientosToolStripMenuItem.Name = "mantenimientosToolStripMenuItem";
             this.mantenimientosToolStripMenuItem.Size = new System.Drawing.Size(130, 24);
             this.mantenimientosToolStripMenuItem.Text = "Mantenimientos";
@@ -158,6 +153,22 @@
             this.perfilesToolStripMenuItem.Size = new System.Drawing.Size(254, 26);
             this.perfilesToolStripMenuItem.Text = "Perfiles";
             this.perfilesToolStripMenuItem.Click += new System.EventHandler(this.perfilesToolStripMenuItem_Click);
+            // 
+            // despidoToolStripMenuItem
+            // 
+            this.despidoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ingresoToolStripMenuItem});
+            this.despidoToolStripMenuItem.Name = "despidoToolStripMenuItem";
+            this.despidoToolStripMenuItem.Size = new System.Drawing.Size(254, 26);
+            this.despidoToolStripMenuItem.Text = "Despido";
+            this.despidoToolStripMenuItem.Click += new System.EventHandler(this.DespidoToolStripMenuItem_Click);
+            // 
+            // ingresoToolStripMenuItem
+            // 
+            this.ingresoToolStripMenuItem.Name = "ingresoToolStripMenuItem";
+            this.ingresoToolStripMenuItem.Size = new System.Drawing.Size(141, 26);
+            this.ingresoToolStripMenuItem.Text = "Ingreso";
+            this.ingresoToolStripMenuItem.Click += new System.EventHandler(this.ingresoToolStripMenuItem_Click);
             // 
             // reunionToolStripMenuItem
             // 
@@ -271,13 +282,6 @@
             this.departamentosToolStripMenuItem.Text = "Departamentos";
             this.departamentosToolStripMenuItem.Click += new System.EventHandler(this.departamentosToolStripMenuItem_Click);
             // 
-            // metasToolStripMenuItem
-            // 
-            this.metasToolStripMenuItem.Name = "metasToolStripMenuItem";
-            this.metasToolStripMenuItem.Size = new System.Drawing.Size(254, 26);
-            this.metasToolStripMenuItem.Text = "Metas";
-            this.metasToolStripMenuItem.Click += new System.EventHandler(this.MetasToolStripMenuItem_Click);
-            // 
             // procesosToolStripMenuItem
             // 
             this.procesosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -288,10 +292,9 @@
             this.controlDeAsistenciaToolStripMenuItem1,
             this.sancionToolStripMenuItem1,
             this.convocatoriaYSeleccionToolStripMenuItem,
+            this.kPIEmpleadoToolStripMenuItem,
             this.busquedaInternaToolStripMenuItem,
-            this.polizasToolStripMenuItem,
-            this.asignacionMetaToolStripMenuItem,
-            this.despidoEmpleadoToolStripMenuItem});
+            this.polizasToolStripMenuItem});
             this.procesosToolStripMenuItem.Name = "procesosToolStripMenuItem";
             this.procesosToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
             this.procesosToolStripMenuItem.Text = "Procesos";
@@ -345,6 +348,29 @@
             this.convocatoriaYSeleccionToolStripMenuItem.Text = "Convocatoria";
             this.convocatoriaYSeleccionToolStripMenuItem.Click += new System.EventHandler(this.ConvocatoriaYSeleccionToolStripMenuItem_Click);
             // 
+            // kPIEmpleadoToolStripMenuItem
+            // 
+            this.kPIEmpleadoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.desempeñoToolStripMenuItem1,
+            this.metasToolStripMenuItem1});
+            this.kPIEmpleadoToolStripMenuItem.Name = "kPIEmpleadoToolStripMenuItem";
+            this.kPIEmpleadoToolStripMenuItem.Size = new System.Drawing.Size(269, 26);
+            this.kPIEmpleadoToolStripMenuItem.Text = "KPI Empleado";
+            // 
+            // desempeñoToolStripMenuItem1
+            // 
+            this.desempeñoToolStripMenuItem1.Name = "desempeñoToolStripMenuItem1";
+            this.desempeñoToolStripMenuItem1.Size = new System.Drawing.Size(172, 26);
+            this.desempeñoToolStripMenuItem1.Text = "Desempeño";
+            this.desempeñoToolStripMenuItem1.Click += new System.EventHandler(this.desempeñoToolStripMenuItem1_Click);
+            // 
+            // metasToolStripMenuItem1
+            // 
+            this.metasToolStripMenuItem1.Name = "metasToolStripMenuItem1";
+            this.metasToolStripMenuItem1.Size = new System.Drawing.Size(172, 26);
+            this.metasToolStripMenuItem1.Text = "Metas";
+            this.metasToolStripMenuItem1.Click += new System.EventHandler(this.metasToolStripMenuItem1_Click);
+            // 
             // busquedaInternaToolStripMenuItem
             // 
             this.busquedaInternaToolStripMenuItem.Name = "busquedaInternaToolStripMenuItem";
@@ -367,39 +393,13 @@
             this.polizaNominaToolStripMenuItem.Text = "Poliza Nomina";
             this.polizaNominaToolStripMenuItem.Click += new System.EventHandler(this.polizaNominaToolStripMenuItem_Click);
             // 
-            // asignacionMetaToolStripMenuItem
-            // 
-            this.asignacionMetaToolStripMenuItem.Name = "asignacionMetaToolStripMenuItem";
-            this.asignacionMetaToolStripMenuItem.Size = new System.Drawing.Size(269, 26);
-            this.asignacionMetaToolStripMenuItem.Text = "Asignacion Meta";
-            this.asignacionMetaToolStripMenuItem.Click += new System.EventHandler(this.AsignacionMetaToolStripMenuItem_Click);
-            // 
-            // despidoEmpleadoToolStripMenuItem
-            // 
-            this.despidoEmpleadoToolStripMenuItem.Name = "despidoEmpleadoToolStripMenuItem";
-            this.despidoEmpleadoToolStripMenuItem.Size = new System.Drawing.Size(269, 26);
-            this.despidoEmpleadoToolStripMenuItem.Text = "Despido Empleado";
-            this.despidoEmpleadoToolStripMenuItem.Click += new System.EventHandler(this.DespidoEmpleadoToolStripMenuItem_Click);
-            // 
-            // herramientasToolStripMenuItem
-            // 
-            this.herramientasToolStripMenuItem.Name = "herramientasToolStripMenuItem";
-            this.herramientasToolStripMenuItem.Size = new System.Drawing.Size(112, 24);
-            this.herramientasToolStripMenuItem.Text = "Herramientas";
-            // 
-            // ayudaToolStripMenuItem
-            // 
-            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
-            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(65, 24);
-            this.ayudaToolStripMenuItem.Text = "Ayuda";
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(4, 29);
+            this.label1.Location = new System.Drawing.Point(4, 30);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(135, 24);
             this.label1.TabIndex = 0;
@@ -408,10 +408,10 @@
             // lbl_user
             // 
             this.lbl_user.AutoSize = true;
-            this.lbl_user.BackColor = System.Drawing.Color.White;
+            this.lbl_user.BackColor = System.Drawing.Color.Transparent;
             this.lbl_user.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_user.ForeColor = System.Drawing.Color.Black;
-            this.lbl_user.Location = new System.Drawing.Point(147, 29);
+            this.lbl_user.Location = new System.Drawing.Point(180, 30);
             this.lbl_user.Name = "lbl_user";
             this.lbl_user.Size = new System.Drawing.Size(122, 24);
             this.lbl_user.TabIndex = 1;
@@ -419,10 +419,9 @@
             // 
             // btn_cerrar
             // 
-            this.btn_cerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.btn_cerrar.BackColor = System.Drawing.Color.Transparent;
             this.btn_cerrar.Image = ((System.Drawing.Image)(resources.GetObject("btn_cerrar.Image")));
-            this.btn_cerrar.Location = new System.Drawing.Point(1835, 3);
-            this.btn_cerrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_cerrar.Location = new System.Drawing.Point(1852, 28);
             this.btn_cerrar.Name = "btn_cerrar";
             this.btn_cerrar.Size = new System.Drawing.Size(33, 25);
             this.btn_cerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -432,10 +431,9 @@
             // 
             // btn_minimzar
             // 
-            this.btn_minimzar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.btn_minimzar.BackColor = System.Drawing.Color.Transparent;
             this.btn_minimzar.Image = ((System.Drawing.Image)(resources.GetObject("btn_minimzar.Image")));
-            this.btn_minimzar.Location = new System.Drawing.Point(1796, 3);
-            this.btn_minimzar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btn_minimzar.Location = new System.Drawing.Point(1820, 28);
             this.btn_minimzar.Name = "btn_minimzar";
             this.btn_minimzar.Size = new System.Drawing.Size(33, 25);
             this.btn_minimzar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -443,20 +441,12 @@
             this.btn_minimzar.TabStop = false;
             this.btn_minimzar.Click += new System.EventHandler(this.Btn_minimzar_Click);
             // 
-            // cerrarSesionToolStripMenuItem
-            // 
-            this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
-            this.cerrarSesionToolStripMenuItem.Size = new System.Drawing.Size(110, 24);
-            this.cerrarSesionToolStripMenuItem.Text = "Cerrar Sesion";
-            this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.CerrarSesionToolStripMenuItem_Click);
-            // 
             // MDIParent1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1942, 850);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.ClientSize = new System.Drawing.Size(1890, 851);
             this.Controls.Add(this.btn_cerrar);
             this.Controls.Add(this.btn_minimzar);
             this.Controls.Add(this.lbl_user);
@@ -496,6 +486,8 @@
         private System.Windows.Forms.ToolStripMenuItem solicitudEmpleadoNuevoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem perfilesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem preseleccionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem despidoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ingresoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reunionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem crearToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem modificacionToolStripMenuItem;
@@ -513,6 +505,9 @@
         private System.Windows.Forms.ToolStripMenuItem convocatoriaYSeleccionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem busquedaInternaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem curriculumToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem kPIEmpleadoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem metasToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem desempeñoToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem jornadasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem departamentosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem polizasToolStripMenuItem;
@@ -521,12 +516,6 @@
         private System.Windows.Forms.Label lbl_user;
         private System.Windows.Forms.PictureBox btn_cerrar;
         private System.Windows.Forms.PictureBox btn_minimzar;
-        private System.Windows.Forms.ToolStripMenuItem herramientasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem metasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem asignacionMetaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem despidoEmpleadoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem cerrarSesionToolStripMenuItem;
     }
 }
 

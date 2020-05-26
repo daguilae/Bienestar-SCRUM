@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_MantJornada));
             this.Pnl_nombreForm = new System.Windows.Forms.Panel();
-            this.label_cod = new System.Windows.Forms.Label();
             this.Btn_Ayuda = new System.Windows.Forms.Button();
             this.Btn_minimizar = new System.Windows.Forms.Button();
             this.Lbl_MantenimientoJornada = new System.Windows.Forms.Label();
@@ -56,37 +55,25 @@
             // Pnl_nombreForm
             // 
             this.Pnl_nombreForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(107)))), ((int)(((byte)(44)))));
-            this.Pnl_nombreForm.Controls.Add(this.label_cod);
             this.Pnl_nombreForm.Controls.Add(this.Btn_Ayuda);
             this.Pnl_nombreForm.Controls.Add(this.Btn_minimizar);
             this.Pnl_nombreForm.Controls.Add(this.Lbl_MantenimientoJornada);
             this.Pnl_nombreForm.Controls.Add(this.Btn_cerrar);
             this.Pnl_nombreForm.Location = new System.Drawing.Point(0, 0);
-            this.Pnl_nombreForm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Pnl_nombreForm.Margin = new System.Windows.Forms.Padding(2);
             this.Pnl_nombreForm.Name = "Pnl_nombreForm";
-            this.Pnl_nombreForm.Size = new System.Drawing.Size(933, 63);
+            this.Pnl_nombreForm.Size = new System.Drawing.Size(700, 51);
             this.Pnl_nombreForm.TabIndex = 1;
-            // 
-            // label_cod
-            // 
-            this.label_cod.AutoSize = true;
-            this.label_cod.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_cod.ForeColor = System.Drawing.Color.White;
-            this.label_cod.Location = new System.Drawing.Point(43, 20);
-            this.label_cod.Name = "label_cod";
-            this.label_cod.Size = new System.Drawing.Size(62, 25);
-            this.label_cod.TabIndex = 13;
-            this.label_cod.Text = "207 -";
             // 
             // Btn_Ayuda
             // 
             this.Btn_Ayuda.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Btn_Ayuda.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Btn_Ayuda.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Ayuda.Image")));
-            this.Btn_Ayuda.Location = new System.Drawing.Point(821, 10);
-            this.Btn_Ayuda.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_Ayuda.Location = new System.Drawing.Point(616, 8);
+            this.Btn_Ayuda.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_Ayuda.Name = "Btn_Ayuda";
-            this.Btn_Ayuda.Size = new System.Drawing.Size(44, 38);
+            this.Btn_Ayuda.Size = new System.Drawing.Size(33, 31);
             this.Btn_Ayuda.TabIndex = 11;
             this.Btn_Ayuda.UseVisualStyleBackColor = true;
             this.Btn_Ayuda.Click += new System.EventHandler(this.Btn_Ayuda_Click);
@@ -96,10 +83,10 @@
             this.Btn_minimizar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Btn_minimizar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Btn_minimizar.Image = ((System.Drawing.Image)(resources.GetObject("Btn_minimizar.Image")));
-            this.Btn_minimizar.Location = new System.Drawing.Point(775, 10);
-            this.Btn_minimizar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_minimizar.Location = new System.Drawing.Point(581, 8);
+            this.Btn_minimizar.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_minimizar.Name = "Btn_minimizar";
-            this.Btn_minimizar.Size = new System.Drawing.Size(44, 38);
+            this.Btn_minimizar.Size = new System.Drawing.Size(33, 31);
             this.Btn_minimizar.TabIndex = 10;
             this.Btn_minimizar.UseVisualStyleBackColor = true;
             this.Btn_minimizar.Click += new System.EventHandler(this.Btn_minimizar_Click);
@@ -109,9 +96,10 @@
             this.Lbl_MantenimientoJornada.AutoSize = true;
             this.Lbl_MantenimientoJornada.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lbl_MantenimientoJornada.ForeColor = System.Drawing.Color.White;
-            this.Lbl_MantenimientoJornada.Location = new System.Drawing.Point(111, 20);
+            this.Lbl_MantenimientoJornada.Location = new System.Drawing.Point(20, 12);
+            this.Lbl_MantenimientoJornada.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lbl_MantenimientoJornada.Name = "Lbl_MantenimientoJornada";
-            this.Lbl_MantenimientoJornada.Size = new System.Drawing.Size(352, 25);
+            this.Lbl_MantenimientoJornada.Size = new System.Drawing.Size(285, 20);
             this.Lbl_MantenimientoJornada.TabIndex = 0;
             this.Lbl_MantenimientoJornada.Text = "MANTENIMIENTO DE JORNADAS";
             // 
@@ -120,10 +108,10 @@
             this.Btn_cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Btn_cerrar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Btn_cerrar.Image = ((System.Drawing.Image)(resources.GetObject("Btn_cerrar.Image")));
-            this.Btn_cerrar.Location = new System.Drawing.Point(872, 10);
-            this.Btn_cerrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_cerrar.Location = new System.Drawing.Point(654, 8);
+            this.Btn_cerrar.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_cerrar.Name = "Btn_cerrar";
-            this.Btn_cerrar.Size = new System.Drawing.Size(44, 38);
+            this.Btn_cerrar.Size = new System.Drawing.Size(33, 31);
             this.Btn_cerrar.TabIndex = 12;
             this.Btn_cerrar.UseVisualStyleBackColor = true;
             this.Btn_cerrar.Click += new System.EventHandler(this.Btn_cerrar_Click);
@@ -139,10 +127,10 @@
             this.Btn_consultar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_consultar.Image = ((System.Drawing.Image)(resources.GetObject("Btn_consultar.Image")));
             this.Btn_consultar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Btn_consultar.Location = new System.Drawing.Point(604, 87);
-            this.Btn_consultar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_consultar.Location = new System.Drawing.Point(453, 71);
+            this.Btn_consultar.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_consultar.Name = "Btn_consultar";
-            this.Btn_consultar.Size = new System.Drawing.Size(187, 110);
+            this.Btn_consultar.Size = new System.Drawing.Size(140, 89);
             this.Btn_consultar.TabIndex = 9;
             this.Btn_consultar.Text = "Consultar";
             this.Btn_consultar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -160,10 +148,10 @@
             this.Btn_borrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_borrar.Image = ((System.Drawing.Image)(resources.GetObject("Btn_borrar.Image")));
             this.Btn_borrar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Btn_borrar.Location = new System.Drawing.Point(491, 87);
-            this.Btn_borrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_borrar.Location = new System.Drawing.Point(368, 71);
+            this.Btn_borrar.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_borrar.Name = "Btn_borrar";
-            this.Btn_borrar.Size = new System.Drawing.Size(115, 110);
+            this.Btn_borrar.Size = new System.Drawing.Size(86, 89);
             this.Btn_borrar.TabIndex = 8;
             this.Btn_borrar.Text = "Borrar";
             this.Btn_borrar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -181,10 +169,10 @@
             this.Btn_guardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_guardar.Image = ((System.Drawing.Image)(resources.GetObject("Btn_guardar.Image")));
             this.Btn_guardar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Btn_guardar.Location = new System.Drawing.Point(379, 87);
-            this.Btn_guardar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_guardar.Location = new System.Drawing.Point(284, 71);
+            this.Btn_guardar.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_guardar.Name = "Btn_guardar";
-            this.Btn_guardar.Size = new System.Drawing.Size(115, 110);
+            this.Btn_guardar.Size = new System.Drawing.Size(86, 89);
             this.Btn_guardar.TabIndex = 7;
             this.Btn_guardar.Text = "Guardar";
             this.Btn_guardar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -202,10 +190,10 @@
             this.Btn_editar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_editar.Image = ((System.Drawing.Image)(resources.GetObject("Btn_editar.Image")));
             this.Btn_editar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Btn_editar.Location = new System.Drawing.Point(267, 87);
-            this.Btn_editar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_editar.Location = new System.Drawing.Point(200, 71);
+            this.Btn_editar.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_editar.Name = "Btn_editar";
-            this.Btn_editar.Size = new System.Drawing.Size(115, 110);
+            this.Btn_editar.Size = new System.Drawing.Size(86, 89);
             this.Btn_editar.TabIndex = 6;
             this.Btn_editar.Text = "Editar";
             this.Btn_editar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -223,10 +211,10 @@
             this.Btn_ingresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_ingresar.Image = ((System.Drawing.Image)(resources.GetObject("Btn_ingresar.Image")));
             this.Btn_ingresar.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.Btn_ingresar.Location = new System.Drawing.Point(155, 87);
-            this.Btn_ingresar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Btn_ingresar.Location = new System.Drawing.Point(116, 71);
+            this.Btn_ingresar.Margin = new System.Windows.Forms.Padding(2);
             this.Btn_ingresar.Name = "Btn_ingresar";
-            this.Btn_ingresar.Size = new System.Drawing.Size(115, 110);
+            this.Btn_ingresar.Size = new System.Drawing.Size(86, 89);
             this.Btn_ingresar.TabIndex = 5;
             this.Btn_ingresar.Text = "Ingresar";
             this.Btn_ingresar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -244,93 +232,96 @@
             this.Gpb_datos.Controls.Add(this.Lbl_codigoJornada);
             this.Gpb_datos.Controls.Add(this.Txt_codigoJornada);
             this.Gpb_datos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Gpb_datos.Location = new System.Drawing.Point(25, 218);
-            this.Gpb_datos.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Gpb_datos.Location = new System.Drawing.Point(19, 177);
+            this.Gpb_datos.Margin = new System.Windows.Forms.Padding(2);
             this.Gpb_datos.Name = "Gpb_datos";
-            this.Gpb_datos.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Gpb_datos.Size = new System.Drawing.Size(891, 129);
+            this.Gpb_datos.Padding = new System.Windows.Forms.Padding(2);
+            this.Gpb_datos.Size = new System.Drawing.Size(668, 105);
             this.Gpb_datos.TabIndex = 73;
             this.Gpb_datos.TabStop = false;
             this.Gpb_datos.Text = "Datos";
             // 
             // Txt_horasJornada
             // 
-            this.Txt_horasJornada.Location = new System.Drawing.Point(703, 42);
-            this.Txt_horasJornada.Margin = new System.Windows.Forms.Padding(4);
+            this.Txt_horasJornada.Location = new System.Drawing.Point(527, 34);
             this.Txt_horasJornada.Name = "Txt_horasJornada";
-            this.Txt_horasJornada.Size = new System.Drawing.Size(161, 27);
+            this.Txt_horasJornada.Size = new System.Drawing.Size(122, 23);
             this.Txt_horasJornada.TabIndex = 2;
             // 
             // Cbo_estadoJornada
             // 
             this.Cbo_estadoJornada.FormattingEnabled = true;
             this.Cbo_estadoJornada.Items.AddRange(new object[] {
-            "Activo",
-            "Inactivo"});
-            this.Cbo_estadoJornada.Location = new System.Drawing.Point(703, 82);
-            this.Cbo_estadoJornada.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            "0",
+            "1"});
+            this.Cbo_estadoJornada.Location = new System.Drawing.Point(527, 67);
+            this.Cbo_estadoJornada.Margin = new System.Windows.Forms.Padding(2);
             this.Cbo_estadoJornada.Name = "Cbo_estadoJornada";
-            this.Cbo_estadoJornada.Size = new System.Drawing.Size(161, 28);
+            this.Cbo_estadoJornada.Size = new System.Drawing.Size(122, 25);
             this.Cbo_estadoJornada.TabIndex = 4;
             this.Cbo_estadoJornada.SelectedIndexChanged += new System.EventHandler(this.Cbo_estadoJornada_SelectedIndexChanged);
             // 
             // Lbl_estadoJornada
             // 
             this.Lbl_estadoJornada.AutoSize = true;
-            this.Lbl_estadoJornada.Location = new System.Drawing.Point(507, 89);
+            this.Lbl_estadoJornada.Location = new System.Drawing.Point(380, 72);
+            this.Lbl_estadoJornada.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lbl_estadoJornada.Name = "Lbl_estadoJornada";
-            this.Lbl_estadoJornada.Size = new System.Drawing.Size(167, 20);
+            this.Lbl_estadoJornada.Size = new System.Drawing.Size(143, 17);
             this.Lbl_estadoJornada.TabIndex = 10;
             this.Lbl_estadoJornada.Text = "Estado de la jornada:";
             // 
             // Lbl_horasJornada
             // 
             this.Lbl_horasJornada.AutoSize = true;
-            this.Lbl_horasJornada.Location = new System.Drawing.Point(507, 42);
+            this.Lbl_horasJornada.Location = new System.Drawing.Point(380, 34);
+            this.Lbl_horasJornada.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lbl_horasJornada.Name = "Lbl_horasJornada";
-            this.Lbl_horasJornada.Size = new System.Drawing.Size(161, 20);
+            this.Lbl_horasJornada.Size = new System.Drawing.Size(137, 17);
             this.Lbl_horasJornada.TabIndex = 8;
             this.Lbl_horasJornada.Text = "Horas de la jornada:";
             // 
             // Txt_nombreJornada
             // 
-            this.Txt_nombreJornada.Location = new System.Drawing.Point(203, 85);
-            this.Txt_nombreJornada.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Txt_nombreJornada.Location = new System.Drawing.Point(152, 69);
+            this.Txt_nombreJornada.Margin = new System.Windows.Forms.Padding(2);
             this.Txt_nombreJornada.Name = "Txt_nombreJornada";
-            this.Txt_nombreJornada.Size = new System.Drawing.Size(264, 27);
+            this.Txt_nombreJornada.Size = new System.Drawing.Size(199, 23);
             this.Txt_nombreJornada.TabIndex = 3;
             // 
             // Lbl_nombreJornada
             // 
             this.Lbl_nombreJornada.AutoSize = true;
-            this.Lbl_nombreJornada.Location = new System.Drawing.Point(27, 92);
+            this.Lbl_nombreJornada.Location = new System.Drawing.Point(20, 75);
+            this.Lbl_nombreJornada.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lbl_nombreJornada.Name = "Lbl_nombreJornada";
-            this.Lbl_nombreJornada.Size = new System.Drawing.Size(138, 20);
+            this.Lbl_nombreJornada.Size = new System.Drawing.Size(118, 17);
             this.Lbl_nombreJornada.TabIndex = 2;
             this.Lbl_nombreJornada.Text = "Nombre Jornada:";
             // 
             // Lbl_codigoJornada
             // 
             this.Lbl_codigoJornada.AutoSize = true;
-            this.Lbl_codigoJornada.Location = new System.Drawing.Point(27, 42);
+            this.Lbl_codigoJornada.Location = new System.Drawing.Point(20, 34);
+            this.Lbl_codigoJornada.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Lbl_codigoJornada.Name = "Lbl_codigoJornada";
-            this.Lbl_codigoJornada.Size = new System.Drawing.Size(149, 20);
+            this.Lbl_codigoJornada.Size = new System.Drawing.Size(128, 17);
             this.Lbl_codigoJornada.TabIndex = 1;
             this.Lbl_codigoJornada.Text = "Codigo de jornada:";
             // 
             // Txt_codigoJornada
             // 
-            this.Txt_codigoJornada.Location = new System.Drawing.Point(203, 42);
-            this.Txt_codigoJornada.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Txt_codigoJornada.Location = new System.Drawing.Point(152, 34);
+            this.Txt_codigoJornada.Margin = new System.Windows.Forms.Padding(2);
             this.Txt_codigoJornada.Name = "Txt_codigoJornada";
-            this.Txt_codigoJornada.Size = new System.Drawing.Size(264, 27);
+            this.Txt_codigoJornada.Size = new System.Drawing.Size(199, 23);
             this.Txt_codigoJornada.TabIndex = 1;
             // 
             // Frm_MantJornada
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(931, 357);
+            this.ClientSize = new System.Drawing.Size(698, 290);
             this.Controls.Add(this.Gpb_datos);
             this.Controls.Add(this.Btn_consultar);
             this.Controls.Add(this.Btn_borrar);
@@ -339,7 +330,6 @@
             this.Controls.Add(this.Btn_ingresar);
             this.Controls.Add(this.Pnl_nombreForm);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Frm_MantJornada";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Frm_MantJornada";
@@ -373,6 +363,5 @@
         private System.Windows.Forms.Label Lbl_codigoJornada;
         private System.Windows.Forms.TextBox Txt_codigoJornada;
         private System.Windows.Forms.TextBox Txt_horasJornada;
-        private System.Windows.Forms.Label label_cod;
     }
 }

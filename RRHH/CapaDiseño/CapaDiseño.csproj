@@ -31,9 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ERP">
-      <HintPath>..\..\ERP\ERP\bin\Debug\ERP.exe</HintPath>
-    </Reference>
     <Reference Include="Gma.QrCodeNet.Encoding, Version=0.4.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\QrCode.Net.0.4.0.0\lib\net45\Gma.QrCodeNet.Encoding.dll</HintPath>
     </Reference>
@@ -95,12 +92,6 @@
     </Compile>
     <Compile Include="Consulta\Frm_consultaMediodeComunicacion.Designer.cs">
       <DependentUpon>Frm_consultaMediodeComunicacion.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Consulta\Frm_consultaMeta.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Consulta\Frm_consultaMeta.Designer.cs">
-      <DependentUpon>Frm_consultaMeta.cs</DependentUpon>
     </Compile>
     <Compile Include="Consulta\Frm_consultaSolicitudEmpleado.cs">
       <SubType>Form</SubType>
@@ -198,12 +189,6 @@
     <Compile Include="Mantenimientos\Frm_MantMediodeComunicacion.Designer.cs">
       <DependentUpon>Frm_MantMediodeComunicacion.cs</DependentUpon>
     </Compile>
-    <Compile Include="Mantenimientos\Frm_MantMeta.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Mantenimientos\Frm_MantMeta.Designer.cs">
-      <DependentUpon>Frm_MantMeta.cs</DependentUpon>
-    </Compile>
     <Compile Include="Mantenimientos\Frm_MantModificacionReunion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -252,23 +237,11 @@
     <Compile Include="Procesos\Frm_Convocatoria.Designer.cs">
       <DependentUpon>Frm_Convocatoria.cs</DependentUpon>
     </Compile>
-    <Compile Include="Procesos\Frm_DesempeñodeEmpleado.cs">
+    <Compile Include="Procesos\Frm_DesempenioEmpleados.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Procesos\Frm_DesempeñodeEmpleado.Designer.cs">
-      <DependentUpon>Frm_DesempeñodeEmpleado.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Procesos\Frm_Despido.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Procesos\Frm_Despido.designer.cs">
-      <DependentUpon>Frm_Despido.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Procesos\Frm_EvaluacionMeta.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Procesos\Frm_EvaluacionMeta.Designer.cs">
-      <DependentUpon>Frm_EvaluacionMeta.cs</DependentUpon>
+    <Compile Include="Procesos\Frm_DesempenioEmpleados.designer.cs">
+      <DependentUpon>Frm_DesempenioEmpleados.cs</DependentUpon>
     </Compile>
     <Compile Include="Procesos\Frm_filtroInterno.cs">
       <SubType>Form</SubType>
@@ -281,6 +254,12 @@
     </Compile>
     <Compile Include="Procesos\Frm_filtroPreSeleccion.designer.cs">
       <DependentUpon>Frm_filtroPreSeleccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Procesos\Frm_Metas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Procesos\Frm_Metas.Designer.cs">
+      <DependentUpon>Frm_Metas.cs</DependentUpon>
     </Compile>
     <Compile Include="Procesos\Frm_Nomina.cs">
       <SubType>Form</SubType>
@@ -338,9 +317,6 @@
     <EmbeddedResource Include="Consulta\Frm_consultaMediodeComunicacion.resx">
       <DependentUpon>Frm_consultaMediodeComunicacion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Consulta\Frm_consultaMeta.resx">
-      <DependentUpon>Frm_consultaMeta.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Consulta\Frm_consultaSolicitudEmpleado.resx">
       <DependentUpon>Frm_consultaSolicitudEmpleado.cs</DependentUpon>
     </EmbeddedResource>
@@ -389,9 +365,6 @@
     <EmbeddedResource Include="Mantenimientos\Frm_MantMediodeComunicacion.resx">
       <DependentUpon>Frm_MantMediodeComunicacion.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Mantenimientos\Frm_MantMeta.resx">
-      <DependentUpon>Frm_MantMeta.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Mantenimientos\Frm_MantModificacionReunion.resx">
       <DependentUpon>Frm_MantModificacionReunion.cs</DependentUpon>
     </EmbeddedResource>
@@ -416,20 +389,17 @@
     <EmbeddedResource Include="Procesos\Frm_Convocatoria.resx">
       <DependentUpon>Frm_Convocatoria.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Procesos\Frm_DesempeñodeEmpleado.resx">
-      <DependentUpon>Frm_DesempeñodeEmpleado.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Procesos\Frm_Despido.resx">
-      <DependentUpon>Frm_Despido.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Procesos\Frm_EvaluacionMeta.resx">
-      <DependentUpon>Frm_EvaluacionMeta.cs</DependentUpon>
+    <EmbeddedResource Include="Procesos\Frm_DesempenioEmpleados.resx">
+      <DependentUpon>Frm_DesempenioEmpleados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Procesos\Frm_filtroInterno.resx">
       <DependentUpon>Frm_filtroInterno.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Procesos\Frm_filtroPreSeleccion.resx">
       <DependentUpon>Frm_filtroPreSeleccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Procesos\Frm_Metas.resx">
+      <DependentUpon>Frm_Metas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Procesos\Frm_Nomina.resx">
       <DependentUpon>Frm_Nomina.cs</DependentUpon>

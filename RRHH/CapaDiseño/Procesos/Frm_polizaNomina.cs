@@ -16,21 +16,17 @@ namespace CapaDiseño.Procesos
     
     public partial class Frm_polizaNomina : Form
     {
-        Logica logic = new Logica();
-        string scampo;
+
         public Frm_polizaNomina()
         {
           
             InitializeComponent();
-            scampo = logic.siguiente("poliza_encabezado", "pkcodigopoliza");
-            Txt_numeropoliza.Text = scampo;
-            Txt_numeropoliza.Enabled = false;
         }
-        
+        Logica logic = new Logica();
 
-        string sueldo = "0";
-        string conceptos = "0";
-        string resultados = "0";
+        string sueldo;
+        string conceptos;
+        string resultados;
         public void Guardar()
 
         {
@@ -118,7 +114,7 @@ namespace CapaDiseño.Procesos
         }
         public void sueldocalculo()
         {
-            int resta=0;
+            int resta;
             int suma;
             resta = int.Parse(conceptos) - int.Parse(resultados) ;
             sueldo = resta.ToString();
@@ -275,8 +271,8 @@ namespace CapaDiseño.Procesos
             Mostrarcuentasporpagar();
            
 
-            //System.Threading.Thread.Sleep(30);
-            //MessageBox.Show("POLIZA GUARDADA");
+            System.Threading.Thread.Sleep(30);
+            MessageBox.Show("POLIZA GUARDADA");
             sumasiguales();
             System.Threading.Thread.Sleep(40);
             compasuma();

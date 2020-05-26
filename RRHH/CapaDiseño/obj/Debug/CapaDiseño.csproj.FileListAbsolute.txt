@@ -1072,6 +1072,75 @@ C:\Users\prueb\Desktop\repo-final\ElBienestar-Didactico\HRM\RRHH\CapaDiseño\obj
 C:\Users\prueb\Desktop\repo-final\ElBienestar-Didactico\HRM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.csproj.CopyComplete
 C:\Users\prueb\Desktop\repo-final\ElBienestar-Didactico\HRM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.dll
 C:\Users\prueb\Desktop\repo-final\ElBienestar-Didactico\HRM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.pdb
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaDiseño.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaDiseño.pdb
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaDatos.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaLogica.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\itextsharp.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaDatos.pdb
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaLogica.pdb
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\itextsharp.xml
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consltaPerfiles.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaConceptos.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaCurriculum.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaDepartamento.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaEmpleado.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaJornada.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaMediodeComunicacion.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaSolicitudEmpleado.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_ControlAsistenciaPersonal.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_SansionesEmpleados.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_TipoContratacion.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantCurriculum.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantDespidoEmpleado.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_ManteDepartamento.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantEliminacionReunion.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantEliminacionSansion.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantEmpleado.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantIngresoControlAsistencia.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantIngresocuentascontables.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantIngresoReunion.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantIngresoSansion.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantJornada.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_MediodeComunicacion.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantModificacionReunion.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantPercepciones.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantPerfiles.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantTipoContratacion.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.MDIParent1.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Asignaciondeconcepto.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_busquedaInterna.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Convocatoria.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\Desempeño.Frm_DesempenioEmpleados.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_filtroInterno.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\Recursos_Humanos.Frm_filtroPreSeleccion.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\Metas.Frm_Metas.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Nomina.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_polizaNomina.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\Recursos_Humanos.Frm_preSeleccion.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_SolicitudEmpleadoN.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\Recursos_Humanos.Form1.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Properties.Resources.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.csproj.GenerateResource.cache
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.csproj.CopyComplete
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.pdb
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\ERP.exe
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CircularProgressBar.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaDatos_ERP.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaLogica_ERP.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\WinFormAnimation.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\ERP.pdb
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\ERP.exe.config
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaDatos_ERP.pdb
+C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaLogica_ERP.pdb
 C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\bin\Debug\CapaDiseño.dll
 C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\bin\Debug\CapaDiseño.pdb
 C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\bin\Debug\CapaDatos.dll
@@ -1130,392 +1199,3 @@ C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\Cap
 C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.csproj.CopyComplete
 C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.dll
 C:\Users\prueb\Desktop\Ingenieria de software\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.pdb
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\bin\Debug\CapaDiseño.dll
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\bin\Debug\CapaDiseño.pdb
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\bin\Debug\CapaDatos.dll
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\bin\Debug\CapaLogica.dll
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.dll
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\bin\Debug\itextsharp.dll
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\bin\Debug\CapaDatos.pdb
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\bin\Debug\CapaLogica.pdb
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.pdb
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.xml
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\bin\Debug\itextsharp.xml
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.csprojAssemblyReference.cache
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consltaPerfiles.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaConceptos.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaCurriculum.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaDepartamento.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaEmpleado.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaJornada.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaMediodeComunicacion.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaMeta.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaSolicitudEmpleado.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_ControlAsistenciaPersonal.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_SansionesEmpleados.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_TipoContratacion.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantCurriculum.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantDespidoEmpleado.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_ManteDepartamento.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantEliminacionReunion.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantEliminacionSansion.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantEmpleado.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantIngresoControlAsistencia.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantIngresocuentascontables.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantIngresoReunion.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantIngresoSansion.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantJornada.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_MediodeComunicacion.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantMeta.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantModificacionReunion.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantPercepciones.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantPerfiles.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantTipoContratacion.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.MDIParent1.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Asignaciondeconcepto.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_busquedaInterna.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Convocatoria.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_DesempeñodeEmpleado.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Despido.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_EvaluacionMeta.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_filtroInterno.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\Recursos_Humanos.Frm_filtroPreSeleccion.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Nomina.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_polizaNomina.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\Recursos_Humanos.Frm_preSeleccion.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_SolicitudEmpleadoN.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\Recursos_Humanos.Form1.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Properties.Resources.resources
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.csproj.GenerateResource.cache
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.csproj.CoreCompileInputs.cache
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.csproj.CopyComplete
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.dll
-C:\Users\ISIS\Downloads\Revisiones\fork inge\Bienestar-SCRUM\RRHH\CapaDiseño\obj\Debug\CapaDiseño.pdb
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\bin\Debug\CapaDiseño.dll
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\bin\Debug\CapaDiseño.pdb
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\bin\Debug\CapaDatos.dll
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\bin\Debug\CapaLogica.dll
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.dll
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\bin\Debug\itextsharp.dll
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\bin\Debug\CapaDatos.pdb
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\bin\Debug\CapaLogica.pdb
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.pdb
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.xml
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\bin\Debug\itextsharp.xml
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.csprojAssemblyReference.cache
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consltaPerfiles.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaConceptos.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaCurriculum.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaDepartamento.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaEmpleado.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaJornada.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaMediodeComunicacion.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaMeta.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaSolicitudEmpleado.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_ControlAsistenciaPersonal.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_SansionesEmpleados.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_TipoContratacion.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantCurriculum.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantDespidoEmpleado.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_ManteDepartamento.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantEliminacionReunion.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantEliminacionSansion.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantEmpleado.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantIngresoControlAsistencia.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantIngresocuentascontables.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantIngresoReunion.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantIngresoSansion.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantJornada.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_MediodeComunicacion.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantMeta.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantModificacionReunion.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantPercepciones.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantPerfiles.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantTipoContratacion.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.MDIParent1.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Asignaciondeconcepto.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_busquedaInterna.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Convocatoria.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_DesempeñodeEmpleado.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Despido.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_EvaluacionMeta.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_filtroInterno.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\Recursos_Humanos.Frm_filtroPreSeleccion.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Nomina.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_polizaNomina.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\Recursos_Humanos.Frm_preSeleccion.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_SolicitudEmpleadoN.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\Recursos_Humanos.Form1.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Properties.Resources.resources
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.csproj.GenerateResource.cache
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.csproj.CoreCompileInputs.cache
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.csproj.CopyComplete
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.dll
-C:\Users\ISIS\Desktop\2020\1er Semestre\Ing. Software\MERGE2\probandohacermerge\RRHH\CapaDiseño\obj\Debug\CapaDiseño.pdb
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\bin\Debug\CapaDiseño.dll
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\bin\Debug\CapaDiseño.pdb
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\bin\Debug\CapaDatos.dll
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\bin\Debug\CapaLogica.dll
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.dll
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\bin\Debug\itextsharp.dll
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\bin\Debug\CapaDatos.pdb
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\bin\Debug\CapaLogica.pdb
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.pdb
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.xml
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\bin\Debug\itextsharp.xml
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.csprojAssemblyReference.cache
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consltaPerfiles.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaConceptos.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaCurriculum.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaDepartamento.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaEmpleado.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaJornada.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaMediodeComunicacion.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaMeta.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaSolicitudEmpleado.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_ControlAsistenciaPersonal.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_SansionesEmpleados.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_TipoContratacion.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantCurriculum.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantDespidoEmpleado.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_ManteDepartamento.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantEliminacionReunion.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantEliminacionSansion.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantEmpleado.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantIngresoControlAsistencia.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantIngresocuentascontables.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantIngresoReunion.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantIngresoSansion.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantJornada.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_MediodeComunicacion.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantMeta.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantModificacionReunion.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantPercepciones.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantPerfiles.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantTipoContratacion.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.MDIParent1.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Asignaciondeconcepto.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_busquedaInterna.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Convocatoria.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_DesempeñodeEmpleado.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Despido.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_EvaluacionMeta.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_filtroInterno.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\Recursos_Humanos.Frm_filtroPreSeleccion.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Nomina.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_polizaNomina.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\Recursos_Humanos.Frm_preSeleccion.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_SolicitudEmpleadoN.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\Recursos_Humanos.Form1.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Properties.Resources.resources
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.csproj.GenerateResource.cache
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.csproj.CoreCompileInputs.cache
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.csproj.CopyComplete
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.dll
-C:\Users\prueb\Desktop\probandohacermerge-master\RRHH\CapaDiseño\obj\Debug\CapaDiseño.pdb
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaDiseño.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaDiseño.pdb
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaDatos.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaLogica.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\itextsharp.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaDatos.pdb
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaLogica.pdb
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.pdb
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.xml
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\itextsharp.xml
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.csprojAssemblyReference.cache
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consltaPerfiles.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaConceptos.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaCurriculum.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaDepartamento.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaEmpleado.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaJornada.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaMediodeComunicacion.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaMeta.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaSolicitudEmpleado.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_ControlAsistenciaPersonal.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_SansionesEmpleados.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_TipoContratacion.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantCurriculum.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantDespidoEmpleado.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_ManteDepartamento.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantEliminacionReunion.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantEliminacionSansion.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantEmpleado.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantIngresoControlAsistencia.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantIngresocuentascontables.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantIngresoReunion.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantIngresoSansion.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantJornada.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_MediodeComunicacion.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantMeta.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantModificacionReunion.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantPercepciones.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantPerfiles.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantTipoContratacion.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.MDIParent1.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Asignaciondeconcepto.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_busquedaInterna.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Convocatoria.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_DesempeñodeEmpleado.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Despido.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_EvaluacionMeta.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_filtroInterno.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\Recursos_Humanos.Frm_filtroPreSeleccion.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Nomina.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_polizaNomina.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\Recursos_Humanos.Frm_preSeleccion.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_SolicitudEmpleadoN.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\Recursos_Humanos.Form1.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Properties.Resources.resources
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.csproj.GenerateResource.cache
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.csproj.CoreCompileInputs.cache
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.csproj.CopyComplete
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.pdb
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\ERP.exe
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CircularProgressBar.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaDatos_ERP.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaLogica_ERP.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Capa_Diseño_MRP.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Capa_Diseño_SCM.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\WinFormAnimation.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.Shared.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.ReportSource.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.Windows.Forms.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Capa_Logica_MRP.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Capa_Datos_MRP.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Capa_Logica_SCM.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\AxShockwaveFlashObjects.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Capa_Datos_SCM.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\ShockwaveFlashObjects.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\stdole.dll
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\ERP.pdb
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\ERP.exe.config
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaDatos_ERP.pdb
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaLogica_ERP.pdb
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Capa_Diseño_MRP.pdb
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Capa_Diseño_SCM.pdb
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Capa_Logica_MRP.pdb
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Capa_Datos_MRP.pdb
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Capa_Logica_SCM.pdb
-C:\Users\prueb\Desktop\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Capa_Datos_SCM.pdb
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaDiseño.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaDiseño.pdb
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaDatos.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaLogica.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\ERP.exe
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\itextsharp.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CircularProgressBar.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaDatos_ERP.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaLogica_ERP.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Capa_Diseño_MRP.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Capa_Diseño_SCM.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\WinFormAnimation.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.Shared.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.ReportSource.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.Windows.Forms.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Capa_Logica_MRP.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Capa_Datos_MRP.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Capa_Logica_SCM.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\AxShockwaveFlashObjects.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Capa_Datos_SCM.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\ShockwaveFlashObjects.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\stdole.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaDatos.pdb
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaLogica.pdb
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\ERP.pdb
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\ERP.exe.config
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.pdb
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Gma.QrCodeNet.Encoding.xml
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\itextsharp.xml
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaDatos_ERP.pdb
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\CapaLogica_ERP.pdb
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Capa_Diseño_MRP.pdb
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Capa_Diseño_SCM.pdb
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Capa_Logica_MRP.pdb
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Capa_Datos_MRP.pdb
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Capa_Logica_SCM.pdb
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\bin\Debug\Capa_Datos_SCM.pdb
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.csprojAssemblyReference.cache
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consltaPerfiles.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaConceptos.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaCurriculum.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaDepartamento.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaEmpleado.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaJornada.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaMediodeComunicacion.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaMeta.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_consultaSolicitudEmpleado.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_ControlAsistenciaPersonal.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_SansionesEmpleados.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Consulta.Frm_TipoContratacion.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantCurriculum.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantDespidoEmpleado.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_ManteDepartamento.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantEliminacionReunion.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantEliminacionSansion.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantEmpleado.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantIngresoControlAsistencia.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantIngresocuentascontables.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantIngresoReunion.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantIngresoSansion.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantJornada.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_MediodeComunicacion.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantMeta.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantModificacionReunion.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantPercepciones.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantPerfiles.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Mantenimientos.Frm_MantTipoContratacion.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.MDIParent1.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Asignaciondeconcepto.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_busquedaInterna.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Convocatoria.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_DesempeñodeEmpleado.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Despido.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_EvaluacionMeta.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_filtroInterno.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\Recursos_Humanos.Frm_filtroPreSeleccion.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_Nomina.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_polizaNomina.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\Recursos_Humanos.Frm_preSeleccion.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Procesos.Frm_SolicitudEmpleadoN.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\Recursos_Humanos.Form1.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.Properties.Resources.resources
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.csproj.GenerateResource.cache
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.csproj.CoreCompileInputs.cache
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.csproj.CopyComplete
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.dll
-C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\RRHH\CapaDiseño\obj\Debug\CapaDiseño.pdb
