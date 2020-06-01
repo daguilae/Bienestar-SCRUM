@@ -1,0 +1,528 @@
+C:\Users\prueb\Desktop\Modulo_MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Diseño_MRP.dll
+C:\Users\prueb\Desktop\Modulo_MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Diseño_MRP.pdb
+C:\Users\prueb\Desktop\Modulo_MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Logica_MRP.dll
+C:\Users\prueb\Desktop\Modulo_MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Datos_MRP.dll
+C:\Users\prueb\Desktop\Modulo_MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Logica_MRP.pdb
+C:\Users\prueb\Desktop\Modulo_MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Datos_MRP.pdb
+C:\Users\prueb\Desktop\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_pedidos.resources
+C:\Users\prueb\Desktop\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.MDIMRP.resources
+C:\Users\prueb\Desktop\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.FrmOrden_Produccion.resources
+C:\Users\prueb\Desktop\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.GenerateResource.cache
+C:\Users\prueb\Desktop\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.CopyComplete
+C:\Users\prueb\Desktop\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.dll
+C:\Users\prueb\Desktop\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.pdb
+C:\Users\ISIS\Downloads\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csprojAssemblyReference.cache
+C:\Users\ISIS\Downloads\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_BodegaInterna.resources
+C:\Users\ISIS\Downloads\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_pedidos.resources
+C:\Users\ISIS\Downloads\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_Producto.resources
+C:\Users\ISIS\Downloads\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantBodegaInterna.resources
+C:\Users\ISIS\Downloads\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.MDIMRP.resources
+C:\Users\ISIS\Downloads\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.FrmOrden_Produccion.resources
+C:\Users\ISIS\Downloads\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_DetalleProduccion.resources
+C:\Users\ISIS\Downloads\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_SolicitudCompra.resources
+C:\Users\ISIS\Downloads\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.GenerateResource.cache
+C:\Users\ISIS\Downloads\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.dll
+C:\Users\ISIS\Downloads\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.pdb
+C:\Users\ISIS\Downloads\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Diseño_MRP.dll
+C:\Users\ISIS\Downloads\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Diseño_MRP.pdb
+C:\Users\ISIS\Downloads\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Logica_MRP.dll
+C:\Users\ISIS\Downloads\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Datos_MRP.dll
+C:\Users\ISIS\Downloads\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Logica_MRP.pdb
+C:\Users\ISIS\Downloads\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Datos_MRP.pdb
+C:\Users\ISIS\Downloads\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Properties.Resources.resources
+C:\Users\ISIS\Downloads\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.CoreCompileInputs.cache
+C:\Users\ISIS\Downloads\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.CopyComplete
+C:\Users\ISIS\Desktop\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Diseño_MRP.dll
+C:\Users\ISIS\Desktop\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Diseño_MRP.pdb
+C:\Users\ISIS\Desktop\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Logica_MRP.dll
+C:\Users\ISIS\Desktop\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Datos_MRP.dll
+C:\Users\ISIS\Desktop\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Logica_MRP.pdb
+C:\Users\ISIS\Desktop\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Datos_MRP.pdb
+C:\Users\ISIS\Desktop\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_BodegaInterna.resources
+C:\Users\ISIS\Desktop\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_pedidos.resources
+C:\Users\ISIS\Desktop\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_Producto.resources
+C:\Users\ISIS\Desktop\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantBodegaInterna.resources
+C:\Users\ISIS\Desktop\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.MDIMRP.resources
+C:\Users\ISIS\Desktop\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.FrmOrden_Produccion.resources
+C:\Users\ISIS\Desktop\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_SolicitudCompra.resources
+C:\Users\ISIS\Desktop\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Properties.Resources.resources
+C:\Users\ISIS\Desktop\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.GenerateResource.cache
+C:\Users\ISIS\Desktop\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.CoreCompileInputs.cache
+C:\Users\ISIS\Desktop\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.CopyComplete
+C:\Users\ISIS\Desktop\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.dll
+C:\Users\ISIS\Desktop\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.pdb
+C:\Users\ISIS\Desktop\Bienestar_MRP-master\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csprojAssemblyReference.cache
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csprojAssemblyReference.cache
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_BodegaInterna.resources
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_pedidos.resources
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_Producto.resources
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantBodegaInterna.resources
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.MDIMRP.resources
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.FrmOrden_Produccion.resources
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_DescripcionProduccion.resources
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_GraficoActivos.resources
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_SeleccionPedido.resources
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_SolicitudCompra.resources
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Properties.Resources.resources
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.GenerateResource.cache
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.dll
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.pdb
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Diseño_MRP.dll
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Diseño_MRP.pdb
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Logica_MRP.dll
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Datos_MRP.dll
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Logica_MRP.pdb
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Datos_MRP.pdb
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.CopyComplete
+C:\Users\ivan5\Desktop\Bienestar_MRP-ivan-isis\Modulo_MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaActivosNombres.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Diseño_MRP.dll
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Diseño_MRP.pdb
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Datos_MRP.dll
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Logica_MRP.dll
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Datos_MRP.pdb
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Logica_MRP.pdb
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_BodegaInterna.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_CuentasContables.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_Empleado.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_HorasExtras.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_pedidos.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_Producto.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaActivosNombres.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_ConsultaEncabezadoProduccion.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaFormula.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaFormulaDetalle.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_ConsultaMateriaPrima.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaMerma.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaProcesoProduccion.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaProductoTerminado.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaTipoMerma.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_Consulta_Costos.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_Consulta_Estacion.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_Consulta_EstandarCalidad.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_Consulta_Gastos.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantBodegaInterna.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantCuentasContables.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantFormula.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantMerma.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantProductoFormula.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantTipoMerma.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_Mant_Estacion.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_Mant_EstandarCalidad.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_Mant_Gastos.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Mant_HorasExtras.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.MDIMRP.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.FrmOrden_Produccion.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_AsignacionEstacionPedido.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_ControlCalidadProducto.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_Costos_Produccion.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_DescripcionProduccion.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_GraficoActivos.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_Poliza.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_SeleccionPedido.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_SolicitudCompra.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Properties.Resources.resources
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.GenerateResource.cache
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.CopyComplete
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.dll
+C:\Users\prueb\Desktop\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.pdb
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Diseño_MRP.dll
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Diseño_MRP.pdb
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Datos_MRP.dll
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Logica_MRP.dll
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Datos_MRP.pdb
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Logica_MRP.pdb
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csprojAssemblyReference.cache
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_BodegaInterna.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_CuentasContables.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_Empleado.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_HorasExtras.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_pedidos.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_Producto.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaActivosNombres.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_ConsultaEncabezadoProduccion.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaFormula.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaFormulaDetalle.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_ConsultaMateriaPrima.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaMerma.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaProcesoProduccion.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaProductoTerminado.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaTipoMerma.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_Consulta_Costos.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_Consulta_Estacion.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_Consulta_EstandarCalidad.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_Consulta_Gastos.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantBodegaInterna.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantCuentasContables.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantFormula.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantMerma.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantProductoFormula.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantTipoMerma.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_Mant_Estacion.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_Mant_EstandarCalidad.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_Mant_Gastos.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Mant_HorasExtras.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.MDIMRP.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.FrmOrden_Produccion.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_AsignacionEstacionPedido.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_ControlCalidadProducto.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_Costos_Produccion.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_DescripcionProduccion.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_GraficoActivos.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_Poliza.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_SeleccionPedido.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_SolicitudCompra.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Properties.Resources.resources
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.GenerateResource.cache
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.CoreCompileInputs.cache
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.CopyComplete
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.dll
+C:\Users\Conny\Google Drive\El Bienestar Scrum\Modulos\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.pdb
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csprojAssemblyReference.cache
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.dll
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.pdb
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Diseño_MRP.dll
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Diseño_MRP.pdb
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Datos_MRP.dll
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Logica_MRP.dll
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Datos_MRP.pdb
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Logica_MRP.pdb
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_BodegaInterna.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_CuentasContables.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_Empleado.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_HorasExtras.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_pedidos.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_Producto.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaActivosNombres.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_ConsultaEncabezadoProduccion.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaFormula.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaFormulaDetalle.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_ConsultaMateriaPrima.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaMerma.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaProcesoProduccion.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaProductoTerminado.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaTipoMerma.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_Consulta_Costos.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_Consulta_Estacion.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_Consulta_EstandarCalidad.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_Consulta_Gastos.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantBodegaInterna.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantCuentasContables.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantFormula.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantMerma.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantProductoFormula.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantTipoMerma.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_Mant_Estacion.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_Mant_EstandarCalidad.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_Mant_Gastos.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Mant_HorasExtras.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.MDIMRP.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.FrmOrden_Produccion.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_AsignacionEstacionPedido.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_ControlCalidadProducto.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_Costos_Produccion.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_DescripcionProduccion.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_GraficoActivos.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_Poliza.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_SeleccionPedido.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_SolicitudCompra.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Properties.Resources.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.GenerateResource.cache
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.CopyComplete
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\bin\Debug\stdole.dll
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Reportes.Frm_ListaPedidos.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Reportes.Frm_ReporteCostoProduccion.resources
+C:\Users\dell\Downloads\MRP-20200516T181549Z-001\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Reportes.Frm_ReporteOrdenProduccioncs.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Diseño_MRP.dll
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Diseño_MRP.pdb
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Datos_MRP.dll
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Logica_MRP.dll
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\bin\Debug\stdole.dll
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Datos_MRP.pdb
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Logica_MRP.pdb
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_BodegaInterna.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_CuentasContables.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_Empleado.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_HorasExtras.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_pedidos.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_Producto.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaActivosNombres.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_ConsultaEncabezadoProduccion.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaFormula.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaFormulaDetalle.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_ConsultaMateriaPrima.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaMerma.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaProcesoProduccion.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaProductoTerminado.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaTipoMerma.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_Consulta_Costos.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_Consulta_Estacion.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_Consulta_EstandarCalidad.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_Consulta_Gastos.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantBodegaInterna.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantCuentasContables.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantFormula.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantMerma.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantProductoFormula.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantTipoMerma.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_Mant_Estacion.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_Mant_EstandarCalidad.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_Mant_Gastos.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Mant_HorasExtras.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.MDIMRP.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.FrmOrden_Produccion.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_AsignacionEstacionPedido.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_ControlCalidadProducto.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_Costos_Produccion.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_DescripcionProduccion.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_GraficoActivos.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_Poliza.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_SeleccionPedido.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_SolicitudCompra.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Properties.Resources.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Reportes.Frm_ListaPedidos.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Reportes.Frm_ReporteCostoProduccion.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Reportes.Frm_ReporteOrdenProduccioncs.resources
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.GenerateResource.cache
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.CopyComplete
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.dll
+C:\Users\prueb\Desktop\MRP-MEJORADO\MRP\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.pdb
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Diseño_MRP.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Diseño_MRP.pdb
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Datos_MRP.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Logica_MRP.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\stdole.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Datos_MRP.pdb
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Logica_MRP.pdb
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_BodegaInterna.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_CuentasContables.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_Empleado.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_HorasExtras.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_pedidos.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_Producto.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaActivosNombres.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_ConsultaEncabezadoProduccion.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaFormula.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaFormulaDetalle.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_ConsultaMateriaPrima.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaMerma.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaProcesoProduccion.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaProductoTerminado.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaTipoMerma.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_Consulta_Costos.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_Consulta_Estacion.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_Consulta_EstandarCalidad.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_Consulta_Gastos.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantBodegaInterna.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantCuentasContables.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantFormula.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantMerma.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantProductoFormula.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantTipoMerma.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_Mant_Estacion.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_Mant_EstandarCalidad.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_Mant_Gastos.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Mant_HorasExtras.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.MDIMRP.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.FrmOrden_Produccion.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_AsignacionEstacionPedido.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_ControlCalidadProducto.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_Costos_Produccion.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_DescripcionProduccion.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_GraficoActivos.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_Poliza.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_SeleccionPedido.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_SolicitudCompra.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Properties.Resources.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Reportes.Frm_ListaPedidos.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Reportes.Frm_ReporteCostoProduccion.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Reportes.Frm_ReporteOrdenProduccioncs.resources
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.GenerateResource.cache
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.CopyComplete
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.pdb
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\ERP.exe
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CircularProgressBar.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CapaDatos_ERP.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CapaLogica_ERP.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CapaDiseño.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Diseño_SCM.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\WinFormAnimation.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CapaLogica.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CapaDatos.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\itextsharp.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Logica_SCM.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Datos_SCM.dll
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\ERP.pdb
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\ERP.exe.config
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CapaDatos_ERP.pdb
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CapaLogica_ERP.pdb
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CapaDiseño.pdb
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Diseño_SCM.pdb
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CapaLogica.pdb
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CapaDatos.pdb
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\itextsharp.xml
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Logica_SCM.pdb
+C:\Users\prueb\Desktop\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Datos_SCM.pdb
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Diseño_MRP.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Diseño_MRP.pdb
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\AxShockwaveFlashObjects.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Datos_MRP.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Logica_MRP.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportSource.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.Shared.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.Windows.Forms.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\ERP.exe
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CircularProgressBar.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CapaDatos_ERP.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CapaLogica_ERP.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CapaDiseño.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Diseño_SCM.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\WinFormAnimation.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\stdole.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CapaLogica.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CapaDatos.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\itextsharp.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Logica_SCM.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Datos_SCM.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Datos_MRP.pdb
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Logica_MRP.pdb
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\ERP.pdb
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\ERP.exe.config
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CapaDatos_ERP.pdb
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CapaLogica_ERP.pdb
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CapaDiseño.pdb
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Diseño_SCM.pdb
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CapaLogica.pdb
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\CapaDatos.pdb
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\itextsharp.xml
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Logica_SCM.pdb
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\bin\Debug\Capa_Datos_SCM.pdb
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csprojAssemblyReference.cache
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_BodegaInterna.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_CuentasContables.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_Empleado.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_HorasExtras.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_pedidos.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Consulta_Producto.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaActivosNombres.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_ConsultaEncabezadoProduccion.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaFormula.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaFormulaDetalle.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_ConsultaMateriaPrima.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaMerma.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaProcesoProduccion.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaProductoTerminado.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_consultaTipoMerma.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_Consulta_Costos.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_Consulta_Estacion.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_Consulta_EstandarCalidad.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Consultas.Frm_Consulta_Gastos.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantBodegaInterna.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantCuentasContables.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantFormula.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantMerma.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantProductoFormula.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_MantTipoMerma.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_Mant_Estacion.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_Mant_EstandarCalidad.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Frm_Mant_Gastos.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Mantenimientos.Mant_HorasExtras.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.MDIMRP.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.FrmOrden_Produccion.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_AsignacionEstacionPedido.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_ControlCalidadProducto.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_Costos_Produccion.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_DescripcionProduccion.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_GraficoActivos.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_Poliza.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_SeleccionPedido.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Procesos.Frm_SolicitudCompra.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Properties.Resources.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Reportes.Frm_ListaPedidos.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Reportes.Frm_ReporteCostoProduccion.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.Reportes.Frm_ReporteOrdenProduccioncs.resources
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.GenerateResource.cache
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.CoreCompileInputs.cache
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.csproj.CopyComplete
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.dll
+C:\Users\prueb\Desktop\Ingenieria de software\MODULO SEGURO\ERP_MODULOS\MRP\Capa_Diseño_MRP\obj\Debug\Capa_Diseño_MRP.pdb
